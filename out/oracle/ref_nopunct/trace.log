@@ -1,0 +1,15 @@
+tts_init(cert 1798 B) -> engine=0x40006720
+tts_load_voice(engine, 'libvoice_en_us_kendra.so', 'main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb') -> voice=0x4197e660 (163.37s)
+tts_voice_sample_rate(voice) -> 22050 Hz
+voice[5]=0x4197e680 pluginobj=0x4000b280 store=0x4000b290 head=0x4197e8f0 nkeys=46
+  keys: tb_min_distance,eng_dict_insert_id,eng_max_word,eng_max_sentence,eng_fetch_user_data,eng_fetch_function,eng_input_type,eng_ssml_base_uri,eng_text_encoding,eng_paragraph_break,eng_sentence_break,pitch_stretch,compress,amplify,pause_base_len,eng_version,phrasesylendtone_func,tokentowords_func,sentence_boundary_func,text_singlecharsymbols,text_prepunctuation,text_postpunctuation,text_whitespace,silence,phoneset,postlex_func,wordtosegments_func,xivona_to_xsampa_rules,xsampa_to_xivona_func,syl_boundaries_func,language_name,encoding,voice_age,voice_gender,voice_name,language_code,viterbi_beam,diphone_graph_func,diphonedb,sample_rate,zdur_cart,duration_func,duration_stretch,vox_lexicon,checksum,name
+diphonedb: payload=0x4000b3a0, name=b'vox_en_us_kendra', checksum=0x4f7c7a18, n_records=0x641, name_table=0x4034d500, index_table=0x40355218, records=0x404edd18, ext=0x41396ab8, model=0x418396b8
+input admission FUN_0004a2d4 text='Hello world this is a test'
+tts_streamer_start(voice, 'Hello world this is a test', -1.0f) -> streamer=0x4197f780
+tts_streamer_synth0 #0 -> 6615 frames (6615 total)
+tts_streamer_synth0 #1 -> 6615 frames (13230 total)
+tts_streamer_synth0 #2 -> 6615 frames (19845 total)
+tts_streamer_synth0 #5 -> 5708 frames (38783 total)
+tts_streamer_synth0 #6 -> 0x0 (0=end, -1=err) errno=(0, 'Success') errmsg='Success'
+synth done: 38783 frames = 1.759s in 329.51s
+wrote /home/asdf/Downloads/ivona_re/out/oracle/ref_nopunct/kendra_hello.pcm (77566 B) + .wav

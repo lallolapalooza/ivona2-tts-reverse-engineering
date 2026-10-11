@@ -1,0 +1,7 @@
+[module] libvoice_en_us_kendra.so mapped at 0x20000000: exports={'register_voice': '0x200168a0', 'TTS_ENGINE_1_6': '0x20000000', 'unregister_voice': '0x2001689c'}
+[oracle] tts_init(cert 1798 B) -> engine=0x40006720
+[dlopen] '/home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so' -> 0x1001
+[dlsym ] handle=0x1001 'register_voice' -> 0x200168a0
+[oracle] tts_load_voice(engine, 'libvoice_en_us_kendra.so', 'main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb') -> voice=0x0 (0.02s)
+[oracle] BLOCKER: load_voice failed: errno=4 msg='Failed to load voice'
+[oracle] reached level 1; artefacts in /home/asdf/Downloads/ivona_re/out/oracle_base

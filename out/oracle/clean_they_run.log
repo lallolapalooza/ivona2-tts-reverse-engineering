@@ -1,0 +1,129 @@
+[module] libvoice_en_us_kendra.so mapped at 0x20000000: exports={'register_voice': '0x200168a0', 'TTS_ENGINE_1_6': '0x20000000', 'unregister_voice': '0x2001689c'}
+[oracle] tts_init(cert 1798 B) -> engine=0x40006720
+[dlopen] '/home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so' -> 0x1001
+[dlsym ] handle=0x1001 'register_voice' -> 0x200168a0
+[oracle] tts_load_voice(engine, 'libvoice_en_us_kendra.so', 'main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb') -> voice=0x4197e660 (167.09s)
+[oracle] tts_voice_sample_rate(voice) -> 22050 Hz
+[oracle] voice[5]=0x4197e680 pluginobj=0x4000b280 store=0x4000b290 head=0x4197e8f0 nkeys=46
+[oracle]   keys: tb_min_distance,eng_dict_insert_id,eng_max_word,eng_max_sentence,eng_fetch_user_data,eng_fetch_function,eng_input_type,eng_ssml_base_uri,eng_text_encoding,eng_paragraph_break,eng_sentence_break,pitch_stretch,compress,amplify,pause_base_len,eng_version,phrasesylendtone_func,tokentowords_func,sentence_boundary_func,text_singlecharsymbols,text_prepunctuation,text_postpunctuation,text_whitespace,silence,phoneset,postlex_func,wordtosegments_func,xivona_to_xsampa_rules,xsampa_to_xivona_func,syl_boundaries_func,language_name,encoding,voice_age,voice_gender,voice_name,language_code,viterbi_beam,diphone_graph_func,diphonedb,sample_rate,zdur_cart,duration_func,duration_stretch,vox_lexicon,checksum,name
+[oracle] diphonedb: payload=0x4000b3a0, name=b'vox_en_us_kendra', checksum=0x4f7c7a18, n_records=0x641, name_table=0x4034d500, index_table=0x40355218, records=0x404edd18, ext=0x41396ab8, model=0x418396b8
+[oracle] input admission FUN_0004a2d4 text='They came over here and said hello to me'
+[ret ] FUN_0004a2d4 -> 0x0
+[oracle] tts_streamer_start(voice, 'They came over here and said hello to me', -1.0f) -> streamer=0x4197fac0
+[ret ] FUN_00040770 -> 0x0
+[ret ] FUN_0006706c -> 0x41c6a9b0
+[ret ] FUN_00064f38 -> 0x41c6a9b0
+[ret ] FUN_0005ef00 -> 0x491
+[ret ] FUN_0005ef00 -> 0x17b
+[ret ] FUN_0005ef00 -> 0x1eb
+[ret ] FUN_0005ef00 -> 0x2e7
+[ret ] FUN_0005ef00 -> 0x1ed
+[ret ] FUN_0005ef00 -> 0x36b
+[ret ] FUN_0005ef00 -> 0x436
+[ret ] FUN_0005ef00 -> 0x5c5
+[ret ] FUN_0005ef00 -> 0x1bf
+[ret ] FUN_0005ef00 -> 0x259
+[ret ] FUN_0005ef00 -> 0x270
+[ret ] FUN_0005ef00 -> 0x4b2
+[ret ] FUN_0005ef00 -> 0xba
+[ret ] FUN_0005ef00 -> 0x3a4
+[ret ] FUN_0005ef00 -> 0x164
+[ret ] FUN_0005ef00 -> 0x4e1
+[ret ] FUN_0005ef00 -> 0x19c
+[ret ] FUN_0005ef00 -> 0x154
+[ret ] FUN_0005ef00 -> 0x254
+[ret ] FUN_0005ef00 -> 0xb8
+[ret ] FUN_0005ef00 -> 0x31c
+[ret ] FUN_0005ef00 -> 0x433
+[ret ] FUN_0005ef00 -> 0x551
+[ret ] FUN_0005ef00 -> 0x5a9
+[ret ] FUN_0005ef00 -> 0x363
+[ret ] FUN_0005ef00 -> 0x296
+[ret ] FUN_0005fc04 -> 0x41cad350
+[ret ] FUN_0005ef70 -> 0x41caf360
+[ret ] FUN_0005ef70 -> 0x41ce8710
+[ret ] FUN_0005ef70 -> 0x41ceb1e0
+[ret ] FUN_0005ef70 -> 0x41cee430
+[ret ] FUN_000618a8 -> 0x41cefe80
+[ret ] FUN_0005d7c4 -> 0x41cefe80
+[ret ] FUN_0005a698 -> 0x41cefe80
+[ret ] FUN_0004ae28 -> 0x19d7
+[oracle] tts_streamer_synth0 #0 -> 6615 frames (6615 total)
+[ret ] FUN_0005ef70 -> 0x41cf4ca0
+[ret ] FUN_0005ef70 -> 0x41cf7d00
+[ret ] FUN_000618a8 -> 0x41cf92a0
+[ret ] FUN_0005d7c4 -> 0x41cf92a0
+[ret ] FUN_0005a698 -> 0x41cf92a0
+[ret ] FUN_0004ae28 -> 0x19d7
+[oracle] tts_streamer_synth0 #1 -> 6615 frames (13230 total)
+[ret ] FUN_0005ef70 -> 0x41cfdd70
+[ret ] FUN_0005ef70 -> 0x41d00240
+[ret ] FUN_0005ef70 -> 0x41d021a0
+[ret ] FUN_000618a8 -> 0x41d03140
+[ret ] FUN_0005d7c4 -> 0x41d03140
+[ret ] FUN_0005a698 -> 0x41d03140
+[ret ] FUN_0004ae28 -> 0x1703
+[ret ] FUN_0005fc04 -> 0x41d567c0
+[ret ] FUN_0005ef70 -> 0x41d57c70
+[ret ] FUN_000618a8 -> 0x41d58dd0
+[ret ] FUN_0005d7c4 -> 0x41d58dd0
+[ret ] FUN_0005a698 -> 0x41d58dd0
+[ret ] FUN_0004ae28 -> 0x2d4
+[oracle] tts_streamer_synth0 #2 -> 6615 frames (19845 total)
+[ret ] FUN_0005ef70 -> 0x41d5ae70
+[ret ] FUN_0005ef70 -> 0x41d5dd30
+[ret ] FUN_0005ef70 -> 0x41d5fea0
+[ret ] FUN_000618a8 -> 0x41d60a70
+[ret ] FUN_0005d7c4 -> 0x41d60a70
+[ret ] FUN_0005a698 -> 0x41d60a70
+[ret ] FUN_0004ae28 -> 0x19d7
+[ret ] FUN_0005ef70 -> 0x41d64960
+[ret ] FUN_0005ef70 -> 0x41d66680
+[ret ] FUN_000618a8 -> 0x41d67930
+[ret ] FUN_0005d7c4 -> 0x41d67930
+[ret ] FUN_0005a698 -> 0x41d67930
+[ret ] FUN_0004ae28 -> 0xe3c
+[ret ] FUN_0005fc04 -> 0x41da02c0
+[ret ] FUN_0005ef70 -> 0x41da2050
+[ret ] FUN_0005ef70 -> 0x41da5230
+[ret ] FUN_000618a8 -> 0x41da6750
+[ret ] FUN_0005d7c4 -> 0x41da6750
+[ret ] FUN_0005a698 -> 0x41da6750
+[ret ] FUN_0004ae28 -> 0xb9b
+[ret ] FUN_0005ef70 -> 0x41da9440
+[ret ] FUN_0005ef70 -> 0x41dab220
+[ret ] FUN_0005ef70 -> 0x41daca80
+[ret ] FUN_000618a8 -> 0x41dad900
+[ret ] FUN_0005d7c4 -> 0x41dad900
+[ret ] FUN_0005a698 -> 0x41dad900
+[ret ] FUN_0004ae28 -> 0x19d7
+[ret ] FUN_0005ef70 -> 0x41db2e30
+[ret ] FUN_0005ef70 -> 0x41db6700
+[ret ] FUN_0005ef70 -> 0x41db8f70
+[ret ] FUN_000618a8 -> 0x41db9c80
+[ret ] FUN_0005d7c4 -> 0x41db9c80
+[ret ] FUN_0005a698 -> 0x41db9c80
+[ret ] FUN_0004ae28 -> 0x19d7
+[ret ] FUN_0005ef70 -> 0x41dbddc0
+[ret ] FUN_0005ef70 -> 0x41dc0b30
+[ret ] FUN_0005ef70 -> 0x41dc5ba0
+[ret ] FUN_000618a8 -> 0x41dc8f50
+[ret ] FUN_0005d7c4 -> 0x41dc8f50
+[ret ] FUN_0005a698 -> 0x41dc8f50
+[ret ] FUN_0004ae28 -> 0x19d7
+[ret ] FUN_000618a8 -> 0x41dcc340
+[ret ] FUN_0005d7c4 -> 0x41dcc340
+[ret ] FUN_0005a698 -> 0x41dcc340
+[ret ] FUN_0004ae28 -> 0xab6
+[ret ] FUN_000618a8 -> 0x0
+[ret ] FUN_0005d7c4 -> 0x0
+[ret ] FUN_0005a698 -> 0x0
+[ret ] FUN_00040770 -> 0x0
+[ret ] FUN_0004ae28 -> 0x0
+[oracle] tts_streamer_synth0 #8 -> 2742 frames (55662 total)
+[ret ] FUN_00040770 -> 0x0
+[ret ] FUN_0004ae28 -> 0x0
+[oracle] tts_streamer_synth0 #9 -> 0x0 (0=end, -1=err) errno=(0, 'Success') errmsg='Success'
+[oracle] synth done: 55662 frames = 2.524s in 589.71s
+[oracle] wrote /home/asdf/Downloads/ivona_re/out/oracle/clean_they/kendra_hello.pcm (111324 B) + .wav
+[oracle] reached level 3; artefacts in /home/asdf/Downloads/ivona_re/out/oracle/clean_they

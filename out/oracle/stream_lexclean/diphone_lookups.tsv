@@ -1,0 +1,27 @@
+# call#	diphone_name	diphoneset_num(-1 = not in db)
+# FUN_0005ef00(diphonedb, "<left>-<right>")
+0	pau-hh	1175
+1	hh-ax	596
+2	ax-l	184
+3	l-ow	796
+4	ow-k	1064
+5	k-aa	730
+6	aa-m	21
+7	m-ax	854
+8	ax-dh	172
+9	dh-ih	383
+10	ih-s	625
+11	s-ih	1255
+12	ih-z	631
+13	z-ax	1529
+14	ax-k	183
+15	k-aa	730
+16	aa-m	21
+17	m-ax	854
+18	ax-d	171
+19	d-aa	324
+20	aa-t	29
+21	t-d	1333
+22	d-aa	324
+23	aa-t	29
+24	t-pau	1354

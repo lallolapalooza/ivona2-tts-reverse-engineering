@@ -1,0 +1,1 @@
+python --sentence Hello world. --out-dir out/oracle_base

@@ -1,0 +1,38 @@
+# This Certificate of Authority is issued by IVONA Software http://www.ivona.com
+# 
+# Do not change a single byte in this file or the license
+# will invalidate.
+# 
+# This file is an appendix to the license and defines license parameters.
+
+Product: IVONA
+Licensee: IVONA Software Sp z o.o, Al. Zwyciestwa 96/98, 81-451 Gdynia, Poland
+Licensor: IVONA Software Sp z o.o, Al. Zwyciestwa 96/98, 81-451 Gdynia, Poland
+Certificate-ID: a1169787
+Num-threads: UNLIMITED
+Thread-speed: UNLIMITED
+Expiration-date: NEVER
+Voices: ALL
+Extension-SSML: TRUE
+
+# This IVONA Text-to-Speech Certificate of Authenticity is valid only with
+# a proof of purchase and with a License Agreement signed by Licensor.
+# 
+# 
+
+-----BEGIN SIGNATURE-----
+69346890b2d18bce7b3b28c0bf9de47a8f396261fc129b73b73d403167d0cbb10e10e40abae9
+829ce815aa88edea01ae59a41123004b2f3ca9d0c8d14287227dc46d78d92fd73d8acf1f8c3a
+aec093837fc8ba2ba1d19e887d3175164baf5d70d03b0d23f87a23e3106c063c756fb91a7cf2
+1f4da82f045e13467db3f0e8ce7e963bd5c644f6b56f429c14b2f28a94cf40ee60c48f169657
+c283f5736e666955b182e072c2c5f43745b9feeb9239b9f54f15170153b7e93f97085fa19770
+61ce3a21469a12e7511ad489c4bbeaa8811d0e2a7f8f0ed1096b35613c3e58d49338821605d4
+51f77a480184318b299268e0fe921e1cd2c3865340028529230705948c201ea4dc5011c51633
+e58a64fc3cc440c426c7a9038bda9e923300a77b9d235709d2b2de1e9b4337116637143bba53
+9853e9b7c3bcee41228197cd0c4758a891178777aa3306aa8d34a8bdb42c51769a55fd40432b
+1f1885917348711ee8219db3d0403f954ac1ddbda023ff63736037b490b501c512e30c22cc60
+ec62b9544ccdb6c13fd03e10cc76085d190740e063401a5fb8f55c9db453cf22ec3d3f38bfe9
+20a454509cc63c39b98dffee17e5e03494a5610d3475dfd76f866d823f1a00460c2988cca7d6
+aab98a616ebfa81e0c27c1d4fd78e8d0d7f86ca953021115b8dbc57902309df377cf52f4e0ba
+4da711c801ae71d87d6201044dacefae7d979ba08b7712d2c013
+-----END SIGNATURE-----

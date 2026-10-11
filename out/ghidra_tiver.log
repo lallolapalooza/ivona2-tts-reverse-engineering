@@ -1,0 +1,168 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1242 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c711375 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2645 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/asdf/Downloads/ivona_re/gs3
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/Extensions/MachineLearning/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_t/ivona_t (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_t/ivona_t (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/asdf/Downloads/ivona_re/out/ghidra_t/ivona_t (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so?MD5=b381ee3b994d615c997f1b0ddd1b09bd...
+Setting block .data.rel.ro.local to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .init_array to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libtiver.so' to imported libraries...
+  [libdl.so] -> not found in project
+  [liblog.so] -> not found in project
+  [libz.so] -> not found in project
+  [libstdc++.so] -> not found in project
+  [libm.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libtiver.so] - 45 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/asdf-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            1.011 secs
+    ARM Symbol                                 0.004 secs
+    ASCII Strings                              0.433 secs
+    Apply Data Archives                        0.363 secs
+    Call Convention ID                         2.233 secs
+    Call-Fixup Installer                       0.033 secs
+    Create Address Tables                      0.024 secs
+    Create Address Tables - One Time           0.091 secs
+    Create Function                            0.177 secs
+    Data Reference                             0.069 secs
+    Decompiler Switch Analysis                 4.875 secs
+    Demangler GNU                              0.286 secs
+    Disassemble                                0.123 secs
+    Disassemble Entry Points                   0.925 secs
+    Disassemble Entry Points - One Time        0.001 secs
+    Embedded Media                             0.007 secs
+    External Entry References                  0.003 secs
+    Function ID                                0.033 secs
+    Function Start Pre Search                  0.014 secs
+    Function Start Search                      0.164 secs
+    Function Start Search After Code           0.114 secs
+    Function Start Search After Data           0.139 secs
+    Function Start Search delayed - One Time   0.006 secs
+    Non-Returning Functions - Discovered       0.081 secs
+    Non-Returning Functions - Known            0.005 secs
+    Reference                                  0.118 secs
+    Shared Return Calls                        0.044 secs
+    Stack                                      1.079 secs
+    Subroutine References                      0.073 secs
+    Subroutine References - One Time           0.000 secs
+-----------------------------------------------------
+     Total Time   12 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpDecompilation.java '/home/asdf/Downloads/ivona_re/out/ghidra_dump/libtiver.c'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/asdf/Downloads/ivona_re/gs3/DumpDecompilation.java (HeadlessAnalyzer)  
+WARN  Decompiling 00034000, pcode error at 00034000: Unable to disassemble EXTERNAL block location: 00034000 (DecompileCallback)  
+WARN  Decompiling 00034004, pcode error at 00034004: Unable to disassemble EXTERNAL block location: 00034004 (DecompileCallback)  
+WARN  Decompiling 00034008, pcode error at 00034008: Unable to disassemble EXTERNAL block location: 00034008 (DecompileCallback)  
+WARN  Decompiling 0003400c, pcode error at 0003400c: Unable to disassemble EXTERNAL block location: 0003400c (DecompileCallback)  
+WARN  Decompiling 00034010, pcode error at 00034010: Unable to disassemble EXTERNAL block location: 00034010 (DecompileCallback)  
+WARN  Decompiling 00034014, pcode error at 00034014: Unable to disassemble EXTERNAL block location: 00034014 (DecompileCallback)  
+WARN  Decompiling 00034018, pcode error at 00034018: Unable to disassemble EXTERNAL block location: 00034018 (DecompileCallback)  
+WARN  Decompiling 0003401c, pcode error at 0003401c: Unable to disassemble EXTERNAL block location: 0003401c (DecompileCallback)  
+WARN  Decompiling 00034020, pcode error at 00034020: Unable to disassemble EXTERNAL block location: 00034020 (DecompileCallback)  
+WARN  Decompiling 00034024, pcode error at 00034024: Unable to disassemble EXTERNAL block location: 00034024 (DecompileCallback)  
+WARN  Decompiling 00034028, pcode error at 00034028: Unable to disassemble EXTERNAL block location: 00034028 (DecompileCallback)  
+WARN  Decompiling 00034030, pcode error at 00034030: Unable to disassemble EXTERNAL block location: 00034030 (DecompileCallback)  
+WARN  Decompiling 00034034, pcode error at 00034034: Unable to disassemble EXTERNAL block location: 00034034 (DecompileCallback)  
+WARN  Decompiling 00034038, pcode error at 00034038: Unable to disassemble EXTERNAL block location: 00034038 (DecompileCallback)  
+WARN  Decompiling 0003403c, pcode error at 0003403c: Unable to disassemble EXTERNAL block location: 0003403c (DecompileCallback)  
+WARN  Decompiling 00034040, pcode error at 00034040: Unable to disassemble EXTERNAL block location: 00034040 (DecompileCallback)  
+WARN  Decompiling 00034044, pcode error at 00034044: Unable to disassemble EXTERNAL block location: 00034044 (DecompileCallback)  
+WARN  Decompiling 00034048, pcode error at 00034048: Unable to disassemble EXTERNAL block location: 00034048 (DecompileCallback)  
+WARN  Decompiling 0003404c, pcode error at 0003404c: Unable to disassemble EXTERNAL block location: 0003404c (DecompileCallback)  
+WARN  Decompiling 00034050, pcode error at 00034050: Unable to disassemble EXTERNAL block location: 00034050 (DecompileCallback)  
+WARN  Decompiling 00034054, pcode error at 00034054: Unable to disassemble EXTERNAL block location: 00034054 (DecompileCallback)  
+WARN  Decompiling 00034058, pcode error at 00034058: Unable to disassemble EXTERNAL block location: 00034058 (DecompileCallback)  
+WARN  Decompiling 0003405c, pcode error at 0003405c: Unable to disassemble EXTERNAL block location: 0003405c (DecompileCallback)  
+WARN  Decompiling 00034060, pcode error at 00034060: Unable to disassemble EXTERNAL block location: 00034060 (DecompileCallback)  
+WARN  Decompiling 00034064, pcode error at 00034064: Unable to disassemble EXTERNAL block location: 00034064 (DecompileCallback)  
+WARN  Decompiling 00034068, pcode error at 00034068: Unable to disassemble EXTERNAL block location: 00034068 (DecompileCallback)  
+WARN  Decompiling 0003406c, pcode error at 0003406c: Unable to disassemble EXTERNAL block location: 0003406c (DecompileCallback)  
+WARN  Decompiling 00034070, pcode error at 00034070: Unable to disassemble EXTERNAL block location: 00034070 (DecompileCallback)  
+WARN  Decompiling 00034074, pcode error at 00034074: Unable to disassemble EXTERNAL block location: 00034074 (DecompileCallback)  
+WARN  Decompiling 00034078, pcode error at 00034078: Unable to disassemble EXTERNAL block location: 00034078 (DecompileCallback)  
+WARN  Decompiling 0003407c, pcode error at 0003407c: Unable to disassemble EXTERNAL block location: 0003407c (DecompileCallback)  
+WARN  Decompiling 00034080, pcode error at 00034080: Unable to disassemble EXTERNAL block location: 00034080 (DecompileCallback)  
+WARN  Decompiling 00034084, pcode error at 00034084: Unable to disassemble EXTERNAL block location: 00034084 (DecompileCallback)  
+WARN  Decompiling 00034088, pcode error at 00034088: Unable to disassemble EXTERNAL block location: 00034088 (DecompileCallback)  
+WARN  Decompiling 0003408c, pcode error at 0003408c: Unable to disassemble EXTERNAL block location: 0003408c (DecompileCallback)  
+WARN  Decompiling 00034090, pcode error at 00034090: Unable to disassemble EXTERNAL block location: 00034090 (DecompileCallback)  
+WARN  Decompiling 00034094, pcode error at 00034094: Unable to disassemble EXTERNAL block location: 00034094 (DecompileCallback)  
+WARN  Decompiling 00034098, pcode error at 00034098: Unable to disassemble EXTERNAL block location: 00034098 (DecompileCallback)  
+WARN  Decompiling 0003409c, pcode error at 0003409c: Unable to disassemble EXTERNAL block location: 0003409c (DecompileCallback)  
+WARN  Decompiling 000340a0, pcode error at 000340a0: Unable to disassemble EXTERNAL block location: 000340a0 (DecompileCallback)  
+WARN  Decompiling 000340a8, pcode error at 000340a8: Unable to disassemble EXTERNAL block location: 000340a8 (DecompileCallback)  
+WARN  Decompiling 000340ac, pcode error at 000340ac: Unable to disassemble EXTERNAL block location: 000340ac (DecompileCallback)  
+WARN  Decompiling 000340b0, pcode error at 000340b0: Unable to disassemble EXTERNAL block location: 000340b0 (DecompileCallback)  
+WARN  Decompiling 000340b4, pcode error at 000340b4: Unable to disassemble EXTERNAL block location: 000340b4 (DecompileCallback)  
+WARN  Decompiling 000340b8, pcode error at 000340b8: Unable to disassemble EXTERNAL block location: 000340b8 (DecompileCallback)  
+INFO  DumpDecompilation.java> Dumped 414 functions (0 failed) -> /home/asdf/Downloads/ivona_re/out/ghidra_dump/libtiver.c (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libtiver.so (HeadlessAnalyzer)  
+INFO  /libtiver.so: file created (asdf) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libtiver.so (ivona_t:/libtiver.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

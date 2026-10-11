@@ -1,0 +1,161 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1193 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c711375 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2569 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /home/asdf/Downloads/ivona_re/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/Extensions/MachineLearning/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/asdf/Downloads/ivona_re/out/ghidra/ivona (HeadlessAnalyzer)  
+INFO  Opening project: /home/asdf/Downloads/ivona_re/out/ghidra/ivona (HeadlessProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/asdf/Downloads/ivona_re/out/ghidra/ivona (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so?MD5=29e39cd635ecb566747589a6069e6f04...
+Setting block .data.rel.ro.local to read-only
+Setting block .fini_array to read-only
+Setting block .init_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libttsivona.so' to imported libraries...
+  [libdl.so] -> not found in project
+  [liblog.so] -> not found in project
+  [libstdc++.so] -> not found in project
+  [libm.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libttsivona.so] - 117 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  /libttsivona.so: file deleted (asdf) (LocalFileSystem)  
+INFO  Deleted local file libttsivona.so (GhidraFileData)  
+WARN  REPORT: Removed conflicting program file from project: /libttsivona.so (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/asdf-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            2.764 secs
+    ARM Symbol                                 0.003 secs
+    ASCII Strings                              0.433 secs
+    Apply Data Archives                        0.384 secs
+    Call Convention ID                         2.276 secs
+    Call-Fixup Installer                       0.042 secs
+    Create Address Tables                      0.082 secs
+    Create Address Tables - One Time           0.221 secs
+    Create Function                            0.337 secs
+    Data Reference                             0.209 secs
+    Decompiler Switch Analysis                 9.521 secs
+    Demangler GNU                              0.299 secs
+    Disassemble                                1.530 secs
+    Disassemble Entry Points                   1.225 secs
+    Embedded Media                             0.023 secs
+    External Entry References                  0.004 secs
+    Function ID                                0.017 secs
+    Function Start Pre Search                  0.018 secs
+    Function Start Search                      0.240 secs
+    Function Start Search After Code           0.246 secs
+    Function Start Search After Data           0.218 secs
+    Function Start Search delayed - One Time   0.069 secs
+    Non-Returning Functions - Discovered       0.291 secs
+    Non-Returning Functions - Known            0.007 secs
+    Reference                                  0.298 secs
+    Shared Return Calls                        0.101 secs
+    Stack                                      2.183 secs
+    Subroutine References                      0.492 secs
+    Subroutine References - One Time           0.001 secs
+-----------------------------------------------------
+     Total Time   23 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpDecomp.java 'out/ghidra_dump'  (HeadlessAnalyzer)  
+DumpDecomp.java:24: error: cannot find symbol
+		di.setOptions(getProgram().getOptions("Decompiler"));
+		              ^
+  symbol:   method getProgram()
+  location: class DumpDecomp
+DumpDecomp.java:27: error: cannot find symbol
+		di.openProgram(getProgram());
+		               ^
+  symbol:   method getProgram()
+  location: class DumpDecomp
+DumpDecomp.java:29: error: cannot find symbol
+		FunctionIterator it = getProgram().getFunctionManager().getFunctions(true);
+		                      ^
+  symbol:   method getProgram()
+  location: class DumpDecomp
+skipping /home/asdf/Downloads/ivona_re/ghidra_scripts/DumpDecomp.java
+ERROR REPORT SCRIPT ERROR: DumpDecomp.java : The class could not be found. It must be the public class of the .java file: DumpDecomp not found by c6e5aca8 [1] (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: DumpDecomp not found by c6e5aca8 [1]
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:927)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1097)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileWithImport(HeadlessAnalyzer.java:1595)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithLoader(HeadlessAnalyzer.java:1755)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1696)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1780)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:464)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: DumpDecomp not found by c6e5aca8 [1]
+	at org.apache.felix.framework.BundleWiringImpl.findClassOrResourceByDelegation(BundleWiringImpl.java:1591)
+	at org.apache.felix.framework.BundleWiringImpl.access$300(BundleWiringImpl.java:79)
+	at org.apache.felix.framework.BundleWiringImpl$BundleClassLoader.loadClass(BundleWiringImpl.java:1976)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502)
+	at org.apache.felix.framework.Felix.loadBundleClass(Felix.java:2116)
+	at org.apache.felix.framework.BundleImpl.loadClass(BundleImpl.java:986)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:166)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 10 more
+ 
+INFO  ANALYZING changes made by post scripts: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  /libttsivona.so: file created (asdf) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libttsivona.so (ivona:/libttsivona.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

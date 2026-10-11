@@ -1,0 +1,178 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1187 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c711375 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2731 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/asdf/Downloads/ivona_re/gs3
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/Extensions/MachineLearning/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_l/ivona_l (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_l/ivona_l (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/asdf/Downloads/ivona_re/out/ghidra_l/ivona_l (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so?MD5=446e4028eb7cb47f0abc18597a2d8106...
+------------------------------------------------
+
+Linking the External Programs of 'libvoice_en_us_kendra.so' to imported libraries...
+  [libm.so] -> not found in project
+  [libdl.so] -> not found in project
+  [liblog.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libvoice_en_us_kendra.so] - 62 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/asdf-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            2.320 secs
+    ARM Symbol                                 0.002 secs
+    ASCII Strings                              0.582 secs
+    Apply Data Archives                        0.315 secs
+    Call Convention ID                         0.008 secs
+    Call-Fixup Installer                       0.085 secs
+    Create Address Tables                      0.461 secs
+    Create Address Tables - One Time           0.478 secs
+    Create Function                            0.374 secs
+    Data Reference                             0.291 secs
+    Decompiler Switch Analysis                 5.245 secs
+    Demangler GNU                              0.055 secs
+    Disassemble                                1.928 secs
+    Disassemble Entry Points                   0.443 secs
+    Embedded Media                             0.022 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.026 secs
+    Function Start Pre Search                  0.011 secs
+    Function Start Search                      0.211 secs
+    Function Start Search After Code           0.145 secs
+    Function Start Search After Data           0.143 secs
+    Function Start Search delayed - One Time   0.018 secs
+    Non-Returning Functions - Discovered       0.092 secs
+    Non-Returning Functions - Known            0.010 secs
+    Reference                                  0.449 secs
+    Shared Return Calls                        0.086 secs
+    Stack                                      1.745 secs
+    Subroutine References                      0.175 secs
+    Subroutine References - One Time           0.000 secs
+-----------------------------------------------------
+     Total Time   15 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpDecompilation.java '/home/asdf/Downloads/ivona_re/out/ghidra_dump/libvoice_kendra.c'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/asdf/Downloads/ivona_re/gs3/DumpDecompilation.java (HeadlessAnalyzer)  
+WARN  Decompiling 00301000, pcode error at 00301000: Unable to disassemble EXTERNAL block location: 00301000 (DecompileCallback)  
+WARN  Decompiling 00301004, pcode error at 00301004: Unable to disassemble EXTERNAL block location: 00301004 (DecompileCallback)  
+WARN  Decompiling 00301008, pcode error at 00301008: Unable to disassemble EXTERNAL block location: 00301008 (DecompileCallback)  
+WARN  Decompiling 0030100c, pcode error at 0030100c: Unable to disassemble EXTERNAL block location: 0030100c (DecompileCallback)  
+WARN  Decompiling 00301010, pcode error at 00301010: Unable to disassemble EXTERNAL block location: 00301010 (DecompileCallback)  
+WARN  Decompiling 00301014, pcode error at 00301014: Unable to disassemble EXTERNAL block location: 00301014 (DecompileCallback)  
+WARN  Decompiling 00301018, pcode error at 00301018: Unable to disassemble EXTERNAL block location: 00301018 (DecompileCallback)  
+WARN  Decompiling 0030101c, pcode error at 0030101c: Unable to disassemble EXTERNAL block location: 0030101c (DecompileCallback)  
+WARN  Decompiling 00301020, pcode error at 00301020: Unable to disassemble EXTERNAL block location: 00301020 (DecompileCallback)  
+WARN  Decompiling 00301024, pcode error at 00301024: Unable to disassemble EXTERNAL block location: 00301024 (DecompileCallback)  
+WARN  Decompiling 00301028, pcode error at 00301028: Unable to disassemble EXTERNAL block location: 00301028 (DecompileCallback)  
+WARN  Decompiling 0030102c, pcode error at 0030102c: Unable to disassemble EXTERNAL block location: 0030102c (DecompileCallback)  
+WARN  Decompiling 00301030, pcode error at 00301030: Unable to disassemble EXTERNAL block location: 00301030 (DecompileCallback)  
+WARN  Decompiling 00301034, pcode error at 00301034: Unable to disassemble EXTERNAL block location: 00301034 (DecompileCallback)  
+WARN  Decompiling 00301038, pcode error at 00301038: Unable to disassemble EXTERNAL block location: 00301038 (DecompileCallback)  
+WARN  Decompiling 0030103c, pcode error at 0030103c: Unable to disassemble EXTERNAL block location: 0030103c (DecompileCallback)  
+WARN  Decompiling 00301040, pcode error at 00301040: Unable to disassemble EXTERNAL block location: 00301040 (DecompileCallback)  
+WARN  Decompiling 00301044, pcode error at 00301044: Unable to disassemble EXTERNAL block location: 00301044 (DecompileCallback)  
+WARN  Decompiling 00301048, pcode error at 00301048: Unable to disassemble EXTERNAL block location: 00301048 (DecompileCallback)  
+WARN  Decompiling 0030104c, pcode error at 0030104c: Unable to disassemble EXTERNAL block location: 0030104c (DecompileCallback)  
+WARN  Decompiling 00301050, pcode error at 00301050: Unable to disassemble EXTERNAL block location: 00301050 (DecompileCallback)  
+WARN  Decompiling 00301054, pcode error at 00301054: Unable to disassemble EXTERNAL block location: 00301054 (DecompileCallback)  
+WARN  Decompiling 00301058, pcode error at 00301058: Unable to disassemble EXTERNAL block location: 00301058 (DecompileCallback)  
+WARN  Decompiling 0030105c, pcode error at 0030105c: Unable to disassemble EXTERNAL block location: 0030105c (DecompileCallback)  
+WARN  Decompiling 00301060, pcode error at 00301060: Unable to disassemble EXTERNAL block location: 00301060 (DecompileCallback)  
+WARN  Decompiling 00301064, pcode error at 00301064: Unable to disassemble EXTERNAL block location: 00301064 (DecompileCallback)  
+WARN  Decompiling 0030106c, pcode error at 0030106c: Unable to disassemble EXTERNAL block location: 0030106c (DecompileCallback)  
+WARN  Decompiling 00301070, pcode error at 00301070: Unable to disassemble EXTERNAL block location: 00301070 (DecompileCallback)  
+WARN  Decompiling 00301074, pcode error at 00301074: Unable to disassemble EXTERNAL block location: 00301074 (DecompileCallback)  
+WARN  Decompiling 00301078, pcode error at 00301078: Unable to disassemble EXTERNAL block location: 00301078 (DecompileCallback)  
+WARN  Decompiling 0030107c, pcode error at 0030107c: Unable to disassemble EXTERNAL block location: 0030107c (DecompileCallback)  
+WARN  Decompiling 00301080, pcode error at 00301080: Unable to disassemble EXTERNAL block location: 00301080 (DecompileCallback)  
+WARN  Decompiling 00301084, pcode error at 00301084: Unable to disassemble EXTERNAL block location: 00301084 (DecompileCallback)  
+WARN  Decompiling 00301088, pcode error at 00301088: Unable to disassemble EXTERNAL block location: 00301088 (DecompileCallback)  
+WARN  Decompiling 0030108c, pcode error at 0030108c: Unable to disassemble EXTERNAL block location: 0030108c (DecompileCallback)  
+WARN  Decompiling 00301090, pcode error at 00301090: Unable to disassemble EXTERNAL block location: 00301090 (DecompileCallback)  
+WARN  Decompiling 00301094, pcode error at 00301094: Unable to disassemble EXTERNAL block location: 00301094 (DecompileCallback)  
+WARN  Decompiling 00301098, pcode error at 00301098: Unable to disassemble EXTERNAL block location: 00301098 (DecompileCallback)  
+WARN  Decompiling 0030109c, pcode error at 0030109c: Unable to disassemble EXTERNAL block location: 0030109c (DecompileCallback)  
+WARN  Decompiling 003010a4, pcode error at 003010a4: Unable to disassemble EXTERNAL block location: 003010a4 (DecompileCallback)  
+WARN  Decompiling 003010a8, pcode error at 003010a8: Unable to disassemble EXTERNAL block location: 003010a8 (DecompileCallback)  
+WARN  Decompiling 003010ac, pcode error at 003010ac: Unable to disassemble EXTERNAL block location: 003010ac (DecompileCallback)  
+WARN  Decompiling 003010b0, pcode error at 003010b0: Unable to disassemble EXTERNAL block location: 003010b0 (DecompileCallback)  
+WARN  Decompiling 003010b4, pcode error at 003010b4: Unable to disassemble EXTERNAL block location: 003010b4 (DecompileCallback)  
+WARN  Decompiling 003010b8, pcode error at 003010b8: Unable to disassemble EXTERNAL block location: 003010b8 (DecompileCallback)  
+WARN  Decompiling 003010bc, pcode error at 003010bc: Unable to disassemble EXTERNAL block location: 003010bc (DecompileCallback)  
+WARN  Decompiling 003010c0, pcode error at 003010c0: Unable to disassemble EXTERNAL block location: 003010c0 (DecompileCallback)  
+WARN  Decompiling 003010c4, pcode error at 003010c4: Unable to disassemble EXTERNAL block location: 003010c4 (DecompileCallback)  
+WARN  Decompiling 003010c8, pcode error at 003010c8: Unable to disassemble EXTERNAL block location: 003010c8 (DecompileCallback)  
+WARN  Decompiling 003010cc, pcode error at 003010cc: Unable to disassemble EXTERNAL block location: 003010cc (DecompileCallback)  
+WARN  Decompiling 003010d0, pcode error at 003010d0: Unable to disassemble EXTERNAL block location: 003010d0 (DecompileCallback)  
+WARN  Decompiling 003010d4, pcode error at 003010d4: Unable to disassemble EXTERNAL block location: 003010d4 (DecompileCallback)  
+WARN  Decompiling 003010dc, pcode error at 003010dc: Unable to disassemble EXTERNAL block location: 003010dc (DecompileCallback)  
+WARN  Decompiling 003010e4, pcode error at 003010e4: Unable to disassemble EXTERNAL block location: 003010e4 (DecompileCallback)  
+WARN  Decompiling 003010ec, pcode error at 003010ec: Unable to disassemble EXTERNAL block location: 003010ec (DecompileCallback)  
+WARN  Decompiling 003010f0, pcode error at 003010f0: Unable to disassemble EXTERNAL block location: 003010f0 (DecompileCallback)  
+WARN  Decompiling 003010f4, pcode error at 003010f4: Unable to disassemble EXTERNAL block location: 003010f4 (DecompileCallback)  
+WARN  Decompiling 003010f8, pcode error at 003010f8: Unable to disassemble EXTERNAL block location: 003010f8 (DecompileCallback)  
+WARN  Decompiling 003010fc, pcode error at 003010fc: Unable to disassemble EXTERNAL block location: 003010fc (DecompileCallback)  
+WARN  Decompiling 00301100, pcode error at 00301100: Unable to disassemble EXTERNAL block location: 00301100 (DecompileCallback)  
+WARN  Decompiling 00301104, pcode error at 00301104: Unable to disassemble EXTERNAL block location: 00301104 (DecompileCallback)  
+WARN  Decompiling 00301108, pcode error at 00301108: Unable to disassemble EXTERNAL block location: 00301108 (DecompileCallback)  
+WARN  Decompiling 0030110c, pcode error at 0030110c: Unable to disassemble EXTERNAL block location: 0030110c (DecompileCallback)  
+INFO  DumpDecompilation.java> Dumped 709 functions (0 failed) -> /home/asdf/Downloads/ivona_re/out/ghidra_dump/libvoice_kendra.c (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libvoice_en_us_kendra.so (HeadlessAnalyzer)  
+INFO  /libvoice_en_us_kendra.so: file created (asdf) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libvoice_en_us_kendra.so (ivona_l:/libvoice_en_us_kendra.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

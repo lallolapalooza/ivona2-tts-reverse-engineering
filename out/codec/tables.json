@@ -1,0 +1,17 @@
+{
+ "lib": "out/libs/kendra/libttsivonavoice.so",
+ "windows": [
+  {
+   "base": 1327104,
+   "size": 238936,
+   "off": 0
+  },
+  {
+   "base": 1570424,
+   "size": 87936,
+   "off": 238936
+  }
+ ],
+ "size": 326872,
+ "sha256": "ac5d586a3bada57e3dacaf0c64f18cb3f46f89da0067d3b02a7e791f14a8dbea"
+}

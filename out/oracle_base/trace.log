@@ -1,0 +1,3 @@
+tts_init(cert 1798 B) -> engine=0x40006720
+tts_load_voice(engine, 'libvoice_en_us_kendra.so', 'main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb') -> voice=0x0 (0.02s)
+BLOCKER: load_voice failed: errno=4 msg='Failed to load voice'

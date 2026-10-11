@@ -1,0 +1,265 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1264 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c711375 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2686 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/asdf/Downloads/ivona_re/gs3
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/Extensions/MachineLearning/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_v/ivona_v (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/out/ghidra_v/ivona_v (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/asdf/Downloads/ivona_re/out/ghidra_v/ivona_v (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so?MD5=2274b82e216f8dd4123deea94e00511c...
+Setting block .data.rel.ro.local to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .init_array to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libttsivonavoice.so' to imported libraries...
+  [libdl.so] -> not found in project
+  [liblog.so] -> not found in project
+  [libstdc++.so] -> not found in project
+  [libm.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libttsivonavoice.so] - 144 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/asdf-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            7.552 secs
+    ARM Symbol                                 0.005 secs
+    ASCII Strings                              0.480 secs
+    Apply Data Archives                        0.376 secs
+    Call Convention ID                         2.192 secs
+    Call-Fixup Installer                       0.084 secs
+    Create Address Tables                      0.276 secs
+    Create Address Tables - One Time           0.354 secs
+    Create Function                            0.879 secs
+    Data Reference                             0.306 secs
+    Decompiler Switch Analysis                73.597 secs
+    Demangler GNU                              0.406 secs
+    Disassemble                                2.134 secs
+    Disassemble Entry Points                   3.903 secs
+    Embedded Media                             0.025 secs
+    External Entry References                  0.002 secs
+    Function ID                                0.017 secs
+    Function Start Pre Search                  0.059 secs
+    Function Start Search                      0.375 secs
+    Function Start Search After Code           0.508 secs
+    Function Start Search After Data           0.548 secs
+    Function Start Search delayed - One Time   0.111 secs
+    Non-Returning Functions - Discovered       0.295 secs
+    Non-Returning Functions - Known            0.010 secs
+    Reference                                  0.518 secs
+    Shared Return Calls                        0.226 secs
+    Stack                                      8.036 secs
+    Subroutine References                      0.307 secs
+    Subroutine References - One Time           0.002 secs
+-----------------------------------------------------
+     Total Time   103 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpDecompilation.java '/home/asdf/Downloads/ivona_re/out/ghidra_dump/libttsivonavoice.c'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/asdf/Downloads/ivona_re/gs3/DumpDecompilation.java (HeadlessAnalyzer)  
+WARN  Decompiling 001a5000, pcode error at 001a5000: Unable to disassemble EXTERNAL block location: 001a5000 (DecompileCallback)  
+WARN  Decompiling 001a5004, pcode error at 001a5004: Unable to disassemble EXTERNAL block location: 001a5004 (DecompileCallback)  
+WARN  Decompiling 001a5008, pcode error at 001a5008: Unable to disassemble EXTERNAL block location: 001a5008 (DecompileCallback)  
+WARN  Decompiling 001a500c, pcode error at 001a500c: Unable to disassemble EXTERNAL block location: 001a500c (DecompileCallback)  
+WARN  Decompiling 001a5010, pcode error at 001a5010: Unable to disassemble EXTERNAL block location: 001a5010 (DecompileCallback)  
+WARN  Decompiling 001a5014, pcode error at 001a5014: Unable to disassemble EXTERNAL block location: 001a5014 (DecompileCallback)  
+WARN  Decompiling 001a501c, pcode error at 001a501c: Unable to disassemble EXTERNAL block location: 001a501c (DecompileCallback)  
+WARN  Decompiling 001a5020, pcode error at 001a5020: Unable to disassemble EXTERNAL block location: 001a5020 (DecompileCallback)  
+WARN  Decompiling 001a5024, pcode error at 001a5024: Unable to disassemble EXTERNAL block location: 001a5024 (DecompileCallback)  
+WARN  Decompiling 001a5028, pcode error at 001a5028: Unable to disassemble EXTERNAL block location: 001a5028 (DecompileCallback)  
+WARN  Decompiling 001a502c, pcode error at 001a502c: Unable to disassemble EXTERNAL block location: 001a502c (DecompileCallback)  
+WARN  Decompiling 001a5030, pcode error at 001a5030: Unable to disassemble EXTERNAL block location: 001a5030 (DecompileCallback)  
+WARN  Decompiling 001a5034, pcode error at 001a5034: Unable to disassemble EXTERNAL block location: 001a5034 (DecompileCallback)  
+WARN  Decompiling 001a5038, pcode error at 001a5038: Unable to disassemble EXTERNAL block location: 001a5038 (DecompileCallback)  
+WARN  Decompiling 001a503c, pcode error at 001a503c: Unable to disassemble EXTERNAL block location: 001a503c (DecompileCallback)  
+WARN  Decompiling 001a5040, pcode error at 001a5040: Unable to disassemble EXTERNAL block location: 001a5040 (DecompileCallback)  
+WARN  Decompiling 001a5044, pcode error at 001a5044: Unable to disassemble EXTERNAL block location: 001a5044 (DecompileCallback)  
+WARN  Decompiling 001a5048, pcode error at 001a5048: Unable to disassemble EXTERNAL block location: 001a5048 (DecompileCallback)  
+WARN  Decompiling 001a504c, pcode error at 001a504c: Unable to disassemble EXTERNAL block location: 001a504c (DecompileCallback)  
+WARN  Decompiling 001a5050, pcode error at 001a5050: Unable to disassemble EXTERNAL block location: 001a5050 (DecompileCallback)  
+WARN  Decompiling 001a5054, pcode error at 001a5054: Unable to disassemble EXTERNAL block location: 001a5054 (DecompileCallback)  
+WARN  Decompiling 001a5058, pcode error at 001a5058: Unable to disassemble EXTERNAL block location: 001a5058 (DecompileCallback)  
+WARN  Decompiling 001a5060, pcode error at 001a5060: Unable to disassemble EXTERNAL block location: 001a5060 (DecompileCallback)  
+WARN  Decompiling 001a5064, pcode error at 001a5064: Unable to disassemble EXTERNAL block location: 001a5064 (DecompileCallback)  
+WARN  Decompiling 001a5068, pcode error at 001a5068: Unable to disassemble EXTERNAL block location: 001a5068 (DecompileCallback)  
+WARN  Decompiling 001a506c, pcode error at 001a506c: Unable to disassemble EXTERNAL block location: 001a506c (DecompileCallback)  
+WARN  Decompiling 001a5070, pcode error at 001a5070: Unable to disassemble EXTERNAL block location: 001a5070 (DecompileCallback)  
+WARN  Decompiling 001a5074, pcode error at 001a5074: Unable to disassemble EXTERNAL block location: 001a5074 (DecompileCallback)  
+WARN  Decompiling 001a5078, pcode error at 001a5078: Unable to disassemble EXTERNAL block location: 001a5078 (DecompileCallback)  
+WARN  Decompiling 001a507c, pcode error at 001a507c: Unable to disassemble EXTERNAL block location: 001a507c (DecompileCallback)  
+WARN  Decompiling 001a5080, pcode error at 001a5080: Unable to disassemble EXTERNAL block location: 001a5080 (DecompileCallback)  
+WARN  Decompiling 001a5084, pcode error at 001a5084: Unable to disassemble EXTERNAL block location: 001a5084 (DecompileCallback)  
+WARN  Decompiling 001a5088, pcode error at 001a5088: Unable to disassemble EXTERNAL block location: 001a5088 (DecompileCallback)  
+WARN  Decompiling 001a508c, pcode error at 001a508c: Unable to disassemble EXTERNAL block location: 001a508c (DecompileCallback)  
+WARN  Decompiling 001a5090, pcode error at 001a5090: Unable to disassemble EXTERNAL block location: 001a5090 (DecompileCallback)  
+WARN  Decompiling 001a5094, pcode error at 001a5094: Unable to disassemble EXTERNAL block location: 001a5094 (DecompileCallback)  
+WARN  Decompiling 001a5098, pcode error at 001a5098: Unable to disassemble EXTERNAL block location: 001a5098 (DecompileCallback)  
+WARN  Decompiling 001a509c, pcode error at 001a509c: Unable to disassemble EXTERNAL block location: 001a509c (DecompileCallback)  
+WARN  Decompiling 001a50a0, pcode error at 001a50a0: Unable to disassemble EXTERNAL block location: 001a50a0 (DecompileCallback)  
+WARN  Decompiling 001a50a4, pcode error at 001a50a4: Unable to disassemble EXTERNAL block location: 001a50a4 (DecompileCallback)  
+WARN  Decompiling 001a50a8, pcode error at 001a50a8: Unable to disassemble EXTERNAL block location: 001a50a8 (DecompileCallback)  
+WARN  Decompiling 001a50ac, pcode error at 001a50ac: Unable to disassemble EXTERNAL block location: 001a50ac (DecompileCallback)  
+WARN  Decompiling 001a50b0, pcode error at 001a50b0: Unable to disassemble EXTERNAL block location: 001a50b0 (DecompileCallback)  
+WARN  Decompiling 001a50b4, pcode error at 001a50b4: Unable to disassemble EXTERNAL block location: 001a50b4 (DecompileCallback)  
+WARN  Decompiling 001a50b8, pcode error at 001a50b8: Unable to disassemble EXTERNAL block location: 001a50b8 (DecompileCallback)  
+WARN  Decompiling 001a50bc, pcode error at 001a50bc: Unable to disassemble EXTERNAL block location: 001a50bc (DecompileCallback)  
+WARN  Decompiling 001a50c0, pcode error at 001a50c0: Unable to disassemble EXTERNAL block location: 001a50c0 (DecompileCallback)  
+WARN  Decompiling 001a50c4, pcode error at 001a50c4: Unable to disassemble EXTERNAL block location: 001a50c4 (DecompileCallback)  
+WARN  Decompiling 001a50c8, pcode error at 001a50c8: Unable to disassemble EXTERNAL block location: 001a50c8 (DecompileCallback)  
+WARN  Decompiling 001a50cc, pcode error at 001a50cc: Unable to disassemble EXTERNAL block location: 001a50cc (DecompileCallback)  
+WARN  Decompiling 001a50d0, pcode error at 001a50d0: Unable to disassemble EXTERNAL block location: 001a50d0 (DecompileCallback)  
+WARN  Decompiling 001a50d4, pcode error at 001a50d4: Unable to disassemble EXTERNAL block location: 001a50d4 (DecompileCallback)  
+WARN  Decompiling 001a50d8, pcode error at 001a50d8: Unable to disassemble EXTERNAL block location: 001a50d8 (DecompileCallback)  
+WARN  Decompiling 001a50dc, pcode error at 001a50dc: Unable to disassemble EXTERNAL block location: 001a50dc (DecompileCallback)  
+WARN  Decompiling 001a50e0, pcode error at 001a50e0: Unable to disassemble EXTERNAL block location: 001a50e0 (DecompileCallback)  
+WARN  Decompiling 001a50e4, pcode error at 001a50e4: Unable to disassemble EXTERNAL block location: 001a50e4 (DecompileCallback)  
+WARN  Decompiling 001a50e8, pcode error at 001a50e8: Unable to disassemble EXTERNAL block location: 001a50e8 (DecompileCallback)  
+WARN  Decompiling 001a50ec, pcode error at 001a50ec: Unable to disassemble EXTERNAL block location: 001a50ec (DecompileCallback)  
+WARN  Decompiling 001a50f0, pcode error at 001a50f0: Unable to disassemble EXTERNAL block location: 001a50f0 (DecompileCallback)  
+WARN  Decompiling 001a50f4, pcode error at 001a50f4: Unable to disassemble EXTERNAL block location: 001a50f4 (DecompileCallback)  
+WARN  Decompiling 001a50f8, pcode error at 001a50f8: Unable to disassemble EXTERNAL block location: 001a50f8 (DecompileCallback)  
+WARN  Decompiling 001a50fc, pcode error at 001a50fc: Unable to disassemble EXTERNAL block location: 001a50fc (DecompileCallback)  
+WARN  Decompiling 001a5100, pcode error at 001a5100: Unable to disassemble EXTERNAL block location: 001a5100 (DecompileCallback)  
+WARN  Decompiling 001a5104, pcode error at 001a5104: Unable to disassemble EXTERNAL block location: 001a5104 (DecompileCallback)  
+WARN  Decompiling 001a5108, pcode error at 001a5108: Unable to disassemble EXTERNAL block location: 001a5108 (DecompileCallback)  
+WARN  Decompiling 001a510c, pcode error at 001a510c: Unable to disassemble EXTERNAL block location: 001a510c (DecompileCallback)  
+WARN  Decompiling 001a5110, pcode error at 001a5110: Unable to disassemble EXTERNAL block location: 001a5110 (DecompileCallback)  
+WARN  Decompiling 001a5114, pcode error at 001a5114: Unable to disassemble EXTERNAL block location: 001a5114 (DecompileCallback)  
+WARN  Decompiling 001a5118, pcode error at 001a5118: Unable to disassemble EXTERNAL block location: 001a5118 (DecompileCallback)  
+WARN  Decompiling 001a511c, pcode error at 001a511c: Unable to disassemble EXTERNAL block location: 001a511c (DecompileCallback)  
+WARN  Decompiling 001a5120, pcode error at 001a5120: Unable to disassemble EXTERNAL block location: 001a5120 (DecompileCallback)  
+WARN  Decompiling 001a5124, pcode error at 001a5124: Unable to disassemble EXTERNAL block location: 001a5124 (DecompileCallback)  
+WARN  Decompiling 001a5128, pcode error at 001a5128: Unable to disassemble EXTERNAL block location: 001a5128 (DecompileCallback)  
+WARN  Decompiling 001a512c, pcode error at 001a512c: Unable to disassemble EXTERNAL block location: 001a512c (DecompileCallback)  
+WARN  Decompiling 001a5130, pcode error at 001a5130: Unable to disassemble EXTERNAL block location: 001a5130 (DecompileCallback)  
+WARN  Decompiling 001a5134, pcode error at 001a5134: Unable to disassemble EXTERNAL block location: 001a5134 (DecompileCallback)  
+WARN  Decompiling 001a5138, pcode error at 001a5138: Unable to disassemble EXTERNAL block location: 001a5138 (DecompileCallback)  
+WARN  Decompiling 001a513c, pcode error at 001a513c: Unable to disassemble EXTERNAL block location: 001a513c (DecompileCallback)  
+WARN  Decompiling 001a5140, pcode error at 001a5140: Unable to disassemble EXTERNAL block location: 001a5140 (DecompileCallback)  
+WARN  Decompiling 001a5144, pcode error at 001a5144: Unable to disassemble EXTERNAL block location: 001a5144 (DecompileCallback)  
+WARN  Decompiling 001a5148, pcode error at 001a5148: Unable to disassemble EXTERNAL block location: 001a5148 (DecompileCallback)  
+WARN  Decompiling 001a514c, pcode error at 001a514c: Unable to disassemble EXTERNAL block location: 001a514c (DecompileCallback)  
+WARN  Decompiling 001a5150, pcode error at 001a5150: Unable to disassemble EXTERNAL block location: 001a5150 (DecompileCallback)  
+WARN  Decompiling 001a5158, pcode error at 001a5158: Unable to disassemble EXTERNAL block location: 001a5158 (DecompileCallback)  
+WARN  Decompiling 001a515c, pcode error at 001a515c: Unable to disassemble EXTERNAL block location: 001a515c (DecompileCallback)  
+WARN  Decompiling 001a5160, pcode error at 001a5160: Unable to disassemble EXTERNAL block location: 001a5160 (DecompileCallback)  
+WARN  Decompiling 001a5164, pcode error at 001a5164: Unable to disassemble EXTERNAL block location: 001a5164 (DecompileCallback)  
+WARN  Decompiling 001a5168, pcode error at 001a5168: Unable to disassemble EXTERNAL block location: 001a5168 (DecompileCallback)  
+WARN  Decompiling 001a516c, pcode error at 001a516c: Unable to disassemble EXTERNAL block location: 001a516c (DecompileCallback)  
+WARN  Decompiling 001a5170, pcode error at 001a5170: Unable to disassemble EXTERNAL block location: 001a5170 (DecompileCallback)  
+WARN  Decompiling 001a5174, pcode error at 001a5174: Unable to disassemble EXTERNAL block location: 001a5174 (DecompileCallback)  
+WARN  Decompiling 001a5178, pcode error at 001a5178: Unable to disassemble EXTERNAL block location: 001a5178 (DecompileCallback)  
+WARN  Decompiling 001a517c, pcode error at 001a517c: Unable to disassemble EXTERNAL block location: 001a517c (DecompileCallback)  
+WARN  Decompiling 001a5180, pcode error at 001a5180: Unable to disassemble EXTERNAL block location: 001a5180 (DecompileCallback)  
+WARN  Decompiling 001a5184, pcode error at 001a5184: Unable to disassemble EXTERNAL block location: 001a5184 (DecompileCallback)  
+WARN  Decompiling 001a5188, pcode error at 001a5188: Unable to disassemble EXTERNAL block location: 001a5188 (DecompileCallback)  
+WARN  Decompiling 001a518c, pcode error at 001a518c: Unable to disassemble EXTERNAL block location: 001a518c (DecompileCallback)  
+WARN  Decompiling 001a5190, pcode error at 001a5190: Unable to disassemble EXTERNAL block location: 001a5190 (DecompileCallback)  
+WARN  Decompiling 001a5194, pcode error at 001a5194: Unable to disassemble EXTERNAL block location: 001a5194 (DecompileCallback)  
+WARN  Decompiling 001a5198, pcode error at 001a5198: Unable to disassemble EXTERNAL block location: 001a5198 (DecompileCallback)  
+WARN  Decompiling 001a519c, pcode error at 001a519c: Unable to disassemble EXTERNAL block location: 001a519c (DecompileCallback)  
+WARN  Decompiling 001a51a0, pcode error at 001a51a0: Unable to disassemble EXTERNAL block location: 001a51a0 (DecompileCallback)  
+WARN  Decompiling 001a51a4, pcode error at 001a51a4: Unable to disassemble EXTERNAL block location: 001a51a4 (DecompileCallback)  
+WARN  Decompiling 001a51a8, pcode error at 001a51a8: Unable to disassemble EXTERNAL block location: 001a51a8 (DecompileCallback)  
+WARN  Decompiling 001a51ac, pcode error at 001a51ac: Unable to disassemble EXTERNAL block location: 001a51ac (DecompileCallback)  
+WARN  Decompiling 001a51b0, pcode error at 001a51b0: Unable to disassemble EXTERNAL block location: 001a51b0 (DecompileCallback)  
+WARN  Decompiling 001a51b4, pcode error at 001a51b4: Unable to disassemble EXTERNAL block location: 001a51b4 (DecompileCallback)  
+WARN  Decompiling 001a51b8, pcode error at 001a51b8: Unable to disassemble EXTERNAL block location: 001a51b8 (DecompileCallback)  
+WARN  Decompiling 001a51bc, pcode error at 001a51bc: Unable to disassemble EXTERNAL block location: 001a51bc (DecompileCallback)  
+WARN  Decompiling 001a51c0, pcode error at 001a51c0: Unable to disassemble EXTERNAL block location: 001a51c0 (DecompileCallback)  
+WARN  Decompiling 001a51c4, pcode error at 001a51c4: Unable to disassemble EXTERNAL block location: 001a51c4 (DecompileCallback)  
+WARN  Decompiling 001a51c8, pcode error at 001a51c8: Unable to disassemble EXTERNAL block location: 001a51c8 (DecompileCallback)  
+WARN  Decompiling 001a51cc, pcode error at 001a51cc: Unable to disassemble EXTERNAL block location: 001a51cc (DecompileCallback)  
+WARN  Decompiling 001a51d0, pcode error at 001a51d0: Unable to disassemble EXTERNAL block location: 001a51d0 (DecompileCallback)  
+WARN  Decompiling 001a51d4, pcode error at 001a51d4: Unable to disassemble EXTERNAL block location: 001a51d4 (DecompileCallback)  
+WARN  Decompiling 001a51d8, pcode error at 001a51d8: Unable to disassemble EXTERNAL block location: 001a51d8 (DecompileCallback)  
+WARN  Decompiling 001a51dc, pcode error at 001a51dc: Unable to disassemble EXTERNAL block location: 001a51dc (DecompileCallback)  
+WARN  Decompiling 001a51e0, pcode error at 001a51e0: Unable to disassemble EXTERNAL block location: 001a51e0 (DecompileCallback)  
+WARN  Decompiling 001a51e4, pcode error at 001a51e4: Unable to disassemble EXTERNAL block location: 001a51e4 (DecompileCallback)  
+WARN  Decompiling 001a51e8, pcode error at 001a51e8: Unable to disassemble EXTERNAL block location: 001a51e8 (DecompileCallback)  
+WARN  Decompiling 001a51ec, pcode error at 001a51ec: Unable to disassemble EXTERNAL block location: 001a51ec (DecompileCallback)  
+WARN  Decompiling 001a51f0, pcode error at 001a51f0: Unable to disassemble EXTERNAL block location: 001a51f0 (DecompileCallback)  
+WARN  Decompiling 001a51f4, pcode error at 001a51f4: Unable to disassemble EXTERNAL block location: 001a51f4 (DecompileCallback)  
+WARN  Decompiling 001a51f8, pcode error at 001a51f8: Unable to disassemble EXTERNAL block location: 001a51f8 (DecompileCallback)  
+WARN  Decompiling 001a51fc, pcode error at 001a51fc: Unable to disassemble EXTERNAL block location: 001a51fc (DecompileCallback)  
+WARN  Decompiling 001a5200, pcode error at 001a5200: Unable to disassemble EXTERNAL block location: 001a5200 (DecompileCallback)  
+WARN  Decompiling 001a5204, pcode error at 001a5204: Unable to disassemble EXTERNAL block location: 001a5204 (DecompileCallback)  
+WARN  Decompiling 001a5208, pcode error at 001a5208: Unable to disassemble EXTERNAL block location: 001a5208 (DecompileCallback)  
+WARN  Decompiling 001a5210, pcode error at 001a5210: Unable to disassemble EXTERNAL block location: 001a5210 (DecompileCallback)  
+WARN  Decompiling 001a5214, pcode error at 001a5214: Unable to disassemble EXTERNAL block location: 001a5214 (DecompileCallback)  
+WARN  Decompiling 001a5218, pcode error at 001a5218: Unable to disassemble EXTERNAL block location: 001a5218 (DecompileCallback)  
+WARN  Decompiling 001a5220, pcode error at 001a5220: Unable to disassemble EXTERNAL block location: 001a5220 (DecompileCallback)  
+WARN  Decompiling 001a5228, pcode error at 001a5228: Unable to disassemble EXTERNAL block location: 001a5228 (DecompileCallback)  
+WARN  Decompiling 001a522c, pcode error at 001a522c: Unable to disassemble EXTERNAL block location: 001a522c (DecompileCallback)  
+WARN  Decompiling 001a5230, pcode error at 001a5230: Unable to disassemble EXTERNAL block location: 001a5230 (DecompileCallback)  
+WARN  Decompiling 001a5234, pcode error at 001a5234: Unable to disassemble EXTERNAL block location: 001a5234 (DecompileCallback)  
+WARN  Decompiling 001a5238, pcode error at 001a5238: Unable to disassemble EXTERNAL block location: 001a5238 (DecompileCallback)  
+WARN  Decompiling 001a523c, pcode error at 001a523c: Unable to disassemble EXTERNAL block location: 001a523c (DecompileCallback)  
+WARN  Decompiling 001a5240, pcode error at 001a5240: Unable to disassemble EXTERNAL block location: 001a5240 (DecompileCallback)  
+WARN  Decompiling 001a5244, pcode error at 001a5244: Unable to disassemble EXTERNAL block location: 001a5244 (DecompileCallback)  
+WARN  Decompiling 001a5248, pcode error at 001a5248: Unable to disassemble EXTERNAL block location: 001a5248 (DecompileCallback)  
+WARN  Decompiling 001a524c, pcode error at 001a524c: Unable to disassemble EXTERNAL block location: 001a524c (DecompileCallback)  
+WARN  Decompiling 001a5250, pcode error at 001a5250: Unable to disassemble EXTERNAL block location: 001a5250 (DecompileCallback)  
+WARN  Decompiling 001a5254, pcode error at 001a5254: Unable to disassemble EXTERNAL block location: 001a5254 (DecompileCallback)  
+INFO  DumpDecompilation.java> Dumped 2628 functions (1 failed) -> /home/asdf/Downloads/ivona_re/out/ghidra_dump/libttsivonavoice.c (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so (HeadlessAnalyzer)  
+INFO  /libttsivonavoice.so: file created (asdf) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libttsivonavoice.so (ivona_v:/libttsivonavoice.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,23 @@
+# voice parameter values in force (read from the plug-in's parameter store at runtime)
+# key	value
+tb_min_distance	int:6
+eng_max_word	int:100
+eng_max_sentence	int:1000
+eng_input_type	str:
+eng_text_encoding	str:UTF-8
+eng_paragraph_break	flt:0.65
+eng_sentence_break	flt:0.4
+pitch_stretch	flt:1
+compress	flt:1
+amplify	flt:1
+pause_base_len	flt:0
+eng_version	str:1.6.23
+language_name	str:US English
+voice_gender	str:Female
+voice_name	str:Kendra
+language_code	str:en-US
+viterbi_beam	int:25
+sample_rate	int:22050
+duration_stretch	flt:1
+# driver: sentence='Hello world, this is a test.' level=3 plugin_base=0x20000000
+# engine: tts_streamer_start(voice, text, -1.0f) (speed = certificate speed)

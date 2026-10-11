@@ -1,0 +1,123 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1173 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @7c711375 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2521 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /home/asdf/.config/ghidra/ghidra_12.1.2_DEV/Extensions/MachineLearning/ghidra_scripts
+    /home/asdf/Downloads/ivona_re/scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/scripts/gp/bridge (HeadlessAnalyzer)  
+INFO  Creating project: /home/asdf/Downloads/ivona_re/scripts/gp/bridge (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/asdf/Downloads/ivona_re/scripts/gp/bridge (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so?MD5=29e39cd635ecb566747589a6069e6f04...
+Setting block .data.rel.ro.local to read-only
+Setting block .fini_array to read-only
+Setting block .init_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libttsivona.so' to imported libraries...
+  [libdl.so] -> not found in project
+  [liblog.so] -> not found in project
+  [libstdc++.so] -> not found in project
+  [libm.so] -> not found in project
+  [libc.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libttsivona.so] - 117 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/asdf-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            2.882 secs
+    ARM Symbol                                 0.004 secs
+    ASCII Strings                              0.491 secs
+    Apply Data Archives                        0.375 secs
+    Call Convention ID                         2.308 secs
+    Call-Fixup Installer                       0.052 secs
+    Create Address Tables                      0.085 secs
+    Create Address Tables - One Time           0.252 secs
+    Create Function                            0.343 secs
+    Data Reference                             0.268 secs
+    Decompiler Switch Analysis                 9.736 secs
+    Demangler GNU                              0.351 secs
+    Disassemble                                1.596 secs
+    Disassemble Entry Points                   1.176 secs
+    Embedded Media                             0.017 secs
+    External Entry References                  0.005 secs
+    Function ID                                0.018 secs
+    Function Start Pre Search                  0.020 secs
+    Function Start Search                      0.234 secs
+    Function Start Search After Code           0.270 secs
+    Function Start Search After Data           0.241 secs
+    Function Start Search delayed - One Time   0.075 secs
+    Non-Returning Functions - Discovered       0.274 secs
+    Non-Returning Functions - Known            0.007 secs
+    Reference                                  0.331 secs
+    Shared Return Calls                        0.099 secs
+    Stack                                      2.497 secs
+    Subroutine References                      0.506 secs
+    Subroutine References - One Time           0.001 secs
+-----------------------------------------------------
+     Total Time   24 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompAt.java '/home/asdf/Downloads/ivona_re/scripts/gap_bridge.c' '0x1f1d4'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/asdf/Downloads/ivona_re/scripts/DecompAt.java (HeadlessAnalyzer)  
+INFO  DecompAt.java> creating function at 0001f1d4 (GhidraScript)  
+WARN  Decompiling 0001f1d4, pcode error at 0001f1d4: Failed to resolve varnode <Rd2>, index=11 (DecompileCallback)  
+INFO  DecompAt.java> done -> /home/asdf/Downloads/ivona_re/scripts/gap_bridge.c (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/asdf/Downloads/ivona_re/out/tts/lib/armeabi/libttsivona.so (HeadlessAnalyzer)  
+INFO  /libttsivona.so: file created (asdf) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libttsivona.so (bridge:/libttsivona.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

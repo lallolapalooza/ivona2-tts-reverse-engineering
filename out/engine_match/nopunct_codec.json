@@ -1,0 +1,1323 @@
+{
+ "text": "Hello world this is a test",
+ "voice": "kendra",
+ "rate": 22050,
+ "codec_rate": 24000,
+ "resampled": false,
+ "obb": "/home/asdf/Downloads/ivona_re/IVONA 2/IVONA Kendra US English beta_v1.6.23.422_apkfab.com/Android/obb/com.ivona.tts.voicebeta.eng.usa.kendra/main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb",
+ "engine_so": "/home/asdf/Downloads/ivona_re/out/libs/kendra/libttsivonavoice.so",
+ "samples": 38783,
+ "tail": 148,
+ "sum_samples": 46228,
+ "concat_flags": [
+  0,
+  1,
+  1,
+  1,
+  0,
+  1,
+  0,
+  1,
+  0,
+  0,
+  1,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  1
+ ],
+ "pause_align": [
+  {
+   "k": 0,
+   "side": "L",
+   "frm": 0,
+   "to": 16,
+   "split": 16,
+   "target": 220,
+   "cur": 2507,
+   "after": [
+    10,
+    1474
+   ]
+  },
+  {
+   "k": 18,
+   "side": "R",
+   "frm": 5,
+   "to": 27,
+   "split": 4,
+   "target": 1102,
+   "cur": 3392,
+   "after": [
+    13,
+    1914
+   ]
+  }
+ ],
+ "stream_chunks": [
+  6615,
+  6615,
+  6615,
+  6615,
+  6615,
+  5708
+ ],
+ "duration_s": 1.6159583333333334,
+ "phones": [
+  "pau",
+  "hh",
+  "ax",
+  "l",
+  "ow",
+  "w",
+  "er",
+  "l",
+  "d",
+  "dh",
+  "ih",
+  "s",
+  "ih",
+  "z",
+  "ax",
+  "t",
+  "eh",
+  "s",
+  "t",
+  "pau"
+ ],
+ "pairs": [
+  "pau-hh",
+  "hh-ax",
+  "ax-l",
+  "l-ow",
+  "ow-w",
+  "w-er",
+  "er-l",
+  "l-d",
+  "d-dh",
+  "dh-ih",
+  "ih-s",
+  "s-ih",
+  "ih-z",
+  "z-ax",
+  "ax-t",
+  "t-eh",
+  "eh-s",
+  "s-t",
+  "t-pau"
+ ],
+ "missing": [],
+ "words": [
+  {
+   "word": "hello",
+   "source": "lex",
+   "phones": [
+    "hh",
+    "ax",
+    "l",
+    "ow"
+   ]
+  },
+  {
+   "word": "world",
+   "source": "lts",
+   "phones": [
+    "w",
+    "er",
+    "l",
+    "d"
+   ]
+  },
+  {
+   "word": "this",
+   "source": "lex",
+   "phones": [
+    "dh",
+    "ih",
+    "s"
+   ]
+  },
+  {
+   "word": "is",
+   "source": "lex",
+   "phones": [
+    "ih",
+    "z"
+   ]
+  },
+  {
+   "word": "a",
+   "source": "lts",
+   "phones": [
+    "ax"
+   ]
+  },
+  {
+   "word": "test",
+   "source": "lts",
+   "phones": [
+    "t",
+    "eh",
+    "s",
+    "t"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "diphone": "pau-hh",
+   "unit": 294435,
+   "n_cand": 1197,
+   "ctx_score": 1,
+   "ctx_ids": [
+    19,
+    27,
+    1,
+    3,
+    2
+   ],
+   "feats": [
+    0,
+    158,
+    0,
+    67
+   ],
+   "dur_ms": 230,
+   "N": 26,
+   "samples": 3834,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148
+   ],
+   "pos_after": 1326,
+   "tail_after": 0,
+   "variant": 780,
+   "cart_left_ms": 10.0,
+   "cart_right_ms": 87.0,
+   "cart_diphone_ms": 96.99999999999999,
+   "target_cost": 17,
+   "join_variant": "join_cost_dash"
+  },
+  {
+   "diphone": "hh-ax",
+   "unit": 294436,
+   "n_cand": 25,
+   "ctx_score": 1,
+   "ctx_ids": [
+    27,
+    1,
+    3,
+    2,
+    43
+   ],
+   "feats": [
+    0,
+    158,
+    188,
+    67
+   ],
+   "dur_ms": 100,
+   "N": 11,
+   "samples": 1537,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    138,
+    85,
+    142,
+    135,
+    152
+   ],
+   "pos_after": 2711,
+   "tail_after": 152,
+   "variant": 13,
+   "cart_left_ms": 87.0,
+   "cart_right_ms": 41.0,
+   "cart_diphone_ms": 128.0,
+   "target_cost": 35,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "ax-l",
+   "unit": 183382,
+   "n_cand": 3070,
+   "ctx_score": 0,
+   "ctx_ids": [
+    8,
+    17,
+    2,
+    28,
+    15
+   ],
+   "feats": [
+    24,
+    148,
+    145,
+    63
+   ],
+   "dur_ms": 40,
+   "N": 12,
+   "samples": 1984,
+   "segs": [
+    139,
+    155,
+    159,
+    164,
+    166,
+    168,
+    171,
+    172,
+    174,
+    175,
+    171,
+    170
+   ],
+   "pos_after": 4525,
+   "tail_after": 170,
+   "variant": 1281,
+   "cart_left_ms": 41.0,
+   "cart_right_ms": 121.0,
+   "cart_diphone_ms": 162.0,
+   "target_cost": 25,
+   "join_variant": "join_cost_gl"
+  },
+  {
+   "diphone": "l-ow",
+   "unit": 174258,
+   "n_cand": 473,
+   "ctx_score": 1,
+   "ctx_ids": [
+    11,
+    2,
+    28,
+    34,
+    39
+   ],
+   "feats": [
+    49,
+    132,
+    132,
+    78
+   ],
+   "dur_ms": 130,
+   "N": 15,
+   "samples": 2317,
+   "segs": [
+    172,
+    170,
+    167,
+    164,
+    161,
+    160,
+    157,
+    157,
+    154,
+    150,
+    146,
+    144,
+    140,
+    140,
+    135
+   ],
+   "pos_after": 6705,
+   "tail_after": 135,
+   "variant": 183,
+   "cart_left_ms": 121.0,
+   "cart_right_ms": 153.0,
+   "cart_diphone_ms": 274.0,
+   "target_cost": 75,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "ow-w",
+   "unit": 117343,
+   "n_cand": 128,
+   "ctx_score": 1,
+   "ctx_ids": [
+    9,
+    16,
+    34,
+    14,
+    42
+   ],
+   "feats": [
+    36,
+    161,
+    168,
+    62
+   ],
+   "dur_ms": 90,
+   "N": 22,
+   "samples": 2953,
+   "segs": [
+    136,
+    137,
+    135,
+    136,
+    134,
+    135,
+    137,
+    137,
+    137,
+    136,
+    135,
+    135,
+    134,
+    132,
+    133,
+    131,
+    132,
+    131,
+    132,
+    132,
+    133,
+    133
+   ],
+   "pos_after": 9524,
+   "tail_after": 0,
+   "variant": 40,
+   "cart_left_ms": 153.0,
+   "cart_right_ms": 141.0,
+   "cart_diphone_ms": 294.0,
+   "target_cost": 72,
+   "join_variant": "join_cost_gl"
+  },
+  {
+   "diphone": "w-er",
+   "unit": 117344,
+   "n_cand": 797,
+   "ctx_score": 1,
+   "ctx_ids": [
+    16,
+    34,
+    14,
+    42,
+    9
+   ],
+   "feats": [
+    33,
+    170,
+    156,
+    61
+   ],
+   "dur_ms": 160,
+   "N": 23,
+   "samples": 3245,
+   "segs": [
+    134,
+    133,
+    134,
+    136,
+    137,
+    136,
+    142,
+    142,
+    142,
+    144,
+    143,
+    143,
+    143,
+    142,
+    144,
+    143,
+    143,
+    144,
+    143,
+    145,
+    144,
+    145,
+    143
+   ],
+   "pos_after": 12626,
+   "tail_after": 143,
+   "variant": 206,
+   "cart_left_ms": 141.0,
+   "cart_right_ms": 134.0,
+   "cart_diphone_ms": 275.0,
+   "target_cost": 15,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "er-l",
+   "unit": 152745,
+   "n_cand": 386,
+   "ctx_score": 2,
+   "ctx_ids": [
+    2,
+    14,
+    42,
+    28,
+    9
+   ],
+   "feats": [
+    31,
+    154,
+    157,
+    66
+   ],
+   "dur_ms": 140,
+   "N": 19,
+   "samples": 2835,
+   "segs": [
+    145,
+    144,
+    145,
+    145,
+    146,
+    146,
+    147,
+    148,
+    147,
+    151,
+    151,
+    153,
+    154,
+    155,
+    154,
+    152,
+    151,
+    152,
+    149
+   ],
+   "pos_after": 15310,
+   "tail_after": 0,
+   "variant": 141,
+   "cart_left_ms": 134.0,
+   "cart_right_ms": 116.0,
+   "cart_diphone_ms": 250.0,
+   "target_cost": 18,
+   "join_variant": "join_cost_gl"
+  },
+  {
+   "diphone": "l-d",
+   "unit": 152746,
+   "n_cand": 849,
+   "ctx_score": 2,
+   "ctx_ids": [
+    14,
+    42,
+    28,
+    9,
+    20
+   ],
+   "feats": [
+    32,
+    149,
+    151,
+    68
+   ],
+   "dur_ms": 100,
+   "N": 13,
+   "samples": 2001,
+   "segs": [
+    149,
+    147,
+    148,
+    146,
+    147,
+    146,
+    153,
+    156,
+    167,
+    157,
+    158,
+    162,
+    165
+   ],
+   "pos_after": 17146,
+   "tail_after": 165,
+   "variant": 286,
+   "cart_left_ms": 116.0,
+   "cart_right_ms": 58.0,
+   "cart_diphone_ms": 174.00000000000003,
+   "target_cost": 25,
+   "join_variant": "join_cost_default"
+  },
+  {
+   "diphone": "d-dh",
+   "unit": 104113,
+   "n_cand": 1117,
+   "ctx_score": 1,
+   "ctx_ids": [
+    20,
+    2,
+    9,
+    11,
+    15
+   ],
+   "feats": [
+    43,
+    140,
+    104,
+    76
+   ],
+   "dur_ms": 100,
+   "N": 11,
+   "samples": 1694,
+   "segs": [
+    167,
+    166,
+    166,
+    167,
+    168,
+    168,
+    165,
+    152,
+    142,
+    85,
+    148
+   ],
+   "pos_after": 18690,
+   "tail_after": 0,
+   "variant": 426,
+   "cart_left_ms": 58.0,
+   "cart_right_ms": 40.0,
+   "cart_diphone_ms": 98.0,
+   "target_cost": 54,
+   "join_variant": "join_cost_default"
+  },
+  {
+   "diphone": "dh-ih",
+   "unit": 104114,
+   "n_cand": 552,
+   "ctx_score": 2,
+   "ctx_ids": [
+    2,
+    9,
+    11,
+    15,
+    8
+   ],
+   "feats": [
+    0,
+    157,
+    46,
+    67
+   ],
+   "dur_ms": 30,
+   "N": 7,
+   "samples": 969,
+   "segs": [
+    147,
+    102,
+    116,
+    134,
+    156,
+    158,
+    156
+   ],
+   "pos_after": 19503,
+   "tail_after": 0,
+   "variant": 150,
+   "cart_left_ms": 40.0,
+   "cart_right_ms": 59.0,
+   "cart_diphone_ms": 99.0,
+   "target_cost": 39,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "ih-s",
+   "unit": 104115,
+   "n_cand": 2077,
+   "ctx_score": 2,
+   "ctx_ids": [
+    9,
+    11,
+    15,
+    8,
+    28
+   ],
+   "feats": [
+    41,
+    146,
+    168,
+    71
+   ],
+   "dur_ms": 40,
+   "N": 13,
+   "samples": 1953,
+   "segs": [
+    156,
+    157,
+    160,
+    160,
+    162,
+    168,
+    170,
+    83,
+    147,
+    147,
+    148,
+    147,
+    148
+   ],
+   "pos_after": 21308,
+   "tail_after": 148,
+   "variant": 366,
+   "cart_left_ms": 59.0,
+   "cart_right_ms": 131.0,
+   "cart_diphone_ms": 190.0,
+   "target_cost": 28,
+   "join_variant": "join_cost_dash"
+  },
+  {
+   "diphone": "s-ih",
+   "unit": 201949,
+   "n_cand": 1302,
+   "ctx_score": 3,
+   "ctx_ids": [
+    11,
+    15,
+    8,
+    15,
+    30
+   ],
+   "feats": [
+    0,
+    134,
+    141,
+    67
+   ],
+   "dur_ms": 120,
+   "N": 16,
+   "samples": 2359,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148,
+    147
+   ],
+   "pos_after": 23520,
+   "tail_after": 0,
+   "variant": 568,
+   "cart_left_ms": 131.0,
+   "cart_right_ms": 72.0,
+   "cart_diphone_ms": 203.0,
+   "target_cost": 9,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "ih-z",
+   "unit": 201950,
+   "n_cand": 1887,
+   "ctx_score": 3,
+   "ctx_ids": [
+    15,
+    8,
+    15,
+    30,
+    2
+   ],
+   "feats": [
+    0,
+    134,
+    168,
+    67
+   ],
+   "dur_ms": 80,
+   "N": 11,
+   "samples": 1768,
+   "segs": [
+    147,
+    148,
+    147,
+    152,
+    205,
+    168,
+    159,
+    160,
+    160,
+    158,
+    164
+   ],
+   "pos_after": 25124,
+   "tail_after": 0,
+   "variant": 848,
+   "cart_left_ms": 72.0,
+   "cart_right_ms": 81.0,
+   "cart_diphone_ms": 153.0,
+   "target_cost": 12,
+   "join_variant": "join_cost_default"
+  },
+  {
+   "diphone": "z-ax",
+   "unit": 201951,
+   "n_cand": 1236,
+   "ctx_score": 2,
+   "ctx_ids": [
+    8,
+    15,
+    30,
+    2,
+    16
+   ],
+   "feats": [
+    47,
+    140,
+    132,
+    74
+   ],
+   "dur_ms": 70,
+   "N": 8,
+   "samples": 1266,
+   "segs": [
+    164,
+    164,
+    158,
+    156,
+    155,
+    154,
+    157,
+    158
+   ],
+   "pos_after": 26232,
+   "tail_after": 158,
+   "variant": 615,
+   "cart_left_ms": 81.0,
+   "cart_right_ms": 61.0,
+   "cart_diphone_ms": 142.00000000000003,
+   "target_cost": 57,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "ax-t",
+   "unit": 356559,
+   "n_cand": 2268,
+   "ctx_score": 0,
+   "ctx_ids": [
+    16,
+    11,
+    2,
+    20,
+    46
+   ],
+   "feats": [
+    51,
+    143,
+    155,
+    71
+   ],
+   "dur_ms": 40,
+   "N": 12,
+   "samples": 1811,
+   "segs": [
+    157,
+    157,
+    155,
+    154,
+    158,
+    145,
+    148,
+    147,
+    147,
+    148,
+    147,
+    148
+   ],
+   "pos_after": 27895,
+   "tail_after": 148,
+   "variant": 1928,
+   "cart_left_ms": 61.0,
+   "cart_right_ms": 124.0,
+   "cart_diphone_ms": 185.0,
+   "target_cost": 52,
+   "join_variant": "join_cost_dash"
+  },
+  {
+   "diphone": "t-eh",
+   "unit": 107796,
+   "n_cand": 771,
+   "ctx_score": 2,
+   "ctx_ids": [
+    11,
+    2,
+    20,
+    5,
+    8
+   ],
+   "feats": [
+    0,
+    141,
+    229,
+    67
+   ],
+   "dur_ms": 100,
+   "N": 22,
+   "samples": 3093,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    141,
+    93,
+    126,
+    125,
+    128,
+    133,
+    133,
+    140,
+    142,
+    146,
+    150,
+    153,
+    156
+   ],
+   "pos_after": 30832,
+   "tail_after": 0,
+   "variant": 163,
+   "cart_left_ms": 124.0,
+   "cart_right_ms": 158.0,
+   "cart_diphone_ms": 282.0,
+   "target_cost": 14,
+   "join_variant": "join_cost_plus"
+  },
+  {
+   "diphone": "eh-s",
+   "unit": 107797,
+   "n_cand": 927,
+   "ctx_score": 3,
+   "ctx_ids": [
+    2,
+    20,
+    5,
+    8,
+    20
+   ],
+   "feats": [
+    40,
+    143,
+    149,
+    71
+   ],
+   "dur_ms": 170,
+   "N": 23,
+   "samples": 3826,
+   "segs": [
+    156,
+    164,
+    168,
+    176,
+    179,
+    182,
+    199,
+    224,
+    127,
+    148,
+    160,
+    210,
+    169,
+    82,
+    211,
+    187,
+    148,
+    198,
+    148,
+    147,
+    148,
+    147,
+    148
+   ],
+   "pos_after": 34510,
+   "tail_after": 0,
+   "variant": 200,
+   "cart_left_ms": 158.0,
+   "cart_right_ms": 147.0,
+   "cart_diphone_ms": 305.0,
+   "target_cost": 4,
+   "join_variant": "join_cost_dash"
+  },
+  {
+   "diphone": "s-t",
+   "unit": 107798,
+   "n_cand": 3643,
+   "ctx_score": 3,
+   "ctx_ids": [
+    20,
+    5,
+    8,
+    20,
+    1
+   ],
+   "feats": [
+    0,
+    125,
+    128,
+    67
+   ],
+   "dur_ms": 160,
+   "N": 18,
+   "samples": 2654,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148,
+    147,
+    148,
+    147
+   ],
+   "pos_after": 37017,
+   "tail_after": 0,
+   "variant": 851,
+   "cart_left_ms": 147.0,
+   "cart_right_ms": 88.0,
+   "cart_diphone_ms": 235.0,
+   "target_cost": 13,
+   "join_variant": "join_cost_dash"
+  },
+  {
+   "diphone": "t-pau",
+   "unit": 107799,
+   "n_cand": 1900,
+   "ctx_score": 3,
+   "ctx_ids": [
+    5,
+    8,
+    20,
+    1,
+    0
+   ],
+   "feats": [
+    0,
+    125,
+    144,
+    67
+   ],
+   "dur_ms": 70,
+   "N": 28,
+   "samples": 4129,
+   "segs": [
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    148,
+    147,
+    147,
+    148,
+    147,
+    148
+   ],
+   "pos_after": 38783,
+   "tail_after": 148,
+   "variant": 609,
+   "cart_left_ms": 88.0,
+   "cart_right_ms": 50.00000074505806,
+   "cart_diphone_ms": 138.00000074505806,
+   "target_cost": 11,
+   "join_variant": "join_cost_default"
+  }
+ ],
+ "prosody": {
+  "durations": [
+   [
+    0.01,
+    0.009999999776482582
+   ],
+   [
+    0.087,
+    0.09699999541044235
+   ],
+   [
+    0.041,
+    0.1379999965429306
+   ],
+   [
+    0.121,
+    0.2590000033378601
+   ],
+   [
+    0.153,
+    0.41200000047683716
+   ],
+   [
+    0.141,
+    0.5529999732971191
+   ],
+   [
+    0.134,
+    0.6869999766349792
+   ],
+   [
+    0.116,
+    0.8029999732971191
+   ],
+   [
+    0.058,
+    0.8609999418258667
+   ],
+   [
+    0.04,
+    0.9009999632835388
+   ],
+   [
+    0.059,
+    0.9599999785423279
+   ],
+   [
+    0.131,
+    1.090999960899353
+   ],
+   [
+    0.072,
+    1.1629999876022339
+   ],
+   [
+    0.081,
+    1.24399995803833
+   ],
+   [
+    0.061,
+    1.3049999475479126
+   ],
+   [
+    0.124,
+    1.428999900817871
+   ],
+   [
+    0.158,
+    1.5869998931884766
+   ],
+   [
+    0.147,
+    1.7339998483657837
+   ],
+   [
+    0.088,
+    1.8219997882843018
+   ],
+   [
+    0.05000000074505806,
+    1.871999740600586
+   ]
+  ],
+  "segments": [
+   "pau",
+   "hh",
+   "ax",
+   "l",
+   "ow",
+   "w",
+   "er",
+   "l",
+   "d",
+   "dh",
+   "ih",
+   "s",
+   "ih",
+   "z",
+   "ax",
+   "t",
+   "eh",
+   "s",
+   "t",
+   "pau"
+  ],
+  "n_cand": [
+   1197,
+   25,
+   3070,
+   473,
+   128,
+   797,
+   386,
+   849,
+   1117,
+   552,
+   2077,
+   1302,
+   1887,
+   1236,
+   2268,
+   771,
+   927,
+   3643,
+   1900
+  ],
+  "n_cand_used": [
+   87,
+   25,
+   119,
+   82,
+   54,
+   116,
+   105,
+   159,
+   131,
+   477,
+   494,
+   123,
+   257,
+   210,
+   253,
+   199,
+   392,
+   623,
+   268
+  ],
+  "beam": 25,
+  "path_cost": 2638,
+  "join_variants": [
+   "join_cost_dash",
+   "join_cost_plus",
+   "join_cost_gl",
+   "join_cost_plus",
+   "join_cost_gl",
+   "join_cost_plus",
+   "join_cost_gl",
+   "join_cost_default",
+   "join_cost_default",
+   "join_cost_plus",
+   "join_cost_dash",
+   "join_cost_plus",
+   "join_cost_default",
+   "join_cost_plus",
+   "join_cost_dash",
+   "join_cost_plus",
+   "join_cost_dash",
+   "join_cost_dash",
+   "join_cost_default"
+  ],
+  "approximations": [
+   [
+    "exact",
+    "0x54/0x58/0x5c ph_vc/ph_cvox/ph_ctype",
+    "static phoneset table of the plug-in (scripts/phoneset.py)"
+   ],
+   [
+    "exact",
+    "0x00 duration (this segment) + the target duration used by the pause-guard term",
+    "zdur_cart CART + the FUN_00048400 pause rules"
+   ],
+   [
+    "exact",
+    "0x04/0x08/0x0c/0x10/0x14 p.p/p/self/n/n.n phone names",
+    "the phoneme chain"
+   ],
+   [
+    "computed",
+    "0x18/0x19 pos_in_syl, 0x20/0x21 pos_in_word, 0x22/0x23 syl_in/out",
+    "our syllabifier (maximal onset over the plug-in's own vowel class)"
+   ],
+   [
+    "computed",
+    "0x1a/0x1d/0x2c stress",
+    "lexicon/LTS digits (0 when absent)"
+   ],
+   [
+    "exact",
+    "0x30/0x38/0x40 gpos (3 slots)",
+    "the plug-in's own closed-class dictionary (word -> tag; default `content`), recovered from its .rodata and parsed by `scripts/gpos_table.py`; validated per word by scripts/validate_gpos.py"
+   ],
+   [
+    "exact",
+    "0x24/0x25 ssyl_in/ssyl_out, 0x26/0x27 ssyl_from/ssyl_to",
+    "stressed-syllable counts and, for 0x26/0x27, the recovered nearest-stressed-syllable distance (`ssyl_distance`, plug-in getters ELF 0x34b74/0x34afc; validated by scripts/validate_ssyl.py)"
+   ],
+   [
+    "approximated",
+    "0x1b/0x1e/0x2d glottal_stop_pos",
+    "not modelled: 0 (no glottal-stop insertion in our phone chain)"
+   ],
+   [
+    "approximated",
+    "0x34/0x3c/0x44/0x45-0x48/0x50/0x51 phrase & word counts",
+    "phrase = one sentence; counts derived from our syllables"
+   ],
+   [
+    "approximated",
+    "0x49/0x4a pos_in_utt/num_phrases",
+    "single phrase utterance"
+   ],
+   [
+    "approximated",
+    "0x4c endtone",
+    "the intonation stage's default (the plug-in's rule is unresolved, report_prosody.md 5.3)"
+   ],
+   [
+    "approximated",
+    "syllable `position_type`/`syl_break`/`accented` (CART features only)",
+    "derived from word/phrase-final position"
+   ]
+  ]
+ }
+}

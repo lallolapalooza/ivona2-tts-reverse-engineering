@@ -1,0 +1,1 @@
+python --sentence That can go to the market --out-dir out/oracle/gpos_case --ret-probe --max-chunks 2

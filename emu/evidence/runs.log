@@ -1,0 +1,132 @@
+### 1) ISEF lexicon container -- FUN_000346d4 vs the pure-Python reference
+$ python emu/run.py --lib out/libs/kendra/libttsivonavoice.so --func FUN_000346d4 --arg str:out/obb/lang_en_us.dat --out '[r0+0x1c]:[r0+0x14]:out/obb/lang_en_us.emu.bin' --verify out/obb/lang_en_us.dec.bin
+[func] FUN_000346d4 -> 0x246d4
+[arg ] str 'out/obb/lang_en_us.dat' -> 0x40006010
+[ret ] r0 = 0x40006030 (1073766448)
+        r0 = 0x40006030
+        r1 = 0x0001219a
+        r2 = 0x00000000
+        r3 = 0x40048270
+        r4 = 0x00000000
+        r5 = 0x00000000
+        r6 = 0x00000000
+        r7 = 0x00000000
+        r8 = 0x00000000
+        r9 = 0x00000000
+        r10 = 0x00000000
+        fp = 0x00000000
+        ip = 0x00185e1c
+        sp = 0x7010f000
+        lr = 0x0004251c
+        pc = 0x70000000
+[out ] 0x40048270+74137 (74137 B)
+[out ] wrote out/obb/lang_en_us.emu.bin
+[verify] out/obb/lang_en_us.dec.bin: MATCH (74137 B vs 74137 B)
+
+### 2) certificate of authenticity -- tts_init with the decoded certificate
+[func] tts_init -> 0x386e0
+[arg ] filez out/certs/ivona_certificate_decoded.txt (1799 B) -> 0x40006010
+[ret ] r0 = 0x40006720 (1073768224)
+        r0 = 0x40006720
+        r1 = 0x7010efd4
+        r2 = 0x00000004
+        r3 = 0x00000001
+        r4 = 0x00000000
+        r5 = 0x00000000
+        r6 = 0x00000000
+[word] [0x18600c + 0] = 0x00000000
+[str ] 0x186010 = 0x186010 -> b''
+
+### 3) negative control: same call, Certificate-ID altered
+[func] tts_init -> 0x386e0
+[arg ] filez /tmp/cert_tampered.txt (1799 B) -> 0x40006010
+[ret ] r0 = 0x0 (0)
+[word] [0x18600c + 0] = 0x00000001
+[str ] 0x186010 = 0x186010 -> b'Certificate signature mismatch'
+
+### 4) gap/unit decode -- FUN_0005f49c -> FUN_0005f064 -> FUN_0005ef70
+[obb ] /home/asdf/Downloads/ivona_re/IVONA 2/IVONA Kendra US English beta_v1.6.23.422_apkfab.com/Android/obb/com.ivona.tts.voicebeta.eng.usa.kendra/main.199.com.ivona.tts.voicebeta.eng.usa.kendra.obb (152219597 B)
+[cdxv] FUN_0005f49c -> 0x400060e0
+        cdxv[ 0] path           = 0x40006130
+        cdxv[ 1] name           = 0x40006200
+        cdxv[ 2] mmap           = 0x40006220
+        cdxv[ 3] +0x0c          = 0x00005622
+        cdxv[ 4] +0x10          = 0x4f7c7a18
+        cdxv[ 5] secA@0x68      = 0x40006298
+        cdxv[ 6] secA_size      = 0x00341f78
+        cdxv[ 7] +0x1c          = 0x413917c8
+        cdxv[ 8] +0x20          = 0x404e8a28
+        cdxv[ 9] +0x24          = 0x4034ff28
+        cdxv[10] +0x28          = 0x40348210
+        cdxv[11] secC_cnt       = 0x00000641
+        cdxv[12] +0x30          = 0x418343c8
+        cdxv[13] codec_init     = 0x00057f94
+        cdxv[14] codec_destroy  = 0x000579e0
+        cdxv[15] codec_decode   = 0x00057db8
+        cdxv[16] secB           = 0x00000000
+        cdxv[17] secB_size      = 0x00000000
+        mmap base = 0x40006230
+        sample_rate   = 22050
+        format_id     = 1333557784
+[db  ] FUN_0005f064 -> 0x41835230
+        db[0]=cdxv 0x400060e0  db[1]=stdio 0x1002  db[2]=codec 0x41835240
+[unit] index 0: dir entry off=0x7fabf03 (133873411) size=76
+[ret ] FUN_0005ef70(db,0) -> 0x4183ade0
+[calls] 47 distinct functions entered
+[wave] obj=0x4183ade0 rate=22050 frames=32 offs=0x4183ae00 pcm=0x4183ae80
+       seg0: sample_off=147 len=147 pcm=0x4183af00
+       seg1: sample_off=295 len=148 pcm=0x4183b030
+       seg2: sample_off=442 len=147 pcm=0x4183b160
+       seg3: sample_off=590 len=148 pcm=0x4183b290
+[wave] total 4537 samples (9074 B, 0.206 s @22050)
+[wave] pcm min=-7989 max=13442 nonzero=4533/4537 first16=(-3, -3, -3, -3, -3, -3, -3, -3, -4, -3, -3, -3, -3, -3, -3, -3)
+[wave] wrote emu/evidence/unit_0.pcm (9074 B)
+[unit] index 1: dir entry off=0x7fabf4f (133873487) size=58
+[ret ] FUN_0005ef70(db,1) -> 0x4183ec60
+[calls] 47 distinct functions entered
+[wave] obj=0x4183ec60 rate=22050 frames=23 offs=0x4183ec80 pcm=0x4183ece0
+       seg0: sample_off=113 len=113 pcm=0x4183ed40
+       seg1: sample_off=223 len=110 pcm=0x4183ee30
+       seg2: sample_off=331 len=108 pcm=0x4183ef10
+       seg3: sample_off=438 len=107 pcm=0x4183eff0
+[wave] total 2715 samples (5430 B, 0.123 s @22050)
+[wave] pcm min=-12017 max=13442 nonzero=2715/2715 first16=(-5862, -7251, -6871, -7184, -6613, -7989, -6966, -7799, -7890, -7048, -7161, -5656, -6388, -4569, -3766, -1272)
+[wave] wrote emu/evidence/unit_1.pcm (5430 B)
+[unit] index 2: dir entry off=0x7fabf89 (133873545) size=68
+[ret ] FUN_0005ef70(db,2) -> 0x41841f40
+[calls] 46 distinct functions entered
+[wave] obj=0x41841f40 rate=22050 frames=28 offs=0x41841f60 pcm=0x41841fd0
+       seg0: sample_off=147 len=147 pcm=0x41842040
+       seg1: sample_off=295 len=148 pcm=0x41842170
+       seg2: sample_off=442 len=147 pcm=0x418422a0
+       seg3: sample_off=590 len=148 pcm=0x418423d0
+[wave] total 3043 samples (6086 B, 0.138 s @22050)
+[wave] pcm min=-7331 max=8294 nonzero=3043/3043 first16=(-228, -840, -1314, -909, -567, -1248, -1028, -44, -45, -97, 179, 114, -541, -255, 11, 165)
+[wave] wrote emu/evidence/unit_2.pcm (6086 B)
+[unit] index 3: dir entry off=0x7fabfcd (133873613) size=78
+[ret ] FUN_0005ef70(db,3) -> 0x41846630
+[calls] 46 distinct functions entered
+[wave] obj=0x41846630 rate=22050 frames=33 offs=0x41846650 pcm=0x418466e0
+       seg0: sample_off=103 len=103 pcm=0x41846770
+       seg1: sample_off=207 len=104 pcm=0x41846840
+       seg2: sample_off=313 len=106 pcm=0x41846910
+       seg3: sample_off=420 len=107 pcm=0x418469f0
+[wave] total 5121 samples (10242 B, 0.232 s @22050)
+[wave] pcm min=-8879 max=8542 nonzero=5121/5121 first16=(27, 266, -335, -1438, -1449, -2895, -3918, -4543, -5890, -5345, -5646, -5340, -4280, -4533, -3916, -4446)
+[wave] wrote emu/evidence/unit_3.pcm (10242 B)
+
+### 5) file-read sites in the unit-decode path (--trace --trace-filter 'fseek|fread')
+[call] fread(0x7010ef80, 0x68, 0x1, 0x1001) lr=0x4f4d4
+[ret ] fread -> 0x1
+[call] fread(0x7010ef88, 0x68, 0x1, 0x1002) lr=0x4f0a8
+[ret ] fread -> 0x1
+[unit] index 0: dir entry off=0x7fabf03 (133873411) size=76
+[call] fseek(0x1002, 0x7fabf03, 0x0, 0x40006298) lr=0x4efa8
+[ret ] fseek -> 0x0
+[call] fread(0x418387d0, 0x1, 0x4c, 0x1002) lr=0x4efbc
+[ret ] fread -> 0x4c
+[call] fseek(0x1002, 0x182e8d8, 0x0, 0x41835240) lr=0x57e78
+[ret ] fseek -> 0x0
+[call] fread(0x41838820, 0x1, 0x23e, 0x1002) lr=0x57e8c
+[ret ] fread -> 0x23e
+[ret ] FUN_0005ef70(db,0) -> 0x4183ade0

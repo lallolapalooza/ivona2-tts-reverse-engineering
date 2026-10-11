@@ -1,0 +1,45 @@
+# --- third-party product assets: NOT redistributed -------------------------
+# The analysis in this repo was produced from a local copy of the application.
+# Supply your own copy of the archive to reproduce anything; nothing here
+# contains or reconstructs the original binaries or voice data.
+IVONA 2/
+*.apk
+*.obb
+*.so
+*.zip
+*.dex
+*.arsc
+out/obb/
+out/gap/
+out/tts_demo/
+out/certs/*.rsa
+
+# --- bulky caches and scratch --------------------------------------------
+# Ghidra project databases (regenerable from the scripts in scripts/ghidra/)
+**/*.rep/
+*.gpr
+*.gbf
+scripts/gp/
+scratch/
+out/ghidra/
+out/ghidra_v/
+out/ghidra_t/
+out/ghidra_l/
+
+# --- generated audio and images ------------------------------------------
+*.wav
+*.pcm
+*.png
+out/oracle/**/*.pcm
+*.raw
+
+# --- large scratch dumps --------------------------------------------------
+m.dis
+lex_all.txt
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# raw engine traces (regenerate: ~/venvs/re/bin/python scripts/probe_viterbi.py --out-dir ...)
+out/oracle/viterbi_probe*/

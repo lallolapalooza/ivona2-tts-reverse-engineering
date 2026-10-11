@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activated">Aktywowany</string>
+    <string name="not_installed">Nie zainstalowano</string>
+    <string name="downloading_voice_data">Pobieranie danych głosu...</string>
+    <string name="download_failed">Pobieranie nie powiodło się</string>
+    <string name="download_aborted">Pobieranie przerwane</string>
+    <string name="download_finished">Pobieranie zakończone</string>
+    <string name="ButtonStop">Stop</string>
+    <string name="TextViewSpeechRate">Szybkość</string>
+    <string name="TextViewPitch">Ton</string>
+    <string name="EditTextInputHint">Wpisz tekst do odsłuchania:</string>
+    <string name="ButtonVoices">Pokaż głosy IVONA</string>
+    <string name="ButtonSettings">Przejdź do ustawień syntezatora mowy</string>
+    <string name="installed">Zainstalowano</string>
+    <string name="wait_checking_voice_data">Proszę czekać... Trwa sprawdzanie danych głosu.</string>
+    <string name="res_lang">pl</string>
+    <string name="ivona_is_not_default">IVONA Text-to-Speech nie jest ustawiony jako domyślny mechanizm syntezy mowy.</string>
+    <string name="go_to_tts_settings">Przejdź do ustawień syntezatora mowy</string>
+    <string name="enter_text">Wpisz tekst do odsłuchania:</string>
+    <string name="link_learn_more_about_ivona">Kliknij tutaj aby dowiedzieć się jak korzystać z głosów IVONA.</string>
+    <string name="link_ivona_faq">Zobacz odpowiedzi na najczęsciej zadawane pytania</string>
+    <string name="updateIvonaVoice">Do poprawnej pracy wymagana jest aktualizacja aplikacji głosu. Kliknij przycisk OK aby przejść do Google Play i pobierz nową wersję głosu IVONA.</string>
+    <string name="updateIvonaHQ">Do poprawnej pracy wymagana jest aktualizacja IVONA HQ. Kliknij przycisk OK aby przejść do Google Play i go zaktualizować.</string>
+    <string name="engine_reload_required">Do poprawnej pracy wymagany jest restart IVONA TTS HQ\n1. Przejdź do ustawień głosu\n2. Rozwiń MECHANIZM DOMYŚLNY\n3. Kliknij na IVONA TTS HQ\n4. Wybierz język głosu\n5. Zrestartuj urządzenie</string>
+    <string name="engine_not_enabled">Do poprawnej pracy wymagane jest włączenie IVONA TTS HQ.\nProszę przejść do ustawień głosu i włączyć IVONA TTS HQ.</string>
+    <string name="engine_activation_error">Wystąpił problem z aktywacją głosu IVONA.</string>
+</resources>
