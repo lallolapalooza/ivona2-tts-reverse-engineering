@@ -1,0 +1,43 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: BDNCy3gIRCYG3fQ5P0Vyq9S3gck=
+
+Name: res/layout/main.xml
+SHA1-Digest: x8yF3z9ClTA5PtQou25auOp6hFo=
+
+Name: lib/armeabi/libtiver.so
+SHA1-Digest: zjzQo5vSD/u1+Xi8Jp+c0yamTps=
+
+Name: res/drawable-mdpi/notify_panel_notification_icon_bg.png
+SHA1-Digest: QPowQyWqKpTaYOjRqs19gE1H4rM=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: GXAzckTsOZ+MSjIbtBNhPiCCasI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: c8eGoRkWzGhzbe2kW/JO26MKSY8=
+
+Name: res/layout/status_bar_ongoing_event_progress_bar.xml
+SHA1-Digest: wy7ZfQeOd676jGxNVQXteVbuwso=
+
+Name: lib/armeabi/libvoice_en_gb_amy.so
+SHA1-Digest: 8z2UO4eCDcvVBRESvxkzfPWWCmM=
+
+Name: lib/armeabi/libttsivonavoice.so
+SHA1-Digest: RIfkCfkt9BrsHxL92gflf0U660I=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: /yWNKBCB1/6Dicjbt59IQ26EpAM=
+
+Name: res/drawable-hdpi/notify_panel_notification_icon_bg.png
+SHA1-Digest: 4etGey1PS5+B6QxONvNsO2coy1Y=
+
+Name: resources.arsc
+SHA1-Digest: ONP5kgUqvZOUPqtnri8j85Nh/sQ=
+
+Name: classes.dex
+SHA1-Digest: T77kJ7X4ZeLnS5bD5vG8Nm6dxI4=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: c41GWUAt3pVBFAPFziFk8ln2xNE=
+

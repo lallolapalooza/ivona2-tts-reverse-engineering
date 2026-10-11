@@ -1,0 +1,5 @@
+# per-segment prosody transforms (waveform stage)
+# FUN_00063540 pitch_stretch, FUN_00062d14 duration_stretch,
+# FUN_00062c54 amplify -- argument r1 (token*voice factor)
+time	0	0
+time	1	1.12103877e-44

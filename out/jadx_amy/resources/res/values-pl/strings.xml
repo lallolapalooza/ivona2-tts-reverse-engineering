@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IVONA Amy Angielski GB beta</string>
+    <string name="notification_download_complete">Pobieranie zakończone</string>
+    <string name="notification_download_failed">Błąd pobierania</string>
+    <string name="state_unknown">Rozpoczynanie...</string>
+    <string name="state_idle">Oczekiwanie na rozpoczęcie pobierania</string>
+    <string name="state_fetching_url">Wyszukiwanie danych do pobrania</string>
+    <string name="state_connecting">Łączenie z serwerem</string>
+    <string name="state_downloading">Pobieranie danych</string>
+    <string name="state_completed">Pobieranie zakończone</string>
+    <string name="state_paused_network_unavailable">Brak połączenia sieciowego. Pobieranie wstrzymane.</string>
+    <string name="state_paused_network_setup_failure">Pobieranie wstrzymane. Sprawdź połączenie w przeglądarce.</string>
+    <string name="state_paused_by_request">Pobieranie wstrzymane</string>
+    <string name="state_paused_wifi_unavailable">Połączenie WiFi niedostępne. Pobieranie wstrzymane.</string>
+    <string name="state_paused_wifi_disabled">WiFi wyłączone. Pobieranie wstrzymane</string>
+    <string name="state_paused_roaming">Dane w roamingu wyłączone. Pobieranie wstrzymane</string>
+    <string name="state_paused_sdcard_unavailable">Nie wykryto karty SD. Pobieranie wstrzymane</string>
+    <string name="state_failed_unlicensed">Aplikacja nie została pobrana z Google Play.</string>
+    <string name="state_failed_fetching_url">Nie znaleziono danych do pobrania.</string>
+    <string name="state_failed_sdcard_full">Za mało wolnej przestrzeni na karcie SD.</string>
+    <string name="state_failed_cancelled">Pobieranie anulowane</string>
+    <string name="state_failed">Błąd pobierania danych</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Pozostało: %1$s</string>
+    <string name="time_remaining_notification">pozostało %1$s</string>
+    <string name="voice_status_checking">Weryfikacja instalacji...</string>
+    <string name="voice_status_not_installed">Nie zainstalowany</string>
+    <string name="voice_status_not_activated">Nie aktywowany</string>
+    <string name="voice_status_activated">Aktywowany</string>
+    <string name="textViewActivateVoice">Głos wymaga aktywacji</string>
+    <string name="buttonActivateVoice">Aktywuj głos</string>
+    <string name="textViewInstallIvonaTts">Do poprawnej pracy wymagana jest aplikacja IVONA Text-to-Speech HQ. Kliknij poniższy przycisk aby przejść do Google Play i ją zainstalować.</string>
+    <string name="textViewUpdateIvonaTts">Do poprawnej pracy wymagana jest aktualizacja aplikacji IVONA Text-to-Speech HQ. Kliknij poniższy przycisk aby przejść do Google Play i ją zaktualizować.</string>
+    <string name="buttonUpdateIvonaTts">Zaktualizuj IVONA Text-to-Speech HQ</string>
+    <string name="res_lang">pl</string>
+    <string name="notify_dwnld_ok">Pobieranie zakończone.</string>
+    <string name="downloadInProgress">Trwa pobieranie plików głosu. O zakończeniu pobierania zostaniesz poinformowany odpowiednim komunikatem.</string>
+    <string name="btnDownloadWithoutWiFi">Chcę pobrać pliki za pomocą pakietowej transmisji danych (GSM).</string>
+    <string name="textViewRecommendWiFi" formatted="false">Wymagane jest pobranie dużej ilości danych (ok. %file_size%MB), dlatego zalecamy użycie połączenia WiFi. Proszę włącz je teraz.</string>
+    <string name="stepDownloadingFilesList">Pobieranie listy plików wymaganych do instalacji głosu.</string>
+    <string name="stepCheckingExistingFile">Sprawdzanie poprawności pobranych plików.</string>
+    <string name="stepDownloadingFile">Proszę czekać, trwa pobieranie plików...</string>
+    <string name="btnInstallTTSExtended">Zainstaluj Text-to-Speech Extended</string>
+    <string name="textViewInstallTTSExtended">Do poprawnej pracy wymagana jest aplikacja Text-to-Speech Extended. Kliknij poniższy przycisk aby przejść do Google Play i ją zainstalować.</string>
+    <string name="textViewDownloadTTSExtended">Do poprawnej pracy wymagana jest aplikacja Text-to-Speech Extended. Kliknij poniższy przycisk aby pobrać program a następnie go zainstaluj.</string>
+    <string name="notify_int_no_free_space">Za mało wolnej przestrzeni w pamięci wbudowaniej urządzenia.</string>
+    <string name="notify_ext_no_free_space">Za mało wolnej przestrzeni na karcie SD.</string>
+    <string name="notify_ext_not_exists">Nie wykryto karty SD. Karta SD jest wymagana do instalacji głosów.</string>
+    <string name="notify_srv_data_failed">Wystąpił problem w komunikacji z serwerem. Proszę sprawdzić czy urządzenie jest podłączone do Internetu.</string>
+    <string name="notify_save_failed">Wystąpił problem w zapisie plików. Zwiększ ilość dostępnego miejsca w urządzeniu i spróbuj ponownie.</string>
+    <string name="notify_failed">Wystąpił problem w działaniu programu. Proszę przeinstalować aplikację.</string>
+    <string name="link_learn_more_about_ivona">Kliknij tutaj aby dowiedzieć się jak korzystać z głosów IVONA.</string>
+    <string name="link_ivona_faq">Zobacz odpowiedzi na najczęsciej zadawane pytania</string>
+    <string name="continue_update">Kliknij aby dokończyć proces instalacji.</string>
+    <string name="market_not_available">Instalacja wymaga Google Play.</string>
+    <string name="notify_init_error">Nieudana inicjalizacja głosu.</string>
+    <string name="btn_pause_download">Wstrzymaj pobieranie</string>
+    <string name="btn_resume_download">Wznów pobieranie</string>
+    <string name="text_paused_cellular" formatted="false">Wymagane jest pobranie dużej ilości danych (ok. %file_size%MB), dlatego zalecamy użycie połączenia WiFi.</string>
+    <string name="text_paused_cellular_2">Użycie pakietowej transmisji danych może spowodować naliczenie dodatkowych opłat przez operatora.</string>
+    <string name="text_button_resume_cellular">Wznów pobieranie za pomocą pakietowej transmisji danych (GSM).</string>
+    <string name="text_button_wifi_settings">Ustawienia Wi-Fi</string>
+    <string name="textViewVoiceName">IVONA Amy Angielski GB beta</string>
+    <string name="textViewVoiceInfo">Angielski UK głos żeński</string>
+</resources>

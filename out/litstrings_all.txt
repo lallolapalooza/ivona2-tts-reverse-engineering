@@ -1,0 +1,151 @@
+0x01c1e6  "IVONATTS"  @ 0x7c564
+0x01c1e8  "TtsEngineWithMarks::getProperty called with NULL property"  @ 0x7c56d
+0x01c1fa  "TtsEngineWithMarks::getProperty called with NULL value"  @ 0x7c5a7
+0x01c208  "TtsEngineWithMarks::getProperty called with NULL iosize"  @ 0x7c5de
+0x01c218  "rate"  @ 0x7c616
+0x01c22a  "%d"  @ 0x7c61b
+0x01c234  "volume"  @ 0x7c61e
+0x01c258  "pitch"  @ 0x7c625
+0x01c2d6  "TtsEngineWithMarks::setProperty called with NULL property"  @ 0x7c62b
+0x01c2ea  "TtsEngineWithMarks::setProperty called with NULL value"  @ 0x7c665
+0x01c3a6  "TtsEngineWithMarks::getLanguage called with NULL language"  @ 0x7c69d
+0x01c3b4  "TtsEngineWithMarks::getLanguage called with NULL country"  @ 0x7c6d7
+0x01c3cc  "TtsEngineWithMarks::getLanguage called with NULL variant"  @ 0x7c710
+0x01c450  "com.ivona.tts/files/"  @ 0x7c749
+0x01c45c  "%s.%s"  @ 0x7c75e
+0x01c46c  "rb"  @ 0x7c764
+0x01c56e  "Cannot load voice junction."  @ 0x7c767
+0x01c5aa  "init called with NULL callback pointer"  @ 0x7c783
+0x01c614  "%s:%s%s"  @ 0x7c7aa
+0x01c672  "get"  @ 0x7c7b2
+0x01c68c  ":def"  @ 0x7c7b6
+0x01c69e  ":min"  @ 0x7c7bb
+0x01c6b0  ":max"  @ 0x7c7c0
+0x01c6ec  "set"  @ 0x7c7c5
+0x01c8b8  "android_version"  @ 0x7c7c9
+0x01ca08  "TtsEngineWithMarks::synthesizeText called with NULL string"  @ 0x7c7d9
+0x01ca2c  "TtsEngineWithMarks::synthesizeText called with NULL buffer"  @ 0x7c814
+0x01ca46  "TtsEngineWithMarks::synthesizeText called but callback not set"  @ 0x7c84f
+0x01ca5a  "TtsEngineWithMarks::synthesizeText called but voice not loaded"  @ 0x7c88e
+0x01ca72  "dur_stretch"  @ 0x7c8cd
+0x01ca92  "pitch_stretch"  @ 0x7c8d9
+0x01cabe  "could not create streamer: %s"  @ 0x7c8e7
+0x01dc06  "deque::_M_new_elements_at_front"  @ 0x7c905
+0x01dcca  "deque::_M_new_elements_at_back"  @ 0x7c925
+0x01e7aa  "%s_%s"  @ 0x7c944
+0x01e942  "TtsEngineWithMarks::loadLanguage called with NULL language"  @ 0x7c94a
+0x01e9d2  "com.ivona.tts"  @ 0x7c985
+0x01e9dc  ".voicebeta."  @ 0x7c993
+0x01e9f0  "."  @ 0x7c99f
+0x01eaf2  "could not load voice: %s"  @ 0x7c9a1
+0x01eb1a  "no voice matching requested locale found"  @ 0x7c9ba
+0x01eb38  "could not load any available voice"  @ 0x7c9e3
+0x01eb56  "set:quality"  @ 0x7ca06
+0x01eb70  "could not adjust quality: %s"  @ 0x7ca12
+0x01eb7e  "set:responsiveness"  @ 0x7ca2f
+0x01eb94  "could not adjust responsiveness: %s"  @ 0x7ca42
+0x01eba2  "set:volume:max"  @ 0x7ca66
+0x01ebb8  "could not adjust volume: %s"  @ 0x7ca75
+0x01ebc6  "set:contrast"  @ 0x7ca91
+0x01ebdc  "could not set contrast: %s"  @ 0x7ca9e
+0x01ee50  "Failed to get voice handle."  @ 0x7cab9
+0x01f71c  "create socket error (%d)(%s)"  @ 0x7cad5
+0x01f776  "Error connection to the service (%d)(%s)."  @ 0x7caf2
+0x01f7bc  "Invalid connection to the service (%d)(%s)."  @ 0x7cb1c
+0x01f854  "%s.%u.log"  @ 0x7cb48
+0x01f868  "%s.log"  @ 0x7cb52
+0x01faea  "java/util/ArrayList"  @ 0x7cb59
+0x01fafe  "arrayClass"  @ 0x7cb6d
+0x01fb1e  "clear"  @ 0x7cb78
+0x01fb20  "()V"  @ 0x7cb7e
+0x01fb3a  "arrayClear"  @ 0x7cb82
+0x01fb7c  "add"  @ 0x7cb8d
+0x01fb7e  "(Ljava/lang/Object;)Z"  @ 0x7cb91
+0x01fb9a  "ArrayList.add()"  @ 0x7cba7
+0x01fbb4  "android/speech/tts/SpeechMark"  @ 0x7cbb7
+0x01fbcc  "SpeechMark"  @ 0x7cbd5
+0x01fbe8  "<init>"  @ 0x7cbe0
+0x01fc06  "SpeenMark.<init>"  @ 0x7cbe7
+0x01fc22  "type"  @ 0x7cbf8
+0x01fc24  "I"  @ 0x7cbfd
+0x01fc40  "SpeechMark.type"  @ 0x7cbff
+0x01fc5c  "sampleOffset"  @ 0x7cc0f
+0x01fc5e  "J"  @ 0x7cc1c
+0x01fc7a  "SpeechMark.sampleOffset"  @ 0x7cc1e
+0x01fc96  "name"  @ 0x7cc36
+0x01fc98  "Ljava/lang/String;"  @ 0x7cc3b
+0x01fcb4  "SpeechMark.name"  @ 0x7cc4e
+0x01fcd0  "startTextOffset"  @ 0x7cc5e
+0x01fcee  "SpeechMark.startTextOffset"  @ 0x7cc6e
+0x01fd0a  "endTextOffset"  @ 0x7cc89
+0x01fd2a  "SpeechMark.endTextOffset"  @ 0x7cc97
+0x020010  "marks error: %s"  @ 0x7ccb0
+0x0201e0  "audioAvailableClbk"  @ 0x7ccc0
+0x0201e2  "(II)I"  @ 0x7ccd3
+0x020338  "IVONA_DIR"  @ 0x7ccd9
+0x02033e  "java/lang/String"  @ 0x7cd0c
+0x020342  "0ff4b2c4fa69f57df9ccbe30ee665658f7b1ee49"  @ 0x7cce3
+0x0204dc  "Could not prepare runtime"  @ 0x7cd1d
+0x020aca  ">"  @ 0x7cd72
+0x020af2  "?>"  @ 0x7cd74
+0x020b1a  "-->"  @ 0x7cd77
+0x020b4e  "]]>"  @ 0x7cd7b
+0x020b6e  "<"  @ 0x7cd7f
+0x02107a  "%u"  @ 0x7cd81
+0x0210b0  "%f"  @ 0x7cd84
+0x021134  "true"  @ 0x7cd87
+0x02114a  "false"  @ 0x7cd8c
+0x021186  "%lf"  @ 0x7cd92
+0x021c9a  "%s"  @ 0x7cd96
+0x021cb8  "XMLDocument error id=%d str1=%s str2=%s
+"  @ 0x7cd99
+0x021e1a  "w"  @ 0x7cdc2
+0x021eaa  "    "  @ 0x7cdc4
+0x021ee4  "%c"  @ 0x7cdc9
+0x021f24  "&%s;"  @ 0x7cdcc
+0x021f7a  " %s=""  @ 0x7cdd1
+0x021f90  """  @ 0x7cdd7
+0x0220b2  "/>"  @ 0x7cdd9
+0x0220c8  "
+"  @ 0x7cddc
+0x0220dc  "</%s>"  @ 0x7cdde
+0x02215c  "<![CDATA["  @ 0x7cde4
+0x02230c  "<!--%s-->"  @ 0x7cdee
+0x022374  "<?%s?>"  @ 0x7cdf8
+0x0223c0  "xml version="1.0""  @ 0x7cdff
+0x022430  "<!%s>"  @ 0x7ce11
+0x0224e4  "<%s"  @ 0x7ce17
+0x02264e  "xml version="1.0" encoding="UTF-8""  @ 0x7ce1b
+0x0228ba  "<?"  @ 0x7ce3e
+0x0228e4  "<!--"  @ 0x7ce41
+0x02295c  "<!"  @ 0x7ce46
+0x022e4e  "package"  @ 0x7ce5d
+0x022ece  "/etc/ivona/ivona_config.xml"  @ 0x7ce65
+0x022ee2  "ivona_config"  @ 0x7ce81
+0x022f06  "global"  @ 0x7ce8e
+0x022f40  "packages"  @ 0x7ce95
+0x023194  "voice_data"  @ 0x7ce9e
+0x0231aa  "voice_lib"  @ 0x7cea9
+0x0231c0  "lex_dir"  @ 0x7ceb3
+0x0231d6  "ca"  @ 0x7cebb
+0x023330  "could not prepare data for TTS instance"  @ 0x7cebe
+0x023346  "could not init TTS instance: %s"  @ 0x7cee6
+0x023402  "Failed to determine version of IVONA"  @ 0x7cf06
+0x02357e  "/lib/libttsivonavoice.so"  @ 0x7cf2b
+0x0235b2  "Cannot open library: %s"  @ 0x7cf44
+0x0235be  "v"  @ 0x7cf5c
+0x0235d0  "Cannot use voice library"  @ 0x7cf5e
+0x023772  "ivona/"  @ 0x7cf77
+0x02377e  "Android/obb/"  @ 0x7cf7e
+0x0237f8  "h"  @ 0x7cf9c
+0x023842  "%d;%d;"  @ 0x7cf9e
+0x02387a  ";"  @ 0x7cfa5
+0x02388e  ";%d"  @ 0x7cfa7
+0x0238d2  "/lib/libtiver.so"  @ 0x7cf8b
+0x023c48  "/lib/"  @ 0x7cfab
+0x023d06  "/"  @ 0x7cfb1
+0x023d34  "An error occured on determinig path to vox file."  @ 0x7cfb3
+0x0240ee  "ivona_pkgs.csv"  @ 0x7cfe4
+0x0243fc  "(%d) %s"  @ 0x7cff3
+0x024458  "/data/data/"  @ 0x7cffb
+0x024468  "/sdcard/"  @ 0x7d007

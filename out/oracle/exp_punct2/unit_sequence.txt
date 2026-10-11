@@ -1,0 +1,25 @@
+# index	unit_id	diphone	diphone_idx	variant	diphone_dur_ms	cum_ms	from
+# unit_id = FUN_0005ef70 arg2 (voxdb waveform record index)
+# diphone = section A name of the diphone owning this unit (section B inverse)
+# variant = position within that diphone's section-B list
+0	294435	pau-hh	1175	780	70	70	voxdb
+1	294436	hh-ax	596	13	130	200	voxdb
+2	404271	ax-l	184	2906	100	300	voxdb
+3	146764	l-ow	796	149	100	400	voxdb
+4	146765	ow-k	1064	92	140	540	voxdb
+5	226688	k-aa	730	313	120	660	voxdb
+6	226689	aa-m	21	139	100	760	voxdb
+7	188651	m-ax	854	556	260	1020	voxdb
+8	288514	ax-d	171	1357	30	1050	voxdb
+9	288515	d-aa	324	331	60	1110	voxdb
+10	287098	aa-t	29	683	250	1360	voxdb
+11	23242	t-dh	1334	76	60	1420	voxdb
+12	23243	dh-ih	383	40	120	1540	voxdb
+13	23244	ih-s	625	68	50	1590	voxdb
+14	161623	s-ih	1255	429	70	1660	voxdb
+15	161624	ih-z	631	637	110	1770	voxdb
+16	240346	z-ax	1529	736	60	1830	voxdb
+17	147101	ax-d	171	684	30	1860	voxdb
+18	147102	d-aa	324	149	60	1920	voxdb
+19	187699	aa-t	29	455	250	2170	voxdb
+20	187700	t-pau	1354	874	110	2280	voxdb

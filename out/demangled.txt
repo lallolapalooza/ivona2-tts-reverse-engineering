@@ -1,0 +1,196 @@
+__cxxabiv1::__class_type_info::~__class_type_info()
+__cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+__cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+__cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+__cxxabiv1::__forced_unwind::~__forced_unwind()
+__cxxabiv1::__foreign_exception::~__foreign_exception()
+__cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+__cxxabiv1::__pbase_type_info::~__pbase_type_info()
+__cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+__cxxabiv1::__pointer_type_info::~__pointer_type_info()
+__cxxabiv1::__pointer_type_info::__is_pointer_p() const
+__cxxabiv1::__pointer_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+__cxxabiv1::__si_class_type_info::~__si_class_type_info()
+__cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+__cxxabiv1::__terminate_handler
+__cxxabiv1::__terminate(void (*)())
+__cxxabiv1::__unexpected_handler
+__cxxabiv1::__unexpected(void (*)())
+__cxxabiv1::__vmi_class_type_info::~__vmi_class_type_info()
+__cxxabiv1::__vmi_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__vmi_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__vmi_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+typeinfo for bool
+typeinfo for bool*
+typeinfo for bool const*
+typeinfo for char
+typeinfo for char*
+typeinfo for char16_t
+typeinfo for char16_t*
+typeinfo for char16_t const*
+typeinfo for char32_t
+typeinfo for char32_t*
+typeinfo for char32_t const*
+typeinfo for char const*
+typeinfo for __cxxabiv1::__class_type_info
+typeinfo for __cxxabiv1::__forced_unwind
+typeinfo for __cxxabiv1::__foreign_exception
+typeinfo for __cxxabiv1::__fundamental_type_info
+typeinfo for __cxxabiv1::__pbase_type_info
+typeinfo for __cxxabiv1::__pointer_type_info
+typeinfo for __cxxabiv1::__si_class_type_info
+typeinfo for __cxxabiv1::__vmi_class_type_info
+typeinfo for decimal128
+typeinfo for decimal128*
+typeinfo for decimal128 const*
+typeinfo for decimal32
+typeinfo for decimal32*
+typeinfo for decimal32 const*
+typeinfo for decimal64
+typeinfo for decimal64*
+typeinfo for decimal64 const*
+typeinfo for decltype(nullptr)
+typeinfo for decltype(nullptr)*
+typeinfo for decltype(nullptr) const*
+typeinfo for double
+typeinfo for double*
+typeinfo for double const*
+typeinfo for float
+typeinfo for float*
+typeinfo for float const*
+typeinfo for int
+typeinfo for int*
+typeinfo for int const*
+typeinfo for long
+typeinfo for long*
+typeinfo for long const*
+typeinfo for long double
+typeinfo for long double*
+typeinfo for long double const*
+typeinfo for long long
+typeinfo for long long*
+typeinfo for long long const*
+typeinfo for short
+typeinfo for short*
+typeinfo for short const*
+typeinfo for signed char
+typeinfo for signed char*
+typeinfo for signed char const*
+typeinfo for unsigned char
+typeinfo for unsigned char*
+typeinfo for unsigned char const*
+typeinfo for unsigned int
+typeinfo for unsigned int*
+typeinfo for unsigned int const*
+typeinfo for unsigned long
+typeinfo for unsigned long*
+typeinfo for unsigned long const*
+typeinfo for unsigned long long
+typeinfo for unsigned long long*
+typeinfo for unsigned long long const*
+typeinfo for unsigned short
+typeinfo for unsigned short*
+typeinfo for unsigned short const*
+typeinfo for void
+typeinfo for void*
+typeinfo for void const*
+typeinfo for wchar_t
+typeinfo for wchar_t*
+typeinfo for wchar_t const*
+typeinfo name for bool
+typeinfo name for bool*
+typeinfo name for bool const*
+typeinfo name for char
+typeinfo name for char*
+typeinfo name for char16_t
+typeinfo name for char16_t*
+typeinfo name for char16_t const*
+typeinfo name for char32_t
+typeinfo name for char32_t*
+typeinfo name for char32_t const*
+typeinfo name for char const*
+typeinfo name for __cxxabiv1::__class_type_info
+typeinfo name for __cxxabiv1::__forced_unwind
+typeinfo name for __cxxabiv1::__foreign_exception
+typeinfo name for __cxxabiv1::__fundamental_type_info
+typeinfo name for __cxxabiv1::__pbase_type_info
+typeinfo name for __cxxabiv1::__pointer_type_info
+typeinfo name for __cxxabiv1::__si_class_type_info
+typeinfo name for __cxxabiv1::__vmi_class_type_info
+typeinfo name for decimal128
+typeinfo name for decimal128*
+typeinfo name for decimal128 const*
+typeinfo name for decimal32
+typeinfo name for decimal32*
+typeinfo name for decimal32 const*
+typeinfo name for decimal64
+typeinfo name for decimal64*
+typeinfo name for decimal64 const*
+typeinfo name for decltype(nullptr)
+typeinfo name for decltype(nullptr)*
+typeinfo name for decltype(nullptr) const*
+typeinfo name for double
+typeinfo name for double*
+typeinfo name for double const*
+typeinfo name for float
+typeinfo name for float*
+typeinfo name for float const*
+typeinfo name for int
+typeinfo name for int*
+typeinfo name for int const*
+typeinfo name for long
+typeinfo name for long*
+typeinfo name for long const*
+typeinfo name for long double
+typeinfo name for long double*
+typeinfo name for long double const*
+typeinfo name for long long
+typeinfo name for long long*
+typeinfo name for long long const*
+typeinfo name for short
+typeinfo name for short*
+typeinfo name for short const*
+typeinfo name for signed char
+typeinfo name for signed char*
+typeinfo name for signed char const*
+typeinfo name for unsigned char
+typeinfo name for unsigned char*
+typeinfo name for unsigned char const*
+typeinfo name for unsigned int
+typeinfo name for unsigned int*
+typeinfo name for unsigned int const*
+typeinfo name for unsigned long
+typeinfo name for unsigned long*
+typeinfo name for unsigned long const*
+typeinfo name for unsigned long long
+typeinfo name for unsigned long long*
+typeinfo name for unsigned long long const*
+typeinfo name for unsigned short
+typeinfo name for unsigned short*
+typeinfo name for unsigned short const*
+typeinfo name for void
+typeinfo name for void*
+typeinfo name for void const*
+typeinfo name for wchar_t
+typeinfo name for wchar_t*
+typeinfo name for wchar_t const*
+void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, int* const&)
+void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, int* const&)
+void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, int* const&)
+void std::deque<boost::shared_ptr<CVoiceDataSimple>, std::allocator<boost::shared_ptr<CVoiceDataSimple> > >::insert<std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*> >(std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>)
+void std::deque<boost::shared_ptr<CVoiceDataSimple>, std::allocator<boost::shared_ptr<CVoiceDataSimple> > >::_M_insert_aux<std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*> >(std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, unsigned int)
+void std::deque<boost::shared_ptr<CVoiceDataSimple>, std::allocator<boost::shared_ptr<CVoiceDataSimple> > >::_M_range_insert_aux<std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*> >(std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::forward_iterator_tag)
+void std::_Destroy<std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*> >(std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>)
+void std::_Destroy_aux<false>::__destroy<std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*> >(std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>, std::_Deque_iterator<boost::shared_ptr<CVoiceDataSimple>, boost::shared_ptr<CVoiceDataSimple>&, boost::shared_ptr<CVoiceDataSimple>*>)
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__forced_unwind
+vtable for __cxxabiv1::__foreign_exception
+vtable for __cxxabiv1::__fundamental_type_info
+vtable for __cxxabiv1::__pbase_type_info
+vtable for __cxxabiv1::__pointer_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info

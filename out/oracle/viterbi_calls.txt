@@ -1,0 +1,4 @@
+# call#	r1	r2
+# FUN_0005fc04(graph, viterbi_beam) entry registers
+0	0x19	4294967295
+1	0x19	4294967295

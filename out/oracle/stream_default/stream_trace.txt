@@ -1,0 +1,71 @@
+# streamer waveform-assembly trace
+# splice = FUN_00061620(streamer, unit_obj, flag); finalize = FUN_000618a8(streamer, want, events);
+# pad = FUN_00061804(streamer, buf, n); trim = FUN_00063350/62718 (pau silence padding/trimming)
+trim   setlen(seg 0..16) = 220  (N=26 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1769, 1917, 2064, 2212, 2359, 2507, 2654, 2802, 2949, 3097, 3244, 3392, 3539, 3686, 3834])
+      -> after setlen: N=10 total=1474 pms=[147, 294, 442, 589, 737, 884, 1032, 1179, 1326, 1474]
+splice #0 unit=294435 flag=0 N=10 pos=0 tail=0 total=0 pms=[147, 294, 442, 589, 737, 884, 1032, 1179, 1326, 1474]
+      -> written=1326 pos=1326 tail=0 total=1326
+splice #1 unit=294436 flag=1 N=11 pos=1326 tail=0 total=1326 pms=[147, 295, 442, 590, 737, 885, 1023, 1108, 1250, 1385, 1537]
+      -> written=1385 pos=2711 tail=152 total=2711
+splice #2 unit=183382 flag=1 N=12 pos=2711 tail=152 total=2711 pms=[139, 294, 453, 617, 783, 951, 1122, 1294, 1468, 1643, 1814, 1984]
+      -> written=1814 pos=4525 tail=170 total=4525
+splice #3 unit=174258 flag=1 N=15 pos=4525 tail=170 total=4525 pms=[172, 342, 509, 673, 834, 994, 1151, 1308, 1462, 1612, 1758, 1902, 2042, 2182, 2317]
+      -> written=2180 pos=6705 tail=135 total=6705
+finalize want=6615 pos0=6705 tail0=135 -> n=6615 pos=90 tail=135 total=6705
+splice #4 unit=117343 flag=0 N=22 pos=90 tail=135 total=6705 pms=[136, 273, 408, 544, 678, 813, 950, 1087, 1224, 1360, 1495, 1630, 1764, 1896, 2029, 2160, 2292, 2423, 2555, 2687, 2820, 2953]
+      -> written=2819 pos=2909 tail=0 total=9524
+splice #5 unit=117344 flag=1 N=23 pos=2909 tail=0 total=9524 pms=[134, 267, 401, 537, 674, 810, 952, 1094, 1236, 1380, 1523, 1666, 1809, 1951, 2095, 2238, 2381, 2525, 2668, 2813, 2957, 3102, 3245]
+      -> written=3102 pos=6011 tail=143 total=12626
+splice #6 unit=85693 flag=1 N=19 pos=6011 tail=143 total=12626 pms=[146, 292, 437, 583, 728, 874, 1020, 1166, 1313, 1459, 1607, 1754, 1900, 2048, 2195, 2341, 2489, 2636, 2784]
+      -> written=2633 pos=8644 tail=148 total=15259
+finalize want=6615 pos0=8644 tail0=148 -> n=6615 pos=2029 tail=148 total=15259
+splice #7 unit=199125 flag=0 N=17 pos=2029 tail=148 total=15259 pms=[149, 296, 445, 594, 743, 892, 1042, 1191, 1340, 1490, 1640, 1793, 1950, 2114, 2267, 2420, 2573]
+      -> written=2419 pos=4448 tail=0 total=17678
+splice #8 unit=199126 flag=1 N=14 pos=4448 tail=0 total=17678 pms=[153, 294, 441, 588, 736, 883, 1031, 1178, 1326, 1473, 1621, 1768, 1916, 2063]
+      -> written=1916 pos=6364 tail=147 total=19594
+splice #9 unit=319900 flag=0 N=18 pos=6364 tail=147 total=19594 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1320, 1450, 1597, 1750, 1891, 2040, 2177, 2312, 2445, 2583]
+      -> written=2445 pos=8809 tail=0 total=22039
+finalize want=6615 pos0=8809 tail0=0 -> n=6615 pos=2194 tail=0 total=22039
+splice #10 unit=319901 flag=1 N=17 pos=2194 tail=0 total=22039 pms=[138, 271, 408, 544, 681, 819, 955, 1093, 1231, 1368, 1506, 1645, 1787, 1936, 2085, 2224, 2372]
+      -> written=2224 pos=4418 tail=148 total=24263
+finalize want=6615 pos0=4418 tail0=148 -> n=4418 pos=0 tail=148 total=24263
+splice #11 unit=200147 flag=1 N=11 pos=0 tail=148 total=24263 pms=[147, 294, 440, 588, 736, 883, 1034, 1188, 1344, 1501, 1662]
+      -> written=1501 pos=1501 tail=161 total=25764
+splice #12 unit=198719 flag=1 N=9 pos=1501 tail=161 total=25764 pms=[158, 318, 477, 635, 797, 962, 1134, 1306, 1475]
+      -> written=1306 pos=2807 tail=169 total=27070
+finalize want=2197 pos0=2807 tail0=169 -> n=2197 pos=610 tail=169 total=27070
+splice #13 unit=49167 flag=0 N=11 pos=610 tail=169 total=27070 pms=[172, 336, 491, 638, 775, 905, 1029, 1151, 1269, 1385, 1501]
+      -> written=1382 pos=1992 tail=0 total=28452
+splice #14 unit=49168 flag=1 N=19 pos=1992 tail=0 total=28452 pms=[116, 229, 342, 451, 560, 666, 773, 879, 985, 1091, 1200, 1309, 1422, 1606, 1753, 1900, 2048, 2195, 2343]
+      -> written=2195 pos=4187 tail=148 total=30647
+splice #15 unit=409908 flag=0 N=16 pos=4187 tail=148 total=30647 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1769, 1917, 2064, 2212, 2359]
+      -> written=2212 pos=6399 tail=0 total=32859
+splice #16 unit=409909 flag=0 N=15 pos=6399 tail=0 total=32859 pms=[147, 295, 442, 593, 708, 809, 934, 1058, 1180, 1305, 1430, 1560, 1692, 1825, 1957]
+      -> written=1825 pos=8224 tail=0 total=34684
+finalize want=6615 pos0=8224 tail0=0 -> n=6615 pos=1609 tail=0 total=34684
+splice #17 unit=409910 flag=1 N=11 pos=1609 tail=0 total=34684 pms=[132, 263, 394, 522, 650, 777, 904, 1031, 1160, 1291, 1422]
+      -> written=1291 pos=2900 tail=131 total=35975
+splice #18 unit=265691 flag=1 N=13 pos=2900 tail=131 total=35975 pms=[131, 263, 394, 544, 692, 823, 970, 1118, 1265, 1413, 1560, 1708, 1855]
+      -> written=1708 pos=4608 tail=147 total=37683
+splice #19 unit=237952 flag=0 N=17 pos=4608 tail=147 total=37683 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1630, 1756, 1881, 2008, 2135, 2257, 2377]
+      -> written=2257 pos=6865 tail=0 total=39940
+finalize want=6615 pos0=6865 tail0=0 -> n=6615 pos=250 tail=0 total=39940
+splice #20 unit=237953 flag=1 N=17 pos=250 tail=0 total=39940 pms=[120, 240, 360, 481, 604, 725, 852, 978, 1108, 1242, 1378, 1519, 1666, 1814, 1900, 2048, 2195]
+      -> written=2048 pos=2298 tail=147 total=41988
+finalize want=6615 pos0=2298 tail0=147 -> n=2298 pos=0 tail=147 total=41988
+splice #21 unit=237954 flag=1 N=13 pos=0 tail=147 total=41988 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1770, 1917]
+      -> written=1770 pos=1770 tail=147 total=43758
+splice #22 unit=260981 flag=1 N=7 pos=1770 tail=147 total=43758 pms=[147, 295, 442, 590, 737, 885, 1032]
+      -> written=885 pos=2655 tail=147 total=44643
+splice #23 unit=95687 flag=1 N=21 pos=2655 tail=147 total=44643 pms=[147, 295, 442, 565, 697, 859, 1024, 1192, 1367, 1545, 1728, 1914, 2104, 2296, 2488, 2679, 2871, 3057, 3245, 3434, 3622]
+      -> written=3434 pos=6089 tail=188 total=48077
+finalize want=4317 pos0=6089 tail0=188 -> n=4317 pos=1772 tail=188 total=48077
+splice #24 unit=40106 flag=0 N=18 pos=1772 tail=188 total=48077 pms=[190, 382, 572, 763, 954, 1145, 1348, 1578, 1803, 1990, 2186, 2333, 2481, 2628, 2776, 2923, 3070, 3218]
+      -> written=3068 pos=4840 tail=0 total=51145
+trim   setlen(seg 10..29) = 1102  (N=30 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1770, 1917, 2064, 2212, 2359, 2507, 2654, 2802, 2949, 3097, 3244, 3392, 3539, 3686, 3834, 3981, 4129, 4276, 4424])
+      -> after setlen: N=18 total=2651 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1769, 1916, 2063, 2210, 2357, 2504, 2651]
+splice #25 unit=40107 flag=1 N=18 pos=4840 tail=0 total=51145 pms=[147, 295, 442, 590, 737, 885, 1032, 1180, 1327, 1475, 1622, 1769, 1916, 2063, 2210, 2357, 2504, 2651]
+      -> written=2504 pos=7344 tail=147 total=53649
+finalize want=6615 pos0=7344 tail0=147 -> n=6615 pos=729 tail=147 total=53649
+finalize want=6615 pos0=729 tail0=147 -> n=729 pos=0 tail=147 total=53649
+finalize want=5886 pos0=0 tail0=147 -> n=0 pos=0 tail=147 total=53649

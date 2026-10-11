@@ -1,0 +1,4893 @@
+   2565 __cxa_finalize
+   2574 __cxa_atexit
+   2581 _ZN9CIvonaTTSC2Ev
+   2593 tts_vendor_tag
+   25a2 tts_errno
+   25ac tts_errmsg
+   25b7 tts_init
+   25c0 tts_create
+   25cb tts_load_certificate_file
+   25e5 tts_load_certificate
+   25fa tts_destroy
+   2606 tts_certificate_get
+   261a tts_certificate_get_single
+   2635 tts_load_voice
+   2644 tts_unload_voice
+   2655 tts_voice_param
+   2665 tts_voice_sample_rate
+   267b tts_dict_insert
+   268b tts_dict_remove
+   269b tts_dict_save
+   26a9 tts_dict_load
+   26b7 tts_dict_num_entries
+   26cc tts_dict_cleanup
+   26dd tts_pls_load
+   26ea tts_pls_unload
+   26f9 tts_streamer_start
+   270c tts_streamer_stop
+   271e tts_streamer_jump
+   2730 tts_streamer_add_voice
+   2747 tts_streamer_synth0
+   275b tts_streamer_synth
+   276e tts_wave_delete
+   277e tts_get_input_warning
+   2794 __aeabi_unwind_cpp_pr0
+   27ad __cxa_guard_acquire
+   27c1 _ZN9CIvonaTTSC1Ev
+   27d3 __cxa_guard_release
+   27e7 __cxa_guard_abort
+   27f9 __cxa_end_cleanup
+   280b _Z14android_syslogiPKcz
+   2823 gettid
+   282a snprintf
+   2833 __android_log_vprint
+   2848 __stack_chk_fail
+   2859 __stack_chk_guard
+   286b __aeabi_unwind_cpp_pr1
+   2882 __gnu_end_cleanup
+   2894 _Unwind_Resume
+   28a3 __cxa_type_match
+   28b4 __cxa_bad_typeid
+   28c5 _ZTIN10__cxxabiv119__foreign_exceptionE
+   28ed _ZTIPv
+   28f4 _ZTIv
+   28fa _ZTIN10__cxxabiv115__forced_unwindE
+   291e __cxa_begin_cleanup
+   2932 __cxa_get_globals
+   2944 _ZSt9terminatev
+   2954 __cxa_bad_cast
+   2963 __cxa_allocate_exception
+   297c __cxa_throw
+   2988 _ZTVSt8bad_cast
+   2998 _ZTISt8bad_cast
+   29a8 _ZNSt8bad_castD1Ev
+   29bb _ZTVSt10bad_typeid
+   29ce _ZTISt10bad_typeid
+   29e1 _ZNSt10bad_typeidD1Ev
+   29f7 _ZNSt9exceptionD2Ev
+   2a0b _ZTVSt9exception
+   2a1c _ZNSt13bad_exceptionD2Ev
+   2a35 _ZTVSt13bad_exception
+   2a4b _ZN10__cxxabiv115__forced_unwindD2Ev
+   2a70 _ZTVN10__cxxabiv115__forced_unwindE
+   2a94 _ZN10__cxxabiv119__foreign_exceptionD2Ev
+   2abd _ZTVN10__cxxabiv119__foreign_exceptionE
+   2ae5 _ZNKSt9exception4whatEv
+   2afd _ZNKSt13bad_exception4whatEv
+   2b1a _ZN10__cxxabiv119__foreign_exceptionD0Ev
+   2b43 _ZN10__cxxabiv119__foreign_exceptionD1Ev
+   2b6c _ZdlPv
+   2b73 _ZN10__cxxabiv115__forced_unwindD0Ev
+   2b98 _ZN10__cxxabiv115__forced_unwindD1Ev
+   2bbd _ZNSt13bad_exceptionD0Ev
+   2bd6 _ZNSt13bad_exceptionD1Ev
+   2bef _ZNSt9exceptionD0Ev
+   2c03 _ZNSt9exceptionD1Ev
+   2c17 _ZTSSt9exception
+   2c28 _ZTISt9exception
+   2c39 _ZTSSt13bad_exception
+   2c4f _ZTISt13bad_exception
+   2c65 _ZTSN10__cxxabiv115__forced_unwindE
+   2c89 _ZTSN10__cxxabiv119__foreign_exceptionE
+   2cb1 _ZTVN10__cxxabiv117__class_type_infoE
+   2cd7 _ZTVN10__cxxabiv120__si_class_type_infoE
+   2d00 __cxa_pure_virtual
+   2d13 _Unwind_DeleteException
+   2d2b free
+   2d30 pthread_key_delete
+   2d43 __cxa_get_globals_fast
+   2d5a pthread_getspecific
+   2d6e __cxa_call_unexpected
+   2d84 malloc
+   2d8b pthread_setspecific
+   2d9f pthread_key_create
+   2db2 abort
+   2db8 _Unwind_GetDataRelBase
+   2dcf _Unwind_GetRegionStart
+   2de6 _Unwind_GetTextRelBase
+   2dfd _Unwind_VRS_Set
+   2e0d _Unwind_GetLanguageSpecificData
+   2e2d _Unwind_VRS_Get
+   2e3d __gnu_unwind_frame
+   2e50 __cxa_begin_catch
+   2e62 _ZSt10unexpectedv
+   2e74 _ZN10__cxxabiv111__terminateEPFvvE
+   2e97 __cxa_end_catch
+   2ea7 _ZN10__cxxabiv119__terminate_handlerE
+   2ecd _ZN10__cxxabiv112__unexpectedEPFvvE
+   2ef1 _ZN10__cxxabiv120__unexpected_handlerE
+   2f18 _ZSt13set_terminatePFvvE
+   2f31 _ZSt14set_unexpectedPFvvE
+   2f4b __cxa_free_exception
+   2f60 _Unwind_RaiseException
+   2f77 __cxa_rethrow
+   2f85 _Unwind_Resume_or_Rethrow
+   2f9f _ZN10__cxxabiv123__fundamental_type_infoD2Ev
+   2fcc _ZTVN10__cxxabiv123__fundamental_type_infoE
+   2ff8 _ZN10__cxxabiv123__fundamental_type_infoD0Ev
+   3025 _ZN10__cxxabiv123__fundamental_type_infoD1Ev
+   3052 _ZTSN10__cxxabiv123__fundamental_type_infoE
+   307e _ZTIN10__cxxabiv123__fundamental_type_infoE
+   30aa _ZTIPKDn
+   30b3 _ZTVN10__cxxabiv119__pointer_type_infoE
+   30db _ZTSPKDn
+   30e4 _ZTIDn
+   30eb _ZTIPDn
+   30f3 _ZTSPDn
+   30fb _ZTSDn
+   3102 _ZTIPKDe
+   310b _ZTSPKDe
+   3114 _ZTIDe
+   311b _ZTIPDe
+   3123 _ZTSPDe
+   312b _ZTSDe
+   3132 _ZTIPKDd
+   313b _ZTSPKDd
+   3144 _ZTIDd
+   314b _ZTIPDd
+   3153 _ZTSPDd
+   315b _ZTSDd
+   3162 _ZTIPKDf
+   316b _ZTSPKDf
+   3174 _ZTIDf
+   317b _ZTIPDf
+   3183 _ZTSPDf
+   318b _ZTSDf
+   3192 _ZTIPKe
+   319a _ZTSPKe
+   31a2 _ZTIe
+   31a8 _ZTIPe
+   31af _ZTSPe
+   31b6 _ZTSe
+   31bc _ZTIPKd
+   31c4 _ZTSPKd
+   31cc _ZTId
+   31d2 _ZTIPd
+   31d9 _ZTSPd
+   31e0 _ZTSd
+   31e6 _ZTIPKf
+   31ee _ZTSPKf
+   31f6 _ZTIf
+   31fc _ZTIPf
+   3203 _ZTSPf
+   320a _ZTSf
+   3210 _ZTIPKy
+   3218 _ZTSPKy
+   3220 _ZTIy
+   3226 _ZTIPy
+   322d _ZTSPy
+   3234 _ZTSy
+   323a _ZTIPKx
+   3242 _ZTSPKx
+   324a _ZTIx
+   3250 _ZTIPx
+   3257 _ZTSPx
+   325e _ZTSx
+   3264 _ZTIPKm
+   326c _ZTSPKm
+   3274 _ZTIm
+   327a _ZTIPm
+   3281 _ZTSPm
+   3288 _ZTSm
+   328e _ZTIPKl
+   3296 _ZTSPKl
+   329e _ZTIl
+   32a4 _ZTIPl
+   32ab _ZTSPl
+   32b2 _ZTSl
+   32b8 _ZTIPKj
+   32c0 _ZTSPKj
+   32c8 _ZTIj
+   32ce _ZTIPj
+   32d5 _ZTSPj
+   32dc _ZTSj
+   32e2 _ZTIPKi
+   32ea _ZTSPKi
+   32f2 _ZTIi
+   32f8 _ZTIPi
+   32ff _ZTSPi
+   3306 _ZTSi
+   330c _ZTIPKt
+   3314 _ZTSPKt
+   331c _ZTIt
+   3322 _ZTIPt
+   3329 _ZTSPt
+   3330 _ZTSt
+   3336 _ZTIPKs
+   333e _ZTSPKs
+   3346 _ZTIs
+   334c _ZTIPs
+   3353 _ZTSPs
+   335a _ZTSs
+   3360 _ZTIPKh
+   3368 _ZTSPKh
+   3370 _ZTIh
+   3376 _ZTIPh
+   337d _ZTSPh
+   3384 _ZTSh
+   338a _ZTIPKa
+   3392 _ZTSPKa
+   339a _ZTIa
+   33a0 _ZTIPa
+   33a7 _ZTSPa
+   33ae _ZTSa
+   33b4 _ZTIPKc
+   33bc _ZTSPKc
+   33c4 _ZTIc
+   33ca _ZTIPc
+   33d1 _ZTSPc
+   33d8 _ZTSc
+   33de _ZTIPKDi
+   33e7 _ZTSPKDi
+   33f0 _ZTIDi
+   33f7 _ZTIPDi
+   33ff _ZTSPDi
+   3407 _ZTSDi
+   340e _ZTIPKDs
+   3417 _ZTSPKDs
+   3420 _ZTIDs
+   3427 _ZTIPDs
+   342f _ZTSPDs
+   3437 _ZTSDs
+   343e _ZTIPKw
+   3446 _ZTSPKw
+   344e _ZTIw
+   3454 _ZTIPw
+   345b _ZTSPw
+   3462 _ZTSw
+   3468 _ZTIPKb
+   3470 _ZTSPKb
+   3478 _ZTIb
+   347e _ZTIPb
+   3485 _ZTSPb
+   348c _ZTSb
+   3492 _ZTIPKv
+   349a _ZTSPKv
+   34a2 _ZTSPv
+   34a9 _ZTSv
+   34af syscall
+   34b7 _ZNK10__cxxabiv119__pointer_type_info14__is_pointer_pEv
+   34ef _ZN10__cxxabiv119__pointer_type_infoD2Ev
+   3518 _ZN10__cxxabiv117__pbase_type_infoD2Ev
+   353f _ZN10__cxxabiv119__pointer_type_infoD0Ev
+   3568 _ZN10__cxxabiv119__pointer_type_infoD1Ev
+   3591 _ZNK10__cxxabiv119__pointer_type_info15__pointer_catchEPKNS_17__pbase_type_infoEPPvj
+   35e6 _ZTSN10__cxxabiv119__pointer_type_infoE
+   360e _ZTIN10__cxxabiv119__pointer_type_infoE
+   3636 _ZTIN10__cxxabiv117__pbase_type_infoE
+   365c _ZNK10__cxxabiv117__pbase_type_info10__do_catchEPKSt9type_infoPPvj
+   369f write
+   36a5 _ZN10__cxxabiv120__si_class_type_infoD2Ev
+   36cf _ZN10__cxxabiv117__class_type_infoD2Ev
+   36f6 _ZN10__cxxabiv120__si_class_type_infoD0Ev
+   3720 _ZN10__cxxabiv120__si_class_type_infoD1Ev
+   374a _ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+   37b2 _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+   3803 _ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+   3883 _ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+   38e1 _ZTSN10__cxxabiv120__si_class_type_infoE
+   390a _ZTIN10__cxxabiv120__si_class_type_infoE
+   3933 _ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+   3976 _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+   39b0 _ZTIN10__cxxabiv117__class_type_infoE
+   39d6 strcmp
+   39dd _ZNKSt8bad_cast4whatEv
+   39f4 _ZNSt8bad_castD2Ev
+   3a07 _ZNSt8bad_castD0Ev
+   3a1a _ZTSSt8bad_cast
+   3a2a _ZNKSt10bad_typeid4whatEv
+   3a44 _ZNSt10bad_typeidD2Ev
+   3a5a _ZNSt10bad_typeidD0Ev
+   3a70 _ZTSSt10bad_typeid
+   3a83 _ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+   3aca _ZN10__cxxabiv117__class_type_infoD0Ev
+   3af1 _ZN10__cxxabiv117__class_type_infoD1Ev
+   3b18 _ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+   3b83 _ZTSN10__cxxabiv117__class_type_infoE
+   3ba9 _ZdlPvj
+   3bb1 memset
+   3bb8 pthread_mutex_lock
+   3bcb pthread_mutex_unlock
+   3be0 __cxa_allocate_dependent_exception
+   3c03 __cxa_free_dependent_exception
+   3c22 __cxa_get_exception_ptr
+   3c3a _Unwind_Complete
+   3c4b _ZSt18uncaught_exceptionv
+   3c65 _ZN9__gnu_cxx27__verbose_terminate_handlerEv
+   3c92 _ZTVN10__cxxabiv117__pbase_type_infoE
+   3cb8 _ZN10__cxxabiv117__pbase_type_infoD0Ev
+   3cdf _ZN10__cxxabiv117__pbase_type_infoD1Ev
+   3d06 _ZTSN10__cxxabiv117__pbase_type_infoE
+   3d2c __cxa_current_exception_type
+   3d49 __cxa_demangle
+   3d58 fwrite
+   3d5f fputs
+   3d65 fputc
+   3d6b __sF
+   3d70 memcmp
+   3d77 memcpy
+   3d7e realloc
+   3d86 strlen
+   3d8d sprintf
+   3d95 strncmp
+   3d9d __gcc_personality_v0
+   3db2 strcpy
+   3db9 __gcclibcxx_demangle_callback
+   3dd7 __gnu_Unwind_Find_exidx
+   3def __aeabi_unwind_cpp_pr2
+   3e06 __gnu_Unwind_Restore_VFP_D
+   3e21 __gnu_Unwind_Restore_VFP
+   3e3a __gnu_Unwind_Restore_VFP_D_16_to_31
+   3e5e __gnu_Unwind_Restore_WMMXD
+   3e79 __gnu_Unwind_Restore_WMMXC
+   3e94 restore_core_regs
+   3ea6 __gnu_unwind_execute
+   3ebb _Unwind_VRS_Pop
+   3ecb __gnu_Unwind_Save_VFP_D
+   3ee3 __gnu_Unwind_Save_VFP
+   3ef9 __gnu_Unwind_Save_VFP_D_16_to_31
+   3f1a __gnu_Unwind_Save_WMMXD
+   3f32 __gnu_Unwind_Save_WMMXC
+   3f4a _Unwind_GetCFA
+   3f59 __gnu_Unwind_RaiseException
+   3f75 __gnu_Unwind_ForcedUnwind
+   3f8f __gnu_Unwind_Resume
+   3fa3 __gnu_Unwind_Resume_or_Rethrow
+   3fc2 __gnu_Unwind_Backtrace
+   3fd9 __restore_core_regs
+   3fed ___Unwind_RaiseException
+   4006 ___Unwind_Resume
+   4017 ___Unwind_Resume_or_Rethrow
+   4033 ___Unwind_ForcedUnwind
+   404a _Unwind_ForcedUnwind
+   405f ___Unwind_Backtrace
+   4073 _Unwind_Backtrace
+   4085 putchar
+   408d clock_gettime
+   409b __aeabi_dcmple
+   40aa sigsetjmp
+   40b4 ioctl
+   40ba dlerror
+   40c2 strtok_r
+   40cb printf
+   40d2 vsprintf
+   40db recv
+   40e0 connect
+   40e8 strerror
+   40f1 geteuid
+   40f9 inet_pton
+   4103 memmove
+   410b sem_timedwait
+   4119 munmap
+   4120 atol
+   4125 __errno
+   412d __aeabi_d2lz
+   413a getenv
+   4141 ceil
+   4146 __aeabi_fadd
+   4153 getpid
+   415a qsort
+   4160 fgets
+   4166 __aeabi_fcmpgt
+   4175 __aeabi_uldivmod
+   4186 puts
+   418b getuid
+   4192 siglongjmp
+   419d __aeabi_i2f
+   41a9 strtoll
+   41b1 vsnprintf
+   41bb strtoul
+   41c3 sem_post
+   41cc gethostbyname_r
+   41dc socket
+   41e3 select
+   41ea isspace
+   41f2 __aeabi_dcmplt
+   4201 fflush
+   4208 sem_unlink
+   4213 __aeabi_ddiv
+   4220 __aeabi_dmul
+   422d lseek
+   4233 mmap
+   4238 strncasecmp
+   4244 dlclose
+   424c send
+   4251 freeaddrinfo
+   425e gmtime_r
+   4267 isxdigit
+   4270 alarm
+   4276 strtol
+   427d cosf
+   4282 __aeabi_d2f
+   428e __aeabi_fsub
+   429b strrchr
+   42a3 basename
+   42ac __aeabi_fcmpge
+   42bb calloc
+   42c2 strtod
+   42c9 fstat
+   42cf fprintf
+   42d7 _toupper_tab_
+   42e5 __aeabi_dadd
+   42f2 kill
+   42f7 strcat
+   42fe __aeabi_fcmple
+   430d bind
+   4312 __aeabi_idiv
+   431f setsockopt
+   432a fseek
+   4330 __aeabi_dcmpgt
+   433f fmod
+   4344 memchr
+   434b __aeabi_dcmpge
+   435a umask
+   4360 __aeabi_dsub
+   436d mktime
+   4374 sem_close
+   437e strstr
+   4389 read
+   438e dlopen
+   4399 __aeabi_f2iz
+   43a6 strncpy
+   43ae strcasecmp
+   43b9 __assert2
+   43c3 __aeabi_fdiv
+   43d0 __aeabi_i2d
+   43dc sscanf
+   43e3 isalpha
+   43eb sigaction
+   43f5 __aeabi_ui2f
+   4402 srand48
+   440a fread
+   4410 dlsym
+   4416 strdup
+   441d gettimeofday
+   442a fopen
+   4430 localtime
+   443a ftell
+   4440 __aeabi_uidiv
+   444e fclose
+   4455 time
+   445a __aeabi_l2d
+   4466 poll
+   446b isalnum
+   4477 lrand48
+   447f getpwuid
+   4488 fgetc
+   448e strerror_r
+   4499 strcspn
+   44a1 sem_open
+   44aa __aeabi_fcmpeq
+   44b9 __aeabi_fmul
+   44c6 getsockopt
+   44d1 localtime_r
+   44dd getaddrinfo
+   44e9 __aeabi_fcmplt
+   44f8 stat
+   44fd __aeabi_uidivmod
+   450e pthread_mutex_destroy
+   4524 __page_size
+   4530 __aeabi_f2uiz
+   453e sem_getvalue
+   454b exit
+   4550 __aeabi_d2iz
+   455d inet_ntop
+   4567 _tolower_tab_
+   4575 atoi
+   457a _ctype_
+   4582 gmtime
+   4589 strspn
+   4590 pthread_mutex_init
+   45a3 open
+   45a8 toupper
+   45b0 strchr
+   45b7 __aeabi_f2d
+   45c3 fcntl
+   45c9 __aeabi_idivmod
+   45d9 __aeabi_ldivmod
+   45e9 close
+   45ef vfprintf
+   45f8 strpbrk
+   4600 getsockname
+   460c _edata
+   4613 __bss_start
+   461f _end
+   4624 __udivsi3
+   462e __aeabi_idiv0
+   463c __divsi3
+   4645 __aeabi_drsub
+   4653 __subdf3
+   465c __adddf3
+   4665 __floatunsidf
+   4673 __aeabi_ui2d
+   4680 __floatsidf
+   468c __extendsfdf2
+   469a __floatundidf
+   46a8 __aeabi_ul2d
+   46b5 __floatdidf
+   46c1 __muldf3
+   46ca __divdf3
+   46d3 __gtdf2
+   46db __gedf2
+   46e3 __ltdf2
+   46eb __ledf2
+   46f3 __cmpdf2
+   46fc __nedf2
+   4704 __eqdf2
+   470c __aeabi_cdrcmple
+   471d __aeabi_cdcmpeq
+   472d __aeabi_cdcmple
+   473d __aeabi_dcmpeq
+   474c __fixdfsi
+   4756 __truncdfsf2
+   4763 __aeabi_frsub
+   4771 __subsf3
+   477a __addsf3
+   4783 __floatunsisf
+   4791 __floatsisf
+   479d __floatundisf
+   47ab __aeabi_ul2f
+   47b8 __floatdisf
+   47c4 __aeabi_l2f
+   47d0 __mulsf3
+   47d9 __divsf3
+   47e2 __gtsf2
+   47ea __gesf2
+   47f2 __ltsf2
+   47fa __lesf2
+   4802 __cmpsf2
+   480b __nesf2
+   4813 __eqsf2
+   481b __aeabi_cfrcmple
+   482c __aeabi_cfcmpeq
+   483c __aeabi_cfcmple
+   484c __fixsfsi
+   4856 __fixunssfsi
+   4863 __aeabi_ldiv0
+   4871 __gnu_ldivmod_helper
+   4886 __gnu_uldivmod_helper
+   489c raise
+   48a2 __fixdfdi
+   48ac __aeabi_d2ulz
+   48ba __aeabi_d2uiz
+   48c8 __fixunsdfdi
+   48d5 __divdi3
+   48de __udivdi3
+   48e8 __fixunsdfsi
+   48f5 libdl.so
+   48fe liblog.so
+   4908 libstdc++.so
+   4915 libm.so
+   491d libc.so
+   4925 libttsivonavoice.so
+  184cc .K/J{D
+  184d9 XB`-J
+  184f1 XBa+J
+  18509 XBb)J
+  18521 XBc'J
+  18539 XBd%J
+  18551 XBe#J
+  18569 XBf!J
+  18581 XCgpG
+  18607 L|D#h
+  1865c |D$h
+  317b7 ?333333
+  31858 ffffff
+  32904 ff&?
+  33694 fff?
+  33ba2 L><+
+  34b60 fff?
+  39990 fff?,
+  3e024 aLl:
+  4374b mp@-
+  4bf04 gfffp@-
+  4c860 gfff
+  4cd50 gfff
+  4f164 CDXV
+  4f498 CDXV
+  4f774 CDXV
+  53d48 ffffff
+  71dc0 ERCP
+  9448c ERCP
+  94494 VUUU|
+  973d4 ERCP\
+  97704 ERCPp
+  98678 ERCP
+  99b32 |6*)
+  99b4c g&3g
+  be434 gfff
+  d414c VUUU8`	
+  d4350 VUUU@^	
+  d7fec gfff
+  d8b9c gfff
+  d9324 gfff
+  df902 p09Y
+ 107d62 @!89
+ 1244cf *00I
+ 12f73c 3333
+ 12f748 UUUU
+ 12fec8 3333
+ 12fed4 UUUU
+ 130350 3333
+ 130358 UUUU
+ 1307e8 3333
+ 1307f4 UUUU
+ 130d64 3333
+ 130d6c UUUU
+ 130ebc 3333
+ 130ec4 UUUU
+ 141562 @ #!
+ 14163c !1C "
+ 142570 !1C ,
+ 142f39 P@2	p
+ 14302d P@2	`
+ 143081 `@2	
+ 1430e1 @@2	p
+ 144978 (%d) %s
+ 144980 N10__cxxabiv115__forced_unwindE
+ 1449a0 N10__cxxabiv119__foreign_exceptionE
+ 1449c4 std::exception
+ 1449d4 std::bad_exception
+ 1449e8 pure virtual method called
+ 144a04 std::bad_cast
+ 144a14 std::bad_typeid
+ 144a24 __gnu_cxx::__concurrence_lock_error
+ 144a48 __gnu_cxx::__concurrence_unlock_error
+ 144a70 terminate called recursively
+ 144a90 terminate called after throwing an instance of '
+ 144ac8 terminate called without an active exception
+ 144af8   what():  
+ 144b04 _GLOBAL_
+ 144b10 (anonymous namespace)
+ 144b38 string literal
+ 144b50 JArray
+ 144b5c vtable for 
+ 144b68 VTT for 
+ 144b74 construction vtable for 
+ 144b90 -in-
+ 144b98 typeinfo for 
+ 144ba8 typeinfo name for 
+ 144bbc typeinfo fn for 
+ 144bd0 non-virtual thunk to 
+ 144be8 virtual thunk to 
+ 144bfc covariant return thunk to 
+ 144c18 java Class for 
+ 144c28 guard variable for 
+ 144c3c reference temporary for 
+ 144c58 hidden alias for 
+ 144c6c _Sat 
+ 144c74 _Accum
+ 144c7c _Fract
+ 144c88 operator
+ 144c94 operator 
+ 144cb4 false
+ 144cbc true
+ 144cc8 java resource 
+ 144cd8 decltype (
+ 144ce8 {parm#
+ 144cf0 global constructors keyed to 
+ 144d10 global destructors keyed to 
+ 144d30 {lambda(
+ 144d40 {unnamed type#
+ 144d50  [clone 
+ 144d5c  restrict
+ 144d68  volatile
+ 144d74  const
+ 144d80 complex 
+ 144d8c imaginary 
+ 144d9c  __vector(
+ 144da8 {default arg#
+ 144dc0 signed char
+ 144dcc bool
+ 144dd4 boolean
+ 144ddc char
+ 144de4 byte
+ 144dec double
+ 144df4 long double
+ 144e00 float
+ 144e08 __float128
+ 144e14 unsigned char
+ 144e28 unsigned int
+ 144e38 unsigned
+ 144e44 long
+ 144e4c unsigned long
+ 144e5c __int128
+ 144e68 unsigned __int128
+ 144e7c short
+ 144e84 unsigned short
+ 144e94 void
+ 144e9c wchar_t
+ 144ea4 long long
+ 144eb0 unsigned long long
+ 144ec4 decimal32
+ 144ed0 decimal64
+ 144edc decimal128
+ 144ee8 half
+ 144ef0 char16_t
+ 144efc char32_t
+ 144f08 decltype(nullptr)
+ 144f1c std::allocator
+ 144f2c allocator
+ 144f38 std::basic_string
+ 144f4c basic_string
+ 144f5c std::string
+ 144f68 std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+ 144fb0 std::istream
+ 144fc0 std::basic_istream<char, std::char_traits<char> >
+ 144ff4 basic_istream
+ 145004 std::ostream
+ 145014 std::basic_ostream<char, std::char_traits<char> >
+ 145048 basic_ostream
+ 145058 std::iostream
+ 145068 std::basic_iostream<char, std::char_traits<char> >
+ 14509c basic_iostream
+ 1450ec delete[]
+ 145104 delete
+ 145188 new[]
+ 145214 sizeof 
+ 145224 alignof 
+ 145234 Opening file %s
+ 145244 ISEF
+ 14524c Invalid file %s
+ 14525c Invalid version of file %s
+ 145278 Load key
+ 145284 Broken file %s
+ 14529c <speak>
+ 1452a4 </speak>
+ 1452b0 [\p{L}\p{M}\p{N}]+|[\p{S}]|[\p{P}]|[\p{Z}\p{C}]+
+ 1452e4 Token regex compile error: %s
+ 14530c [%s]
+ 145318 [%s] 
+ 145320 alias
+ 145328 phoneme
+ 145330 %s -> "%s"
+ 14533c Lexicon is empty
+ 145350 Unexpected data after document element
+ 145378 %s%s
+ 145380 unboundprefix
+ 145390 http://www.w3.org/2005/01/pronunciation-lexicon
+ 1453c0 Element "%s" not placed in any namespace. Assuming http://www.w3.org/2005/01/pronunciation-lexicon for all such elements.
+ 14543c Unbound XML namespace prefix for element "%s". Assuming http://www.w3.org/2005/01/pronunciation-lexicon for all such elements.
+ 1454bc PLS element names should be lowercase
+ 1454e4 version
+ 1454ec Missing attribute "version" in element "lexicon". Assuming "1.0".
+ 145534 Unsupported PLS version "%s". Assuming "1.0".
+ 145564 alphabet
+ 145570 Missing attribute "alphabet" in element "lexicon". Assuming "ipa".
+ 1455b8 http://www.w3.org/XML/1998/namespace^lang
+ 1455e4 Missing attribute "xml:lang" in element "lexicon". Assuming "%s".
+ 145628 http://www.w3.org/XML/1998/namespace^base
+ 145654 Invalid PLS root element
+ 145670 Invalid element "%s"
+ 145688 role
+ 145690 prefer
+ 145698 Misplaced PLS element "%s"
+ 1456b4 lexicon
+ 1456bc lexeme
+ 1456c4 grapheme
+ 1456d0 example
+ 1456d8 meta
+ 1456e0 metadata
+ 1456ec File not found: %s
+ 145700 prm_lex_list
+ 145710 prm_lexicon
+ 145720 ASCII
+ 145728 %s:%s
+ 145730 UTF-8
+ 145738 default
+ 145744 Percentage relative change of prosody volume is deprecated in SSML 1.1
+ 14578c Single number as prosody volume is deprecated in SSML 1.1
+ 1457c8 Percentage relative change of prosody rate is deprecated in SSML 1.1
+ 145810 Multiplier relative change of prosody rate is deprecated in SSML 1.1
+ 145858 Unsigned percentage relative change of prosody pitch is deprecated in SSML 1.1
+ 1458ac Absolute pitch value in Hertz is not supported
+ 1458dc Relative pitch change in Hertz is not supported
+ 14590c Relative pitch change in semitones is not supported
+ 145940 silent
+ 145948 x-soft
+ 145950 soft
+ 145958 medium
+ 145960 loud
+ 145968 x-loud
+ 145970 x-slow
+ 145978 slow
+ 145980 fast
+ 145988 x-fast
+ 145990 x-low
+ 14599c high
+ 1459a4 x-high
+ 1459ac Token
+ 1459b4 soundLevel
+ 1459c0 speed
+ 1459c8 clipEnd
+ 1459d0 clipBegin
+ 1459dc Invalid value of attribute "%s"
+ 1459fc repeatDur
+ 145a08 repeatCount
+ 145a14 %f%3s
+ 145a1c Negative value not allowed for attribute "%s"
+ 145a4c Missing unit "s" or "ms" in value of attribute "%s". Assuming seconds.
+ 145a9c Invalid unit in value of attribute "%s". Assuming seconds.
+ 145adc Missing attribute "%s" in element "%s"
+ 145b04 maxage
+ 145b0c maxstale
+ 145b18 fetchtimeout
+ 145b28 Unsupported format of audio file "%s"
+ 145b50 Failed fetching audio file "%s": %s
+ 145b74 Failed fetching audio file "%s"
+ 145b94 Warning in lexicon "%s" in line %d: %s
+ 145bbc Failed fetching lexicon file "%s": %s
+ 145be4 Failed fetching lexicon file "%s"
+ 145c0c http://www.w3.org/XML/1998/namespace^id
+ 145c34 type
+ 145c3c xml:id
+ 145c44 application/pls+xml
+ 145c58 Unsupported lexicon type: "%s"
+ 145c78 http://www.w3.org/2001/10/synthesis^phoneme
+ 145ca8 0123456789ABCDEFabcdef
+ 145cc0 0123456789
+ 145ccc Subdocument parse error: %s
+ 145ce8 Parsed subdocument: %s
+ 145d00 name
+ 145d08 eng_ssml_base_uri
+ 145d1c eng_fetch_function
+ 145d30 eng_fetch_user_data
+ 145d44 startmark
+ 145d50 endmark
+ 145d58 http://www.w3.org/2001/10/synthesis
+ 145d7c Element "%s" not placed in any namespace. Assuming http://www.w3.org/2001/10/synthesis for all such elements.
+ 145dec Unbound XML namespace prefix for element "%s". Assuming http://www.w3.org/2001/10/synthesis for all such elements.
+ 145e60 SSML element names should be lowercase
+ 145e88 %s%s.
+ 145e94 <?xml
+ 145e9c <!DOCTYPE
+ 145ea8 <speak
+ 145eb0 ivona
+ 145eb8 http://www.ivona.com/2009/12/ssml
+ 145edc %s%s. Stopped parsing at this point. All following input is ignored.
+ 145f24 line %lu (byte %d..%d): %s%s
+ 145f44 Element "speak" can only be the root.
+ 145f6c Element "%s" cannot be a child of "%s"
+ 145f98 Unsupported SSML version
+ 145fb4 xml:lang
+ 145fc0 Invalid root element. Expecting <speak>.
+ 145fec speak
+ 145ffc Element "lookup" is not defined in SSML 1.0
+ 146028 Root element missing. Expecting <speak>.
+ 14605c Text not allowed here
+ 146074 audio
+ 14607c break
+ 146084 emphasis
+ 146090 mark
+ 146098 prosody
+ 1460a0 say-as
+ 1460ac voice
+ 1460b4 lang
+ 1460c4 lookup
+ 1460cc desc
+ 1460d4 token
+ 1460dc sentence
+ 1460e8 paragraph
+ 1460f4 interpret-as
+ 146104 format
+ 14610c detail
+ 146114 character
+ 146120 characters
+ 14612c spell-out
+ 146138 spell
+ 146140 acronym
+ 146148 letter
+ 146150 letters
+ 146158 glyph
+ 146160 glyphs
+ 146168 address
+ 146170 currency
+ 146184 e-mail
+ 14618c number
+ 146194 numbers
+ 14619c ordinal
+ 1461a4 ordinals
+ 1461b0 cardinal
+ 1461bc cardinals
+ 1461c8 digit
+ 1461d0 digits
+ 1461d8 fraction
+ 1461e4 fractions
+ 1461f0 unit
+ 1461f8 units
+ 146200 measure
+ 146208 phone
+ 146210 telephone
+ 14621c date
+ 146224 time
+ 14622c duration
+ 14623c postal
+ 146244 us-state
+ 146278 year
+ 146280 hms24
+ 146288 hms12
+ 14629c Lexicon "%s" has failed to load
+ 1462bc languages
+ 1462c8 gender
+ 1462d4 variant
+ 1462dc required
+ 1462e8 onvoicefailure
+ 1462f8 None of the voices match required criteria
+ 146324 processorchoice
+ 146334 priorityselect
+ 146344 keepexisting
+ 146354 ordering
+ 146364 It is not possible to change voice within SSML subdocument
+ 1463a0 encoding
+ 1463ac ISO-8859-2
+ 1463b8 Voice encoding %s is not supported
+ 1463dc .,:;!?
+ 1463e4 strength
+ 1463f0 level
+ 1463f8 reduced
+ 146400 none
+ 146408 strong
+ 146410 moderate
+ 14641c Phoneme alphabet not supported: "%s"
+ 146444 pitch
+ 14644c rate
+ 146454 volume
+ 146460 contour
+ 146468 range
+ 146470 It is an error if no attributes are specified for <prosody> element
+ 1464b4 neutral
+ 1464bc male
+ 1464c4 female
+ 1464cc It is an error if no attributes are specified for <voice> element
+ 146510 http://www.ivona.com/2009/12/ssml^
+ 146534 onlangfailure
+ 146544 changevoice
+ 146550 ignoretext
+ 14655c ignorelang
+ 146568 Voice "%s" does not speak "%s" language
+ 146590 voice_age
+ 14659c Unspecified
+ 1465a8 child
+ 1465b0 teen
+ 1465b8 adult
+ 1465c0 senior
+ 1465c8 punc
+ 1465d4 eng_max_sentence
+ 1465e8 eng_max_word
+ 1465f8 eng_sentence_break
+ 14660c eng_paragraph_break
+ 146620 start_pos
+ 14662c end_pos
+ 146634 silence
+ 14663c .!?,;:
+ 146644 sentence_boundary_func
+ 14665c phones
+ 146664 xsampa
+ 14666c whitespace
+ 146678 wave
+ 146680 amplify
+ 146688 duration_stretch
+ 14669c pitch_stretch
+ 1466b0 x-weak
+ 1466b8 x-strong
+ 1466c4 weak
+ 1466cc prepunctuation
+ 1466dc interpret-as-format
+ 1466f0 text_whitespace
+ 146700 text_singlecharsymbols
+ 146718 text_prepunctuation
+ 14672c text_postpunctuation
+ 146744 Cannot open file for writing
+ 146764 #& encoding=UTF-8
+ 146778 "%s" 
+ 146784 "%s"
+ 146790 Lexicon encoding not supported: %s
+ 1467b4 UTF-16LE
+ 1467c0 UTF-16BE
+ 1467cc line %ld: %s
+ 1467dc invalid dictionary format
+ 1467f8 Too many errors. Quitting
+ 146818 %ld errors found
+ 14682d At least %ld more errors follow
+ 146854 file://
+ 14685c http://
+ 146864 eng_dict_insert_id
+ 146878 eng_text_encoding
+ 14688c Failed fetching lexicon file
+ 1468ac [:graph:]
+ 1468b8 \p{L}\p{N}\p{P}\{S}
+ 1468cc [:lower:]
+ 1468d8 \p{Ll}
+ 1468e0 [:print:]
+ 1468ec \P{C}
+ 1468f4 [:punct:]
+ 146900 \p{P}\p{S}
+ 14690c [:upper:]
+ 146918 \p{Lu}
+ 146920 [:space:]
+ 14692c [:space:]
+ 146938 Regex compilation error at offset %d: %s
+ 146964 Regex analysis error: %s
+ 146980 Invalid certificate of authenticity
+ 1469a4 Success
+ 1469ac The certificate of authenticity has expired
+ 1469d8 The certificate of authenticity constraints would be violated
+ 146a18 Failed to load voice
+ 146a30 Format error
+ 146a40 Argument out of range
+ 146a58 Invalid argument
+ 146a6c Aborted by client
+ 146a80 Operating system error
+ 146a98 Internal error
+ 146aa8 Unknown error
+ 146ab8 %s: %s
+ 146ac0 %s() failed: %s
+ 146ad0 %15[^?&/:]://%c
+ 146ae4 Relative URI given, but base URI is not set
+ 146b10 External fetch function failed
+ 146b30 Cannot initialize CURL
+ 146b48 ivona/1.6.23 (IVONA Text-To-Speech; +http://www.ivona.com)
+ 146b84 Fetched empty file
+ 146b98 No certificates loaded
+ 146bb0 Free instances below 0
+ 146bc8 CURL initialization error: %s
+ 146be8 Attempt to load the same certificate twice
+ 146c14 eng_contrast
+ 146c24 Invalid param
+ 146c44 compress
+ 146c54 Invalid length param
+ 146c6c Default string missing
+ 146c84 application/ssml+xml
+ 146c9c The certificate does not allow for SSML input
+ 146ccc text/plain
+ 146cd8 Unsupported MIME type
+ 146cf0 Unsupported URI scheme; must be file:// or http://
+ 146d24 Invalid character encoding
+ 146d40 viterbi_beam
+ 146d50 param_##p_l##_min
+ 146d64 param_##p_l##_def
+ 146d78 param_##p_l##_max
+ 146d8c Invalid float param
+ 146da0 Invalid floatlength param
+ 146dbc eng_input_type
+ 146dcc pause_base_len
+ 146ddc contrast
+ 146de8 dur_stretch
+ 146df4 sentence_break
+ 146e04 paragraph_break
+ 146e14 text_encoding
+ 146e24 base_uri
+ 146e30 input_type
+ 146e3c fetch_function
+ 146e4c fetch_user_data
+ 146e5c max_sentence_length
+ 146e70 max_word_length
+ 146e80 dict_insert_id
+ 146e90 quality
+ 146e98 responsiveness
+ 146ea8 tb_min_distance
+ 146eb8 http://www.w3.org/2001/10/synthesis^speak
+ 146ee4 Limits verification error
+ 146f04 Out of memory
+ 146f14 Voices with different sample rate
+ 146f38 custom_voice
+ 146f48 Voices with different TTS instance
+ 146f6c lang_
+ 146f78 .dat
+ 146f80 unregister_voice
+ 146f94 register_voice
+ 146fa4 The vox file does not exist
+ 146fc0 voice_name
+ 146fcc voice_gender
+ 146fdc eng_version
+ 146fe8 language_name
+ 146ff8 language_code
+ 147008 IVONA 2 - %s - %s
+ 14701c Invalid voice library data
+ 147038 1.6.23
+ 147040 Voice library version mismatch: got %s, required %s
+ 147074 Voice not allowed by the certificate
+ 14709c IVONA_LANG_DAT_DIR
+ 1470b4 sample_rate
+ 1470c0 anonymous
+ 1470cc Too many PLS lexicons
+ 1470e4 Failed parsing PLS lexicon file
+ 147104 Failed fetching PLS lexicon file
+ 14712c szSZ
+ 147144 t_-_
+ 14715c d_-_
+ 14719c _R_F
+ 1471a4 _B_L
+ 1471c4 _H_T
+ 147220 |\|\
+ 14723c G\_<
+ 147294 J\_<
+ 147408 nl-NL
+ 147414 nl-BE
+ 147420 en-US
+ 14742c en-AU
+ 147438 en-ZA
+ 147444 en-IE
+ 147450 en-UK
+ 147464 fr-BE
+ 147470 fr-CA
+ 147484 fr-LU
+ 147490 fr-CH
+ 14749c de-BE
+ 1474ac de-LU
+ 1474b8 de-LI
+ 1474c4 de-CH
+ 1474d8 it-CH
+ 1474f0 pt-BR
+ 147504 es-US
+ 147518 sv-FI
+ 147534 ts_m
+ 14753c ts_a
+ 147580 r_r_0
+ 147764 J\j\
+ 147774 rt_h
+ 14777c t`_h
+ 1477a0 x-ivona
+ 1477a8 x-ivo
+ 1477b0 x-ivona-
+ 1477bc x-ivo-
+ 1477c4 x-sampa
+ 1477cc x-sampa-
+ 1477d8 nt-sampa
+ 1477e4 navteq
+ 1477ec nt-sampa-
+ 1477f8  ."%
+ 147840 d_-_z\
+ 147848 d_-z\
+ 147850 d_z\
+ 147858 d_z`
+ 147860 d`_z`
+ 147868 d`z`
+ 147894 o_^a
+ 1478a0 t_-_s\
+ 1478a8 t_-s\
+ 1478b0 t_s\
+ 1478b8 t_s`
+ 1478c0 t`_s`
+ 1478c8 t`s`
+ 1478d8 Group \%d does not exist
+ 1478f4 Error matching rule: pcre_exec returned %d
+ 147920 UNLIMITED
+ 147934 Values of attribute "%s" must differ
+ 14795c Values of attribute "%s" do not match
+ 147990 Missing certificate attribute "%s"
+ 1479b4 Invaid value of certificate attribute %s
+ 1479e0 The system time is shifted back. Please update the system time.
+ 147a24 Invalid certificate line%s%.*s%s%s
+ 147a48 Value too long
+ 147a58 %x%c
+ 147a60 Expected a hexadecimal integer
+ 147a80 sscanf
+ 147a88 unlimited
+ 147a94 strtol
+ 147a9c Expected a decimal integer
+ 147ab8 Additional characters after number
+ 147adc Not a floating-point number
+ 147af8 NEVER
+ 147b00 ^([0-9]{4})-([0-9]{2})-([0-9]{2})(?:\s+([0-9]{2}):([0-9]{2})(?::([0-9]{2}))?)?$
+ 147b50 Date regex compile error: %s
+ 147b70 Invalid date format
+ 147b84 Regex exec error %d
+ 147b98 Expected "TRUE" or "FALSE"
+ 147bb4 Unsupported certificate comments
+ 147bd8 Error reading certificate attribute "%s"
+ 147c04 Duplicate certificate attribute %s
+ 147c28 Certificate signature is missing
+ 147c4c ISO-8859-1
+ 147c58 ISO8859-1
+ 147c64 ISO_8859-1
+ 147c70 LATIN-1
+ 147c78 LATIN1
+ 147c80 ISO8859-2
+ 147c8c ISO_8859-2
+ 147c98 LATIN-2
+ 147ca0 LATIN2
+ 147ca8 ISO-8859-15
+ 147cb4 ISO8859-15
+ 147cc0 ISO_8859-15
+ 147ccc LATIN-9
+ 147cd4 LATIN9
+ 147cdc WINDOWS-1250
+ 147cec WINDOWS1250
+ 147cf8 CP1250
+ 147d00 WINDOWS-1252
+ 147d10 WINDOWS1252
+ 147d1c CP1252
+ 147d24 ISO-8859-3
+ 147d30 ISO8859-3
+ 147d3c ISO_8859-3
+ 147d48 LATIN-3
+ 147d50 LATIN3
+ 147d58 ISO-8859-4
+ 147d64 ISO8859-4
+ 147d70 ISO_8859-4
+ 147d7c LATIN-4
+ 147d84 LATIN4
+ 147d8c ISO-8859-5
+ 147d98 ISO8859-5
+ 147da4 ISO_8859-5
+ 147db0 ISO-8859-6
+ 147dbc ISO8859-6
+ 147dc8 ISO_8859-6
+ 147dd4 ISO-8859-7
+ 147de0 ISO8859-7
+ 147dec ISO_8859-7
+ 147df8 ISO-8859-8
+ 147e04 ISO8859-8
+ 147e10 ISO_8859-8
+ 147e1c ISO-8859-9
+ 147e28 ISO8859-9
+ 147e34 ISO_8859-9
+ 147e40 LATIN-5
+ 147e48 LATIN5
+ 147e50 ISO-8859-10
+ 147e5c ISO8859-10
+ 147e68 ISO_8859-10
+ 147e74 LATIN-6
+ 147e7c LATIN6
+ 147e84 ISO-8859-11
+ 147e90 ISO8859-11
+ 147e9c ISO_8859-11
+ 147ea8 ISO-8859-13
+ 147eb4 ISO8859-13
+ 147ec0 ISO_8859-13
+ 147ecc LATIN-7
+ 147ed4 LATIN7
+ 147edc ISO-8859-14
+ 147ee8 ISO8859-14
+ 147ef4 ISO_8859-14
+ 147f00 LATIN-8
+ 147f08 LATIN8
+ 147f10 ISO-8859-16
+ 147f1c ISO8859-16
+ 147f28 ISO_8859-16
+ 147f34 LATIN-10
+ 147f40 LATIN10
+ 147f48 WINDOWS-1251
+ 147f58 WINDOWS1251
+ 147f64 CP1251
+ 147f6c WINDOWS-1253
+ 147f7c WINDOWS1253
+ 147f88 CP1253
+ 147f90 WINDOWS-1254
+ 147fa0 WINDOWS1254
+ 147fac CP1254
+ 147fb4 WINDOWS-1255
+ 147fc4 WINDOWS1255
+ 147fd0 CP1255
+ 147fd8 WINDOWS-1256
+ 147fe8 WINDOWS1256
+ 147ff4 CP1256
+ 147ffc WINDOWS-1257
+ 14800c WINDOWS1257
+ 148018 CP1257
+ 148020 WINDOWS-1258
+ 148030 WINDOWS1258
+ 14803c CP1258
+ 148044 UTF8
+ 14804c UTF-16
+ 148054 UTF16
+ 14805c UTF16LE
+ 148064 UTF16BE
+ 148070 file_open
+ 14807c /IVONA-e3a8a7e2d4d4fca3
+ 148094 sem_unlink
+ 1480a0 sem_post
+ 1480ac sem_wait
+ 1480b8 sem_close
+ 1480c4 sem_open
+ 1480d0 System function missing: shmget
+ 1480f0 -----BEGIN SIGNATURE-----
+ 14810c Invalid certificate signature marker
+ 14813c Invalid certificate signature size
+ 148160 -----END SIGNATURE-----
+ 148178 Invalid certificate signature format
+ 1481a0 Illegal data after certificate signature
+ 1481cc SHA Init
+ 1481d8 SHA Final
+ 1481e4 Feeding SHA
+ 1481f0 Certificate signature mismatch
+ 148210 Load pubkey
+ 148220 pthread_mutex_destroy
+ 148238 kill
+ 148240 Too many certificates concurrently loaded in the system
+ 148278 pthread_mutex_init
+ 14828c No access to shared memory
+ 1482a8 pthread_mutex_lock
+ 1482bc pthread_mutex_unlock
+ 1482d4 TCE free NULL argument
+ 1482ec Free thread below 0
+ 148300 Too many threads
+ 148320     
+ 148348 (10)
+ 148350 (11)
+ 148358 (12)
+ 148360 (13)
+ 148368 (14)
+ 148370 (15)
+ 148378 (16)
+ 148380 (17)
+ 148388 (18)
+ 148390 (19)
+ 14839c (20)
+ 14858c C/kg
+ 148648 VIII
+ 148668 a.m.
+ 1486f0 kcal
+ 14872c m/s2
+ 148780 p.m.
+ 1487a0 rad/s
+ 1487a8 rad/s2
+ 1487b8 viii
+ 1487c8 RIFF
+ 1487d0 WAVE
+ 1487d8 fmt 
+ 1487e0 data
+ 1487e8 fact
+ 1487f0 <>&'"
+ 1487fc apos
+ 148804 quot
+ 148818 VAL: tried to access %s in %d type val
+ 148840 itemfunc
+ 14884c utterance
+ 148858 item
+ 148860 relation
+ 14886c NoName
+ 148874 uttfunc
+ 14887c new_rateconv: channels must be 1 or 2
+ 1488a4 filtering_on_buffers: only 1 or 2 channels supported!
+ 1488dc audiotag
+ 1488e8 user_lexicon
+ 1488f8 streamer
+ 148904 Unit
+ 14890c SylStructure
+ 14891c R:SylStructure.parent.parent.R:Token.parent
+ 148948 Phrase
+ 148950 ivonatts
+ 14895c %s %s
+ 148964 %s %d
+ 14896c %s %f
+ 148974 %s %p
+ 14897c features
+ 148990 (){}[]
+ 148998 "'`({[
+ 1489a0 "'`.,:;!?(){}[]
+ 1489b0 [null]
+ 1489bc [Val %s 0x%p]
+ 1489cc userdata
+ 1489d8 string
+ 1489e0 track
+ 1489e8 ffunc
+ 1489f0 cart
+ 1489f8 phoneset
+ 148a04 dur_stats
+ 148a10 diphonedb
+ 148a1c wavesynth
+ 148a28 phonefunc
+ 148a34 xsampafunc
+ 148a40 allwordposfunc
+ 148a50 zdur_cart
+ 148a5c daughter.R:SylStructure
+ 148a74 daughter.daughter.R:Segment
+ 148a90 diphone_graph_func
+ 148aa4 p.R:Unit.parent
+ 148ab4 Segment
+ 148abc diphoneset_num
+ 148acc diphone
+ 148ad4 dp_debug_func
+ 148ae4 %s-%s
+ 148af4 resample_wave
+ 148b04 **Error: voxdb read: `%s'
+ 148b20 checksum
+ 148b2c voxdbname
+ 148b38 %s/%s/%s/%s%s
+ 148b4c **Error: cannot open or incorrect file `%s'
+ 148b7c **Error: file `%s' lacks needed features
+ 148ba8 %s%s%s%s%s
+ 148bb4 %f  
+ 148bbc %s^%s-%s+%s=%s@%d_%d/
+ 148bd4 A:%d_%d_%d/
+ 148be0 B:%d-%d-%d@%d-%d&%d-%d#%d-%d$%d-%d!%d-%d;%d-%d|%s/
+ 148c14 C:%d+%d+%d/
+ 148c20 D:%s_%d/
+ 148c2c E:%s+%d@%d+%d&%d+%d#%d+%d/
+ 148c48 F:%s_%d/
+ 148c54 G:%d_%d/
+ 148c60 H:%d=%d@%d=%d|%s/
+ 148c74 I:%d_%d/
+ 148c80 J:%d+%d-%d/
+ 148c8c R:SylStructure.parent
+ 148ca4 R:SylStructure.parent.R:Word
+ 148cc4 R:Phrase.parent
+ 148cd4 p.end
+ 148cdc p.p.name
+ 148ce8 p.name
+ 148cf0 n.name
+ 148cf8 n.n.name
+ 148d04 syl_vowel
+ 148d10 gpos
+ 148d18 daughtern.R:SylStructure.daughtern.endtone
+ 148d44 p.R:SylStructure.parent
+ 148d5c stress
+ 148d64 glottal_stop_pos
+ 148d78 syl_num_phones
+ 148d88 n.R:SylStructure.parent
+ 148da0 p.R:SylStructure.parent.parent.R:Word.gpos
+ 148dcc p.R:SylStructure.parent.parent.R:Word.word_num_syls
+ 148e00 n.R:SylStructure.parent.parent.R:Word.gpos
+ 148e2c n.R:SylStructure.parent.parent.R:Word.word_num_syls
+ 148e60 p.R:SylStructure.parent.parent.R:Phrase.parent
+ 148e90 phrase_num_syls
+ 148ea0 phrase_num_words
+ 148eb4 n.R:SylStructure.parent.parent.R:Phrase.parent
+ 148ee4 pos_in_syl
+ 148ef0 p.stress
+ 148efc p.glottal_stop_pos
+ 148f10 p.syl_num_phones
+ 148f24 pos_in_word
+ 148f30 word_num_syls
+ 148f40 syl_in
+ 148f48 syl_out
+ 148f50 ssyl_in
+ 148f58 ssyl_out
+ 148f64 ssyl_from
+ 148f70 ssyl_to
+ 148f78 n.stress
+ 148f84 n.glottal_stop_pos
+ 148f98 n.syl_num_phones
+ 148fac p.gpos
+ 148fb4 p.word_num_syls
+ 148fc4 n.gpos
+ 148fcc n.word_num_syls
+ 148fdc p.phrase_num_syls
+ 148ff0 p.phrase_num_words
+ 149004 pos_in_utt
+ 149010 num_phrases
+ 14901c n.phrase_num_syls
+ 149030 n.phrase_num_words
+ 149044 ph_vc
+ 14904c ph_cvox
+ 149054 ph_ctype
+ 149060 parent
+ 149068 daughter
+ 149074 daughtern
+ 149080 num_frames = %d
+ 149094 sample_rate = %d
+ 1490a8 pms = { 
+ 1490b4 %d%s
+ 1490bc input_text
+ 1490c8 %sITEM %p {
+ 1490d8 %s	%s => 
+ 1490e4 %s	---
+ 1490ec %s	R:%s => 
+ 1490f8 %s		
+ 149100 %s	daughters {
+ 149110 %s	}
+ 149120 *** RELATION: %s
+ 149134 deterministic_path
+ 149148 tokenizer_func
+ 149158 text_analysis_func
+ 14916c phrasing_func
+ 14917c lettertosound_func
+ 149190 pause_insertion_func
+ 1491a8 intonation_func
+ 1491b8 duration_func
+ 1491c8 pos_tagger_func
+ 1491d8 postlex_func
+ 1491e8 %c%s
+ 1491f0 IVONA_Lexicon
+ 149200 IVONA_Lexicon: Missing file header
+ 149224 IVONA_Lexicon: Incorrect token at line %d
+ 149254 xivona_to_xsampa_rules
+ 14926c Word
+ 149274 dur_cart
+ 149280 R:SylStructure.parent.parent.R:Phrase.parent.name
+ 1492b8 phrasesylendtone_func
+ 1492d0 daughtern.R:SylStructure.daughtern
+ 1492f4 daughtern.R:Token.parent.endtone
+ 149318 endtone
+ 149320 R:SylStructure.daughtern.daughtern.R:Segment
+ 149350 Syllable
+ 14935c vox_lexicon
+ 149368 wordtosegments_func
+ 14937c xsampa_to_xivona_func
+ 149394 syl_boundaries_func
+ 1493a8 0123?
+ 1493b8 n.whitespace
+ 1493c8 tokentowords_func
+ 1493e4 file_pos
+ 1493f0 line_number
+ 1493fc %.*s#%s#%.*s
+ 14940c 00000000
+ 149418 %.*s%.*s%s
+ 149424 epsilon
+ 14942c ctype
+ 149438 cvox
+ 149454 MATCHES 
+ 149460 *%d* 
+ 14946c 0123
+ 149474 %s%d
+ 149488 regexp failure: %s
+ 14949c internal foulup
+ 1494ac memory corruption
+ 1494c0 corrupted pointers
+ 1494d4 invalid [] range
+ 1494e8 unmatched []
+ 1494f8 too many ()
+ 149504 unmatched ()
+ 149514 internal urp
+ 149524 ?+* follows nothing
+ 149538 trailing \
+ 149544 *+ operand could be empty
+ 149560 nested *?+
+ 14956c NULL argument
+ 14957c junk on end
+ 149588 regexp too big
+ 149598 NULL parameter
+ 1495a8 corrupted program
+ 1495bc CONNECT_ONLY is required!
+ 1495d8 Failed to get recent socket
+ 1495f4   Trying %s... 
+ 149604 Could not set TCP_NODELAY: %s
+ 149624 TCP_NODELAY set
+ 149638 Local Interface %s is ip %s using address family %i
+ 149670 SO_BINDTODEVICE %s failed with errno %d: %s; will do regular bind
+ 1496b4 Name '%s' family %i resolved to '%s' family %i
+ 1496e4 getsockname() failed with errno %d: %s
+ 14970c Local port: %d
+ 14971c Bind to local port %d failed, trying next
+ 149748 bind failed with errno %d: %s
+ 149768 Failed to connect to %s: %s
+ 149784 connected
+ 149790 Couldn't bind to '%s'
+ 1497a8 Timeout
+ 1497b4 Connection time-out
+ 1497c8 connect() timed out!
+ 1497e0 couldn't connect to host
+ 1497fc Connection failed
+ 149810 Failed connect to %s:%d; %s
+ 14982c Internal error clearing splay node = %d
+ 149858 Expire cleared
+ 149868 Internal error removing splay node = %d
+ 149894 %p is at send pipe head!
+ 1498b0 Pipe broke: handle 0x%x, url = %s
+ 1498d4 %p is at send pipe head B!
+ 1498f0 Delayed kill of easy handle %p
+ 149910 Unsupported protocol
+ 149928 No error
+ 149934 Failed initialization
+ 14994c URL using bad/illegal format or missing URL
+ 149978 Couldn't resolve proxy name
+ 149994 Couldn't resolve host name
+ 1499b0 Couldn't connect to server
+ 1499cc FTP: weird server reply
+ 1499e4 Access denied to remote resource
+ 149a08 FTP: unknown PASS reply
+ 149a20 FTP: unknown PASV reply
+ 149a38 FTP: unknown 227 response format
+ 149a5c FTP: can't figure out the host in the PASV response
+ 149a90 FTP: couldn't set file type
+ 149aac Transferred a partial file
+ 149ac8 FTP: couldn't retrieve (RETR failed) the specified file
+ 149b00 Quote command returned error
+ 149b20 HTTP response code said error
+ 149b40 Failed writing received data to disk/application
+ 149b74 Upload failed (at start/before it took off)
+ 149ba0 Failed to open/read local data from file/application
+ 149bd8 Timeout was reached
+ 149bec FTP: command PORT failed
+ 149c08 FTP: command REST failed
+ 149c24 Requested range was not delivered by the server
+ 149c54 Internal problem setting up the POST
+ 149c7c SSL connect error
+ 149c90 Couldn't resume download
+ 149cac Couldn't read a file:// file
+ 149ccc LDAP: cannot bind
+ 149ce0 LDAP: search failed
+ 149cf4 A required function in the library was not found
+ 149d28 Operation was aborted by an application callback
+ 149d5c A libcurl function was given a bad argument
+ 149d88 Failed binding local connection end
+ 149dac Number of redirects hit maximum amount
+ 149dd4 User specified an unknown telnet option
+ 149dfc Malformed telnet option
+ 149e14 SSL peer certificate or SSH md5 fingerprint was not OK
+ 149e4c Server returned nothing (no headers, no data)
+ 149e7c SSL crypto engine not found
+ 149e98 Can not set SSL crypto engine as default
+ 149ec4 Failed to initialise SSL crypto engine
+ 149eec Failed sending data to the peer
+ 149f0c Failure when receiving data from the peer
+ 149f38 Problem with the local SSL certificate
+ 149f60 Couldn't use specified SSL cipher
+ 149f84 Peer certificate cannot be authenticated with known CA certificates
+ 149fc8 Problem with the SSL CA cert (path? access rights?)
+ 149ffc Unrecognized HTTP Content-Encoding
+ 14a020 Invalid LDAP URL
+ 14a034 Maximum file size exceeded
+ 14a050 Requested SSL level failed
+ 14a06c Failed to shut down the SSL connection
+ 14a094 Failed to load CRL file (path? access rights?, format?)
+ 14a0cc Issuer check against peer certificate failed
+ 14a0fc Send failed since rewinding of the data stream failed
+ 14a134 Login denied
+ 14a144 TFTP: File Not Found
+ 14a15c TFTP: Access Violation
+ 14a174 Disk full or allocation exceeded
+ 14a198 TFTP: Illegal operation
+ 14a1b0 TFTP: Unknown transfer ID
+ 14a1cc Remote file already exists
+ 14a1e8 TFTP: No such user
+ 14a1fc Conversion failed
+ 14a210 Caller must register CURLOPT_CONV_ callback options
+ 14a244 Remote file not found
+ 14a25c Error in the SSH layer
+ 14a274 Socket not ready for send/recv
+ 14a294 Please call curl_multi_perform() soon
+ 14a2bc Invalid multi handle
+ 14a2d4 Invalid easy handle
+ 14a2e8 Invalid socket argument
+ 14a300 Unknown option
+ 14a310 Unknown share option
+ 14a328 Share currently in use
+ 14a340 Invalid share handle
+ 14a358 CURLSHcode unknown
+ 14a36c Unknown error %d
+ 14a380 %s:%d
+ 14a388 name lookup timed out
+ 14a3a0 Previous alarm fired off!
+ 14a3bc --:--:--
+ 14a3c8 %2lld:%02lld:%02lld
+ 14a3dc %3lldd %02lldh
+ 14a3ec %7lldd
+ 14a3f4 %5lld
+ 14a3fc %4lldk
+ 14a404 %2lld.%0lldM
+ 14a414 %4lldM
+ 14a41c %2lld.%0lldG
+ 14a42c %4lldG
+ 14a434 %4lldT
+ 14a43c %4lldP
+ 14a444 Callback aborted
+ 14a458 ** Resuming transfer from byte position %lld
+ 14a488   %% Total    %% Received %% Xferd  Average Speed   Time    Time     Time  Current
+ 14a4db                                  Dload  Upload   Total   Spent    Left  Speed
+ 14a52d %3lld %s  %3lld %s  %3lld %s  %s  %s %s %s %s %s
+ 14a560 Basic
+ 14a568 Authentication problem. Ignoring this.
+ 14a590 Expect:
+ 14a598 Expect: 100-continue
+ 14a5b0 Empty reply from server
+ 14a5c8 NTLM send, close instead of sending %lld bytes
+ 14a5f8 The requested URL returned error: %d
+ 14a620 HEAD
+ 14a62c POST
+ 14a638 User-Agent:
+ 14a644 Authorization:
+ 14a654 %sAuthorization: Basic %s
+ 14a670 %s auth using %s with user '%s'
+ 14a694 Server
+ 14a69c Referer:
+ 14a6a8 Referer: %s
+ 14a6b8 Cookie:
+ 14a6c0 Accept-Encoding:
+ 14a6d4 Accept-Encoding: %s
+ 14a6ec Transfer-Encoding:
+ 14a700 chunked
+ 14a708 Transfer-Encoding: chunked
+ 14a728 Chunky upload is not supported by HTTP 1.0
+ 14a754 Host:
+ 14a75c Host: %s%s%s
+ 14a76c Host: %s%s%s:%d
+ 14a780 Content-Type:
+ 14a790 failed creating formpost data
+ 14a7b0 Accept:
+ 14a7b8 Accept: */*
+ 14a7c8 Could not seek stream
+ 14a7e0 Could only read %lld bytes from the input
+ 14a80c File already completely uploaded
+ 14a830 Range:
+ 14a838 Range: bytes=%s
+ 14a84c Content-Range:
+ 14a85c Content-Range: bytes 0-%lld/%lld
+ 14a880 Content-Range: bytes %s%lld/%lld
+ 14a8a4 Content-Range: bytes %s/%lld
+ 14a8c4 Proxy-Connection:
+ 14a8d8 Proxy-Connection: Keep-Alive
+ 14a8f8 %s %s%s HTTP/%s
+ 14a909 %s%s%s%s%s%s%s%s%s%s
+ 14a920 %s, %02d %s %4d %02d:%02d:%02d GMT
+ 14a944 If-Modified-Since: %s
+ 14a95c If-Unmodified-Since: %s
+ 14a978 Last-Modified: %s
+ 14a994 Content-Length: 0
+ 14a9ac Failed sending POST request
+ 14a9c8 Internal HTTP POST error!
+ 14a9e4 Content-Length: %lld
+ 14a9fc Could not get Content-Type header line!
+ 14aa24 Failed sending PUT request
+ 14aa40 Content-Length:
+ 14aa50 Content-Type: application/x-www-form-urlencoded
+ 14aa94 Failed sending HTTP POST request
+ 14aab8 Failed sending HTTP request
+ 14aad4 HTTP
+ 14aadc Header
+ 14aae4 from
+ 14aaec Data
+ 14aaf8 [%s %s %s]
+ 14ab04 Failed writing body (%d != %d)
+ 14ab24 Failed writing header
+ 14ab3c Send failure: %s
+ 14ab50 Connected to %s (%s) port %d (#%d)
+ 14ab74 %llu-
+ 14ab7c Closing connection #%ld
+ 14ab98 Connection #%ld to host %s left intact
+ 14abc0 Connection (#%d) was killed to make room (holds %d)
+ 14abf8 This connection did not fit in the connection cache
+ 14ac30 %15[^:]:%[^
+ 14ac40 file
+ 14ac48 %15[^
+ 14ac4e :]://%[^
+ 14ac57 /]%[^
+ 14ac64 /]%[^
+ 14ac6c <url> malformed
+ 14ac7c FTP.
+ 14ac88 DICT.
+ 14ac90 DICT
+ 14ac98 LDAP.
+ 14aca0 LDAP
+ 14aca8 http
+ 14acb4 Invalid IPv6 address format
+ 14acd4 %s://%s
+ 14acdc Protocol %s not supported or disabled in libcurl
+ 14ad10 %255[^:@]:%255[^@]
+ 14ad24 :%255[^@]
+ 14ad30 [%*45[0123456789abcdefABCDEF:.]%c
+ 14ad54 ftps
+ 14ad5c %s://%s%s%s:%d%s%s
+ 14ad70 Port number too large: %lu
+ 14ad8c Couldn't find host %s in the .netrc file; using defaults
+ 14adc8 ftp@example.com
+ 14add8 Connection #%ld isn't open enough, can't reuse
+ 14ae08 Connection #%d seems to be dead!
+ 14ae2c Re-using existing connection! (#%ld) with host %s
+ 14ae60 Couldn't resolve host '%s'
+ 14ae7c Couldn't resolve proxy '%s'
+ 14ae98 User-Agent: %s
+ 14aeac proxy 
+ 14aeb4 About to connect() to %s%s port %d (#%d)
+ 14aee0 unknown proxytype option given
+ 14af00 Re-used connection seems dead, get a new one
+ 14af30 identity
+ 14af3c <no protocol>
+ 14af4c Operation too slow. Less than %d bytes/sec transfered the last %d seconds
+ 14af98 %%%02X
+ 14afa0 .%ld
+ 14afa8 HOME
+ 14afb0 %s%s%s
+ 14afb8 .netrc
+ 14afc4 machine
+ 14afcc login
+ 14afd4 password
+ 14afe0 Connection died, retrying a fresh connect
+ 14b00c Maximum (%d) redirects followed
+ 14b02c Issue another request to this URL: '%s'
+ 14b058 Violate RFC 2616/10.3.2 and switch from POST to GET
+ 14b090 Violate RFC 2616/10.3.3 and switch from POST to GET
+ 14b0c8 Disables POST, goes with %s
+ 14b0e8 No URL set!
+ 14b0f4 HTTP/
+ 14b0fc seek callback returned error %d
+ 14b11c the ioctl callback returned %d
+ 14b13c ioctl callback returned error %d
+ 14b160 necessary data rewind wasn't possible
+ 14b188 operation aborted by callback
+ 14b1a8 read function returned funny value
+ 14b1cc select/poll returned error
+ 14b1e8 Failed to alloc memory for big header!
+ 14b210 no chunk, no close, no size. Assume close to signal end
+ 14b24c Keep sending data to get tossed away!
+ 14b274  HTTP/%d.%d %3d
+ 14b284  HTTP %3d
+ 14b290 HTTP 1.0, assume close after body
+ 14b2b4 Negative content-length: %lld, closing after transfer
+ 14b2ec keep-alive
+ 14b2f8 HTTP/1.0 proxy connection set to keep alive!
+ 14b328 close
+ 14b330 HTTP/1.1 proxy connection set close!
+ 14b358 Connection:
+ 14b364 HTTP/1.0 connection set to keep alive!
+ 14b38c Trailer:
+ 14b398 Trailers:
+ 14b3a4 Content-Encoding:
+ 14b3b8 deflate
+ 14b3c0 gzip
+ 14b3c8 x-gzip
+ 14b3d0 x-compress
+ 14b3dc Last-Modified:
+ 14b3ec WWW-Authenticate:
+ 14b400 Proxy-authenticate:
+ 14b414 Location:
+ 14b420 Ignoring the response-body
+ 14b43c HTTP server doesn't seem to support byte ranges. Cannot resume.
+ 14b47c The requested document is not new enough
+ 14b4a8 The requested document is not old enough
+ 14b4d4 Failed writing data
+ 14b4e8 Received problem %d in the chunky parser
+ 14b514 Leftovers after chunking.  Rewinding %d bytes
+ 14b544 Rewinding stream by : %d bytes on url %s (size = %lld, maxdownload = %lld, bytecount = %lld, nread = %d)
+ 14b5b0 we are done reading and this is set to close, stop send
+ 14b5ec Failed to alloc scratch buffer!
+ 14b60c Done waiting for 100-continue
+ 14b62c Operation timed out after %ld milliseconds with %lld out of %lld bytes received
+ 14b67c Operation timed out after %ld milliseconds with %lld bytes received
+ 14b6c0 transfer closed with %lld bytes remaining to read
+ 14b6f4 transfer closed with outstanding read data remaining
+ 14b72c unspecified error %d
+ 14b744 gethostbyname_r(2) failed for %s
+ 14b768 %31[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]
+ 14b7a4 %02d:%02d:%02d
+ 14b800 Monday
+ 14b808 Tuesday
+ 14b810 Wednesday
+ 14b81c Thursday
+ 14b828 Friday
+ 14b830 Saturday
+ 14b83c Sunday
+ 14b844 Couldn't open file %s
+ 14b860 Can't open %s for writing
+ 14b880 Can't get the size of %s
+ 14b89c Accept-ranges: bytes
+ 14b8b4 Last-Modified: %s, %02d %s %4d %02d:%02d:%02d GMT
+ 14b8e8 Can't get the size of file.
+ 14b904 failed to resume file:// transfer
+ 14b928 FILE
+ 14b930 %c%c==
+ 14b938 %c%c%c=
+ 14b940 %c%c%c%c
+ 14b94c ----------------------------
+ 14b96c Content-Type: multipart/form-data
+ 14b990 %s; boundary=%s
+ 14b9a4 --%s
+ 14b9ac Content-Disposition: form-data; name="
+ 14b9d6 Content-Type: multipart/mixed, boundary=%s
+ 14ba06 --%s
+ 14ba0c Content-Disposition: attachment; filename="%s"
+ 14ba3c ; filename="%s"
+ 14ba4e Content-Type: %s
+ 14ba72 --%s--
+ 14ba7e --%s--
+ 14ba88 application/octet-stream
+ 14baa4 image/gif
+ 14bab0 image/jpeg
+ 14babc text/html
+ 14bac8 application/xml
+ 14bad8 vorbis
+ 14bae0 St9exception
+ 14baf0 St13bad_exception
+ 14bb30 PKDs
+ 14bb40 PKDi
+ 14bbf8 PKDf
+ 14bc08 PKDd
+ 14bc18 PKDe
+ 14bc28 PKDn
+ 14bc30 N10__cxxabiv123__fundamental_type_infoE
+ 14bc58 N10__cxxabiv119__pointer_type_infoE
+ 14bc7c N10__cxxabiv120__si_class_type_infoE
+ 14bca4 St9type_info
+ 14bcb4 St8bad_cast
+ 14bcc0 St10bad_typeid
+ 14bcd0 N10__cxxabiv117__class_type_infoE
+ 14bcf4 N9__gnu_cxx24__concurrence_lock_errorE
+ 14bd1c N9__gnu_cxx26__concurrence_unlock_errorE
+ 14bd48 N10__cxxabiv117__pbase_type_infoE
+ 14bd9a JFMb
+ 14bdac jc-5"
+ 14bdec U$dE
+ 14bdff NU>|
+ 14bf49 %bs"uP8
+ 14bf88 IVONA Text-To-Speech
+ 14bf9d ivona-1.6.23
+ 14bfaa February 2013
+ 14bfec \\&&
+ 14bff4 Certificate-ID
+ 14c004 Num-threads
+ 14c010 Voices
+ 14c018 Expiration-date
+ 14c028 Extension-SSML
+ 14c038 Thread-speed
+ 14c048 -----BEGIN SIGNATURE-----
+ 14c064 Product
+ 14c06c Licensee
+ 14c078 Licensor
+ 14c084 License-ID
+ 14c090 Comments
+ 14c138 }wB6fX
+ 14c18e EnMas
+ 14c1e1 uuek
+ 14c284 iv5D
+ 14c2a7 0fr7-3
+ 14c2e4 "+*2b
+ 14c308 G*#%
+ 14e325 1234
+ 14e489 QRSTUVWXYZ[
+ 14e498 \]^_`abcdefghijk
+ 14e4b3 lmno3Npqrst
+ 14e4bf uvwxy
+ 14e4c8 z{|}~
+ 14e4d1 MMMMMMMM
+ 14e4df MMMMMMMMMMM
+ 14e4eb MMMMMMMMMMM
+ 14e508 MMMMMMMMMMMMMMMMMMMMMMMMM4M
+ 14e535 MyMMMMMMMMMMMMMMMMMMMMMMMMM
+ 14e559 MMMMMM
+ 14e560 MMMMMMMMMMMM
+ 14e5a2 MMMMM
+ 14e794 MMMM
+ 14ecb8 MMMMMMMMMMMMMMMyMM
+ 14ecd8 MMMM
+ 14ece8 MMMMM
+ 14edbb MMMMMM
+ 150ec1  &   ! 
+ 1510c1  &   ! 
+ 1510c9  0 	
+ 1512c1  &   ! 
+ 1514c1  &   ! 
+ 1516c1  &   ! 
+ 1518c1  &   ! 
+ 151ac1  &   ! 
+ 151cc1  &   ! 
+ 151ec1  &   ! 
+ 152721 Av?Hmj?A
+ 1527fc \PSA{
+ 1528b0 ^$*+?[].\
+ 1528bc ()|<>
+ 1528c8 ^$*+?[].()|\
+ 1528f9 9ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_
+ 152936 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_
+ 152986 0123456789
+ 152997 0123456789
+ 1529b5 abcdefghijklmnopqrstuvwxyz
+ 1529e5 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ 152a2d 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ 152a81 ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ 152abf 0123456789
+ 152af7 0123456789
+ 152b0d 0123456789
+ 152b2a 0123456789
+ 152b4c 0123456789
+ 152b81 0123456789
+ 152bae 8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ 152bf7 8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ 152c47 IVXLCDM
+ 152c58 ivxlcdm
+ 152d05 MARK
+ 152d0a ACCEPT
+ 152d11 COMMIT
+ 152d1a FAIL
+ 152d1f PRUNE
+ 152d25 SKIP
+ 152d2a THEN
+ 152da0 alpha
+ 152da6 lower
+ 152dac upper
+ 152db2 alnum
+ 152db8 ascii
+ 152dbe blank
+ 152dc4 cntrl
+ 152dca digit
+ 152dd0 graph
+ 152dd6 print
+ 152ddc punct
+ 152de2 space
+ 152de8 word
+ 152ded xdigit
+ 152eac \P{Nd}
+ 152eb4 \p{Nd}
+ 152ebc \P{Xsp}
+ 152ec4 \p{Xsp}
+ 152ecc \P{Xwd}
+ 152ed4 \p{Xwd}
+ 152edc \p{L}
+ 152ee4 \p{Ll}
+ 152eec \p{Lu}
+ 152ef4 \p{Xan}
+ 152f00 \p{Xps}
+ 152f08 \P{L}
+ 152f10 \P{Ll}
+ 152f18 \P{Lu}
+ 152f20 \P{Xan}
+ 152f2c \P{Xps}
+ 152f34 no error
+ 152f3d \ at end of pattern
+ 152f51 \c at end of pattern
+ 152f66 unrecognized character follows \
+ 152f87 numbers out of order in {} quantifier
+ 152fad number too big in {} quantifier
+ 152fcd missing terminating ] for character class
+ 152ff7 invalid escape sequence in character class
+ 153022 range out of order in character class
+ 153048 nothing to repeat
+ 15305a operand of unlimited repeat could match the empty string
+ 153093 internal error: unexpected repeat
+ 1530b5 unrecognized character after (? or (?-
+ 1530dc POSIX named classes are supported only within a class
+ 153112 missing )
+ 15311c reference to non-existent subpattern
+ 153141 erroffset passed as NULL
+ 15315a unknown option bit(s) set
+ 153174 missing ) after comment
+ 15318c parentheses nested too deeply
+ 1531aa regular expression is too large
+ 1531ca failed to get memory
+ 1531df unmatched parentheses
+ 1531f5 internal error: code overflow
+ 153213 unrecognized character after (?<
+ 153234 lookbehind assertion is not fixed length
+ 15325d malformed number or name after (?(
+ 153280 conditional group contains more than two branches
+ 1532b2 assertion expected after (?(
+ 1532cf (?R or (?[+-]digits must be followed by )
+ 1532f9 unknown POSIX class name
+ 153312 POSIX collating elements are not supported
+ 15333d this version of PCRE is not compiled with PCRE_UTF8 support
+ 153379 spare error
+ 153385 character value in \x{...} sequence is too large
+ 1533b6 invalid condition (?(0)
+ 1533ce \C not allowed in lookbehind assertion
+ 1533f5 PCRE does not support \L, \l, \N{name}, \U, or \u
+ 153427 number after (?C is > 255
+ 153441 closing ) for (?C expected
+ 15345c recursive call could loop indefinitely
+ 153483 unrecognized character after (?P
+ 1534a4 syntax error in subpattern name (missing terminator)
+ 1534d9 two named subpatterns have the same name
+ 153502 invalid UTF-8 string
+ 153517 support for \P, \p, and \X has not been compiled
+ 153548 malformed \P or \p sequence
+ 153564 unknown property name after \P or \p
+ 153589 subpattern name is too long (maximum 32 characters)
+ 1535bd too many named subpatterns (maximum 10000)
+ 1535e8 repeated subpattern is too long
+ 153608 octal value is greater than \377 (not in UTF-8 mode)
+ 15363d internal error: overran compiling workspace
+ 153669 internal error: previously-checked referenced subpattern not found
+ 1536ac DEFINE group contains more than one branch
+ 1536d7 repeating a DEFINE group is not allowed
+ 1536ff inconsistent NEWLINE options
+ 15371c \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
+ 153778 a numbered reference must not be zero
+ 15379e an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)
+ 1537de (*VERB) not recognized
+ 1537f5 number is too big
+ 153807 subpattern name expected
+ 153820 digit expected after (?+
+ 153839 ] is an invalid data character in JavaScript compatibility mode
+ 153879 different names for subpatterns of the same number are not allowed
+ 1538bc (*MARK) must have an argument
+ 1538da this version of PCRE is not compiled with PCRE_UCP support
+ 153a18 Error text not found (please report)
+ 153a48 DEFINE
+ 153a50 UTF8)
+ 153a58 UCP)
+ 153a68 CRLF)
+ 153a70 ANY)
+ 153a78 ANYCRLF)
+ 153a84 BSR_ANYCRLF)
+ 153a94 BSR_UNICODE)
+ 153ab4 argument is not a compiled regular expression
+ 153ae4 unknown or incorrect option bit(s) set
+ 153b0c failed to get memory
+ 153ca4 Arabic
+ 153cab Armenian
+ 153cb4 Avestan
+ 153cbc Balinese
+ 153cc5 Bamum
+ 153ccb Bengali
+ 153cd3 Bopomofo
+ 153cdc Braille
+ 153ce4 Buginese
+ 153ced Buhid
+ 153cf5 Canadian_Aboriginal
+ 153d09 Carian
+ 153d16 Cham
+ 153d1b Cherokee
+ 153d2a Common
+ 153d31 Coptic
+ 153d3b Cuneiform
+ 153d45 Cypriot
+ 153d4d Cyrillic
+ 153d56 Deseret
+ 153d5e Devanagari
+ 153d69 Egyptian_Hieroglyphs
+ 153d7e Ethiopic
+ 153d87 Georgian
+ 153d90 Glagolitic
+ 153d9b Gothic
+ 153da2 Greek
+ 153da8 Gujarati
+ 153db1 Gurmukhi
+ 153dbe Hangul
+ 153dc5 Hanunoo
+ 153dcd Hebrew
+ 153dd4 Hiragana
+ 153ddd Imperial_Aramaic
+ 153dee Inherited
+ 153df8 Inscriptional_Pahlavi
+ 153e0e Inscriptional_Parthian
+ 153e25 Javanese
+ 153e2e Kaithi
+ 153e35 Kannada
+ 153e3d Katakana
+ 153e46 Kayah_Li
+ 153e4f Kharoshthi
+ 153e5a Khmer
+ 153e69 Latin
+ 153e6f Lepcha
+ 153e76 Limbu
+ 153e7c Linear_B
+ 153e85 Lisu
+ 153e99 Lycian
+ 153ea0 Lydian
+ 153ea9 Malayalam
+ 153eb9 Meetei_Mayek
+ 153ec9 Mongolian
+ 153ed3 Myanmar
+ 153ee0 New_Tai_Lue
+ 153ef6 Ogham
+ 153efc Ol_Chiki
+ 153f05 Old_Italic
+ 153f10 Old_Persian
+ 153f1c Old_South_Arabian
+ 153f2e Old_Turkic
+ 153f39 Oriya
+ 153f3f Osmanya
+ 153f55 Phags_Pa
+ 153f5e Phoenician
+ 153f72 Rejang
+ 153f79 Runic
+ 153f81 Samaritan
+ 153f8b Saurashtra
+ 153f99 Shavian
+ 153fa1 Sinhala
+ 153fb2 Sundanese
+ 153fbc Syloti_Nagri
+ 153fc9 Syriac
+ 153fd0 Tagalog
+ 153fd8 Tagbanwa
+ 153fe1 Tai_Le
+ 153fe8 Tai_Tham
+ 153ff1 Tai_Viet
+ 153ffa Tamil
+ 154000 Telugu
+ 154007 Thaana
+ 15400e Thai
+ 154013 Tibetan
+ 15401b Tifinagh
+ 154024 Ugaritic
+ 1553d0  !""#$%&'((()*+,-./0123456789:;<=>?@AABCDEFGHIJKLLAMAAN
+ 155408 OPQRSTUVWXYZ[\]F^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^_^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`abbbbbbbbcddefghijklmn
+ 155507 o"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""pqqqqqqqqqqqqqqqqrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr^^stuvwwxyz{|}~
+ 1557b0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 1558fe ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 1559a0 ^^^^
+ 1571b0 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ 1573b0 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ 1621d0  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ 1622d0  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ 1625f0 ex_data.c
+ 162600 SHA-512 part of OpenSSL 0.9.8l 5 Nov 2009
+ 16263d D7q/;M
+ 1626d2 +Yo,
+ 16273a &\8!
+ 1627a0 * qW
+ 1627c4 LwH'
+ 162897 L*~e
+ 1628ae DlBig Number part of OpenSSL 0.9.8l 5 Nov 2009
+ 1628e0 bn_lib.c
+ 1629ec rsa_sign.c
+ 1629f8 signature has problems, re-make with post SSLeay045
+ 162a30 RSA part of OpenSSL 0.9.8l 5 Nov 2009
+ 162a58 rsa_eng.c
+ 162a64 Stack part of OpenSSL 0.9.8l 5 Nov 2009
+ 162a8c stack.c
+ 162a94 lhash part of OpenSSL 0.9.8l 5 Nov 2009
+ 162abc lhash.c
+ 162acc err.c
+ 162ad4 err_def.c
+ 162ae0 int_err_get (err.c)
+ 162af4 int_thread_get (err.c)
+ 162b0c EVP part of OpenSSL 0.9.8l 5 Nov 2009
+ 162b34 evp_enc.c
+ 162b40 bl <= (int)sizeof(ctx->buf)
+ 162b5c b <= sizeof ctx->buf
+ 162b74 b <= sizeof ctx->final
+ 162b8c enc_min.c
+ 162b98 ctx->cipher->block_size == 1 || ctx->cipher->block_size == 8 || ctx->cipher->block_size == 16
+ 162bf8 EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
+ 162c30 algor
+ 162c38 digest
+ 162c40 X509_SIG
+ 162c4c tasn_new.c
+ 162c58 tasn_enc.c
+ 162ce4 Field=
+ 162cec , Type=
+ 162cf4 Type=
+ 162cfc tasn_utl.c
+ 162d08 ASN1_INTEGER
+ 162d18 ASN1_ENUMERATED
+ 162d28 ASN1_BIT_STRING
+ 162d38 ASN1_OCTET_STRING
+ 162d4c ASN1_NULL
+ 162d58 ASN1_OBJECT
+ 162d64 ASN1_UTF8STRING
+ 162d74 ASN1_PRINTABLESTRING
+ 162d8c ASN1_T61STRING
+ 162d9c ASN1_IA5STRING
+ 162dac ASN1_GENERALSTRING
+ 162dc0 ASN1_UTCTIME
+ 162dd0 ASN1_GENERALIZEDTIME
+ 162de8 ASN1_VISIBLESTRING
+ 162dfc ASN1_UNIVERSALSTRING
+ 162e14 ASN1_BMPSTRING
+ 162e24 ASN1_ANY
+ 162e30 ASN1_SEQUENCE
+ 162e40 ASN1_PRINTABLE
+ 162e50 DISPLAYTEXT
+ 162e5c DIRECTORYSTRING
+ 162e6c ASN1_BOOLEAN
+ 162e7c ASN1_TBOOLEAN
+ 162e8c ASN1_FBOOLEAN
+ 162e9c ASN1_OCTET_STRING_NDEF
+ 162eb4 ASN.1 part of OpenSSL 0.9.8l 5 Nov 2009
+ 162edc asn1_lib.c
+ 162ef0 address=
+ 162efc  offset=
+ 162f08 %s(%d): OpenSSL internal error, assertion failed: %s
+ 162f40 mem.c
+ 162f48 UNDEF
+ 162f50 undefined
+ 162f5c rsadsi
+ 162f64 RSA Data Security, Inc.
+ 162f7c pkcs
+ 162f84 RSA Data Security, Inc. PKCS
+ 162fbc rsaEncryption
+ 162fcc RSA-MD2
+ 162fd4 md2WithRSAEncryption
+ 162fec RSA-MD5
+ 162ff4 md5WithRSAEncryption
+ 16300c PBE-MD2-DES
+ 163018 pbeWithMD2AndDES-CBC
+ 163030 PBE-MD5-DES
+ 16303c pbeWithMD5AndDES-CBC
+ 163054 X500
+ 16305c directory services (X.500)
+ 163078 X509
+ 163084 commonName
+ 163094 countryName
+ 1630a4 localityName
+ 1630b8 stateOrProvinceName
+ 1630d0 organizationName
+ 1630e8 organizationalUnitName
+ 163108 pkcs7
+ 163110 pkcs7-data
+ 16311c pkcs7-signedData
+ 163130 pkcs7-envelopedData
+ 163144 pkcs7-signedAndEnvelopedData
+ 163164 pkcs7-digestData
+ 163178 pkcs7-encryptedData
+ 16318c pkcs3
+ 163194 dhKeyAgreement
+ 1631a4 DES-ECB
+ 1631ac des-ecb
+ 1631b4 DES-CFB
+ 1631bc des-cfb
+ 1631c4 DES-CBC
+ 1631cc des-cbc
+ 1631d4 DES-EDE
+ 1631dc des-ede
+ 1631e4 DES-EDE3
+ 1631f0 des-ede3
+ 1631fc IDEA-CBC
+ 163208 idea-cbc
+ 163214 IDEA-CFB
+ 163220 idea-cfb
+ 16322c IDEA-ECB
+ 163238 idea-ecb
+ 163244 RC2-CBC
+ 16324c rc2-cbc
+ 163254 RC2-ECB
+ 16325c rc2-ecb
+ 163264 RC2-CFB
+ 16326c rc2-cfb
+ 163274 RC2-OFB
+ 16327c rc2-ofb
+ 16328c RSA-SHA
+ 163294 shaWithRSAEncryption
+ 1632ac DES-EDE-CBC
+ 1632b8 des-ede-cbc
+ 1632c4 DES-EDE3-CBC
+ 1632d4 des-ede3-cbc
+ 1632e4 DES-OFB
+ 1632ec des-ofb
+ 1632f4 IDEA-OFB
+ 163300 idea-ofb
+ 16330c pkcs9
+ 163314 emailAddress
+ 163324 unstructuredName
+ 163338 contentType
+ 163344 messageDigest
+ 163354 signingTime
+ 163360 countersignature
+ 163374 challengePassword
+ 163388 unstructuredAddress
+ 16339c extendedCertificateAttributes
+ 1633bc Netscape
+ 1633c8 Netscape Communications Corp.
+ 1633e8 nsCertExt
+ 1633f4 Netscape Certificate Extension
+ 163414 nsDataType
+ 163420 Netscape Data Type
+ 163434 DES-EDE-CFB
+ 163440 des-ede-cfb
+ 16344c DES-EDE3-CFB
+ 16345c des-ede3-cfb
+ 16346c DES-EDE-OFB
+ 163478 des-ede-ofb
+ 163484 DES-EDE3-OFB
+ 163494 des-ede3-ofb
+ 1634a4 SHA1
+ 1634ac sha1
+ 1634b4 RSA-SHA1
+ 1634c0 sha1WithRSAEncryption
+ 1634d8 DSA-SHA
+ 1634e0 dsaWithSHA
+ 1634ec DSA-old
+ 1634f4 dsaEncryption-old
+ 163508 PBE-SHA1-RC2-64
+ 163518 pbeWithSHA1AndRC2-CBC
+ 163530 PBKDF2
+ 163538 DSA-SHA1-old
+ 163548 dsaWithSHA1-old
+ 163558 nsCertType
+ 163564 Netscape Cert Type
+ 163578 nsBaseUrl
+ 163584 Netscape Base Url
+ 163598 nsRevocationUrl
+ 1635a8 Netscape Revocation Url
+ 1635c0 nsCaRevocationUrl
+ 1635d4 Netscape CA Revocation Url
+ 1635f0 nsRenewalUrl
+ 163600 Netscape Renewal Url
+ 163618 nsCaPolicyUrl
+ 163628 Netscape CA Policy Url
+ 163640 nsSslServerName
+ 163650 Netscape SSL Server Name
+ 16366c nsComment
+ 163678 Netscape Comment
+ 16368c nsCertSequence
+ 16369c Netscape Certificate Sequence
+ 1636bc DESX-CBC
+ 1636c8 desx-cbc
+ 1636d4 id-ce
+ 1636dc subjectKeyIdentifier
+ 1636f4 X509v3 Subject Key Identifier
+ 163714 keyUsage
+ 163720 X509v3 Key Usage
+ 163734 privateKeyUsagePeriod
+ 16374c X509v3 Private Key Usage Period
+ 16376c subjectAltName
+ 16377c X509v3 Subject Alternative Name
+ 16379c issuerAltName
+ 1637ac X509v3 Issuer Alternative Name
+ 1637cc basicConstraints
+ 1637e0 X509v3 Basic Constraints
+ 1637fc crlNumber
+ 163808 X509v3 CRL Number
+ 16381c certificatePolicies
+ 163830 X509v3 Certificate Policies
+ 16384c authorityKeyIdentifier
+ 163864 X509v3 Authority Key Identifier
+ 163884 BF-CBC
+ 16388c bf-cbc
+ 163894 BF-ECB
+ 16389c bf-ecb
+ 1638a4 BF-CFB
+ 1638ac bf-cfb
+ 1638b4 BF-OFB
+ 1638bc bf-ofb
+ 1638c4 MDC2
+ 1638cc mdc2
+ 1638d4 RSA-MDC2
+ 1638e0 mdc2WithRSA
+ 1638ec RC4-40
+ 1638f4 rc4-40
+ 1638fc RC2-40-CBC
+ 163908 rc2-40-cbc
+ 163918 givenName
+ 163928 surname
+ 163930 initials
+ 16393c crlDistributionPoints
+ 163954 X509v3 CRL Distribution Points
+ 163974 RSA-NP-MD5
+ 163980 md5WithRSA
+ 16398c serialNumber
+ 16399c title
+ 1639a4 description
+ 1639b0 CAST5-CBC
+ 1639bc cast5-cbc
+ 1639c8 CAST5-ECB
+ 1639d4 cast5-ecb
+ 1639e0 CAST5-CFB
+ 1639ec cast5-cfb
+ 1639f8 CAST5-OFB
+ 163a04 cast5-ofb
+ 163a10 pbeWithMD5AndCast5CBC
+ 163a28 DSA-SHA1
+ 163a34 dsaWithSHA1
+ 163a40 MD5-SHA1
+ 163a4c md5-sha1
+ 163a58 RSA-SHA1-2
+ 163a64 sha1WithRSA
+ 163a74 dsaEncryption
+ 163a84 RIPEMD160
+ 163a90 ripemd160
+ 163a9c RSA-RIPEMD160
+ 163aac ripemd160WithRSA
+ 163ac0 RC5-CBC
+ 163ac8 rc5-cbc
+ 163ad0 RC5-ECB
+ 163ad8 rc5-ecb
+ 163ae0 RC5-CFB
+ 163ae8 rc5-cfb
+ 163af0 RC5-OFB
+ 163af8 rc5-ofb
+ 163b04 run length compression
+ 163b1c ZLIB
+ 163b24 zlib compression
+ 163b38 extendedKeyUsage
+ 163b4c X509v3 Extended Key Usage
+ 163b68 PKIX
+ 163b70 id-kp
+ 163b78 serverAuth
+ 163b84 TLS Web Server Authentication
+ 163ba4 clientAuth
+ 163bb0 TLS Web Client Authentication
+ 163bd0 codeSigning
+ 163bdc Code Signing
+ 163bec emailProtection
+ 163bfc E-mail Protection
+ 163c10 timeStamping
+ 163c20 Time Stamping
+ 163c30 msCodeInd
+ 163c3c Microsoft Individual Code Signing
+ 163c60 msCodeCom
+ 163c6c Microsoft Commercial Code Signing
+ 163c90 msCTLSign
+ 163c9c Microsoft Trust List Signing
+ 163cbc msSGC
+ 163cc4 Microsoft Server Gated Crypto
+ 163ce4 msEFS
+ 163cec Microsoft Encrypted File System
+ 163d0c nsSGC
+ 163d14 Netscape Server Gated Crypto
+ 163d34 deltaCRL
+ 163d40 X509v3 Delta CRL Indicator
+ 163d5c CRLReason
+ 163d68 X509v3 CRL Reason Code
+ 163d80 invalidityDate
+ 163d90 Invalidity Date
+ 163da0 SXNetID
+ 163da8 Strong Extranet ID
+ 163dbc PBE-SHA1-RC4-128
+ 163dd0 pbeWithSHA1And128BitRC4
+ 163de8 PBE-SHA1-RC4-40
+ 163df8 pbeWithSHA1And40BitRC4
+ 163e10 PBE-SHA1-3DES
+ 163e20 pbeWithSHA1And3-KeyTripleDES-CBC
+ 163e44 PBE-SHA1-2DES
+ 163e54 pbeWithSHA1And2-KeyTripleDES-CBC
+ 163e78 PBE-SHA1-RC2-128
+ 163e8c pbeWithSHA1And128BitRC2-CBC
+ 163ea8 PBE-SHA1-RC2-40
+ 163eb8 pbeWithSHA1And40BitRC2-CBC
+ 163ed4 keyBag
+ 163edc pkcs8ShroudedKeyBag
+ 163ef0 certBag
+ 163ef8 crlBag
+ 163f00 secretBag
+ 163f0c safeContentsBag
+ 163f1c friendlyName
+ 163f2c localKeyID
+ 163f38 x509Certificate
+ 163f48 sdsiCertificate
+ 163f58 x509Crl
+ 163f60 PBES2
+ 163f68 PBMAC1
+ 163f70 hmacWithSHA1
+ 163f80 id-qt-cps
+ 163f8c Policy Qualifier CPS
+ 163fa4 id-qt-unotice
+ 163fb4 Policy Qualifier User Notice
+ 163fd4 RC2-64-CBC
+ 163fe0 rc2-64-cbc
+ 163fec SMIME-CAPS
+ 163ff8 S/MIME Capabilities
+ 16400c PBE-MD2-RC2-64
+ 16401c pbeWithMD2AndRC2-CBC
+ 164034 PBE-MD5-RC2-64
+ 164044 pbeWithMD5AndRC2-CBC
+ 16405c PBE-SHA1-DES
+ 16406c pbeWithSHA1AndDES-CBC
+ 164084 msExtReq
+ 164090 Microsoft Extension Request
+ 1640ac extReq
+ 1640b4 Extension Request
+ 1640c8 name
+ 1640d0 dnQualifier
+ 1640dc id-pe
+ 1640e4 id-ad
+ 1640ec authorityInfoAccess
+ 164100 Authority Information Access
+ 164120 OCSP
+ 164128 caIssuers
+ 164134 CA Issuers
+ 164140 OCSPSigning
+ 16414c OCSP Signing
+ 164164 member-body
+ 164170 ISO Member Body
+ 164180 ISO-US
+ 164188 ISO US Member Body
+ 16419c X9-57
+ 1641a4 X9.57
+ 1641ac X9cm
+ 1641b4 X9.57 CM ?
+ 1641c0 pkcs1
+ 1641c8 pkcs5
+ 1641d0 SMIME
+ 1641d8 S/MIME
+ 1641e0 id-smime-mod
+ 1641f0 id-smime-ct
+ 1641fc id-smime-aa
+ 164208 id-smime-alg
+ 164218 id-smime-cd
+ 164224 id-smime-spq
+ 164234 id-smime-cti
+ 164244 id-smime-mod-cms
+ 164258 id-smime-mod-ess
+ 16426c id-smime-mod-oid
+ 164280 id-smime-mod-msg-v3
+ 164294 id-smime-mod-ets-eSignature-88
+ 1642b4 id-smime-mod-ets-eSignature-97
+ 1642d4 id-smime-mod-ets-eSigPolicy-88
+ 1642f4 id-smime-mod-ets-eSigPolicy-97
+ 164314 id-smime-ct-receipt
+ 164328 id-smime-ct-authData
+ 164340 id-smime-ct-publishCert
+ 164358 id-smime-ct-TSTInfo
+ 16436c id-smime-ct-TDTInfo
+ 164380 id-smime-ct-contentInfo
+ 164398 id-smime-ct-DVCSRequestData
+ 1643b4 id-smime-ct-DVCSResponseData
+ 1643d4 id-smime-aa-receiptRequest
+ 1643f0 id-smime-aa-securityLabel
+ 16440c id-smime-aa-mlExpandHistory
+ 164428 id-smime-aa-contentHint
+ 164440 id-smime-aa-msgSigDigest
+ 16445c id-smime-aa-encapContentType
+ 16447c id-smime-aa-contentIdentifier
+ 16449c id-smime-aa-macValue
+ 1644b4 id-smime-aa-equivalentLabels
+ 1644d4 id-smime-aa-contentReference
+ 1644f4 id-smime-aa-encrypKeyPref
+ 164510 id-smime-aa-signingCertificate
+ 164530 id-smime-aa-smimeEncryptCerts
+ 164550 id-smime-aa-timeStampToken
+ 16456c id-smime-aa-ets-sigPolicyId
+ 164588 id-smime-aa-ets-commitmentType
+ 1645a8 id-smime-aa-ets-signerLocation
+ 1645c8 id-smime-aa-ets-signerAttr
+ 1645e4 id-smime-aa-ets-otherSigCert
+ 164604 id-smime-aa-ets-contentTimestamp
+ 164628 id-smime-aa-ets-CertificateRefs
+ 164648 id-smime-aa-ets-RevocationRefs
+ 164668 id-smime-aa-ets-certValues
+ 164684 id-smime-aa-ets-revocationValues
+ 1646a8 id-smime-aa-ets-escTimeStamp
+ 1646c8 id-smime-aa-ets-certCRLTimestamp
+ 1646ec id-smime-aa-ets-archiveTimeStamp
+ 164710 id-smime-aa-signatureType
+ 16472c id-smime-aa-dvcs-dvc
+ 164744 id-smime-alg-ESDHwith3DES
+ 164760 id-smime-alg-ESDHwithRC2
+ 16477c id-smime-alg-3DESwrap
+ 164794 id-smime-alg-RC2wrap
+ 1647ac id-smime-alg-ESDH
+ 1647c0 id-smime-alg-CMS3DESwrap
+ 1647dc id-smime-alg-CMSRC2wrap
+ 1647f4 id-smime-cd-ldap
+ 164808 id-smime-spq-ets-sqt-uri
+ 164824 id-smime-spq-ets-sqt-unotice
+ 164844 id-smime-cti-ets-proofOfOrigin
+ 164864 id-smime-cti-ets-proofOfReceipt
+ 164884 id-smime-cti-ets-proofOfDelivery
+ 1648a8 id-smime-cti-ets-proofOfSender
+ 1648c8 id-smime-cti-ets-proofOfApproval
+ 1648ec id-smime-cti-ets-proofOfCreation
+ 164918 id-pkix-mod
+ 164924 id-qt
+ 16492c id-it
+ 164934 id-pkip
+ 16493c id-alg
+ 164944 id-cmc
+ 16494c id-on
+ 164954 id-pda
+ 16495c id-aca
+ 164964 id-qcs
+ 16496c id-cct
+ 164974 id-pkix1-explicit-88
+ 16498c id-pkix1-implicit-88
+ 1649a4 id-pkix1-explicit-93
+ 1649bc id-pkix1-implicit-93
+ 1649d4 id-mod-crmf
+ 1649e0 id-mod-cmc
+ 1649ec id-mod-kea-profile-88
+ 164a04 id-mod-kea-profile-93
+ 164a1c id-mod-cmp
+ 164a28 id-mod-qualified-cert-88
+ 164a44 id-mod-qualified-cert-93
+ 164a60 id-mod-attribute-cert
+ 164a78 id-mod-timestamp-protocol
+ 164a94 id-mod-ocsp
+ 164aa0 id-mod-dvcs
+ 164aac id-mod-cmp2000
+ 164abc biometricInfo
+ 164acc Biometric Info
+ 164adc qcStatements
+ 164aec ac-auditEntity
+ 164afc ac-targeting
+ 164b0c aaControls
+ 164b18 sbgp-ipAddrBlock
+ 164b2c sbgp-autonomousSysNum
+ 164b44 sbgp-routerIdentifier
+ 164b5c textNotice
+ 164b68 ipsecEndSystem
+ 164b78 IPSec End System
+ 164b8c ipsecTunnel
+ 164b98 IPSec Tunnel
+ 164ba8 ipsecUser
+ 164bb4 IPSec User
+ 164bc0 DVCS
+ 164bc8 dvcs
+ 164bd0 id-it-caProtEncCert
+ 164be4 id-it-signKeyPairTypes
+ 164bfc id-it-encKeyPairTypes
+ 164c14 id-it-preferredSymmAlg
+ 164c2c id-it-caKeyUpdateInfo
+ 164c44 id-it-currentCRL
+ 164c58 id-it-unsupportedOIDs
+ 164c70 id-it-subscriptionRequest
+ 164c8c id-it-subscriptionResponse
+ 164ca8 id-it-keyPairParamReq
+ 164cc0 id-it-keyPairParamRep
+ 164cd8 id-it-revPassphrase
+ 164cec id-it-implicitConfirm
+ 164d04 id-it-confirmWaitTime
+ 164d1c id-it-origPKIMessage
+ 164d34 id-regCtrl
+ 164d40 id-regInfo
+ 164d4c id-regCtrl-regToken
+ 164d60 id-regCtrl-authenticator
+ 164d7c id-regCtrl-pkiPublicationInfo
+ 164d9c id-regCtrl-pkiArchiveOptions
+ 164dbc id-regCtrl-oldCertID
+ 164dd4 id-regCtrl-protocolEncrKey
+ 164df0 id-regInfo-utf8Pairs
+ 164e08 id-regInfo-certReq
+ 164e1c id-alg-des40
+ 164e2c id-alg-noSignature
+ 164e40 id-alg-dh-sig-hmac-sha1
+ 164e58 id-alg-dh-pop
+ 164e68 id-cmc-statusInfo
+ 164e7c id-cmc-identification
+ 164e94 id-cmc-identityProof
+ 164eac id-cmc-dataReturn
+ 164ec0 id-cmc-transactionId
+ 164ed8 id-cmc-senderNonce
+ 164eec id-cmc-recipientNonce
+ 164f04 id-cmc-addExtensions
+ 164f1c id-cmc-encryptedPOP
+ 164f30 id-cmc-decryptedPOP
+ 164f44 id-cmc-lraPOPWitness
+ 164f5c id-cmc-getCert
+ 164f6c id-cmc-getCRL
+ 164f7c id-cmc-revokeRequest
+ 164f94 id-cmc-regInfo
+ 164fa4 id-cmc-responseInfo
+ 164fb8 id-cmc-queryPending
+ 164fcc id-cmc-popLinkRandom
+ 164fe4 id-cmc-popLinkWitness
+ 164ffc id-cmc-confirmCertAcceptance
+ 16501c id-on-personalData
+ 165030 id-pda-dateOfBirth
+ 165044 id-pda-placeOfBirth
+ 165058 id-pda-gender
+ 165068 id-pda-countryOfCitizenship
+ 165084 id-pda-countryOfResidence
+ 1650a0 id-aca-authenticationInfo
+ 1650bc id-aca-accessIdentity
+ 1650d4 id-aca-chargingIdentity
+ 1650ec id-aca-group
+ 1650fc id-aca-role
+ 165108 id-qcs-pkixQCSyntax-v1
+ 165120 id-cct-crs
+ 16512c id-cct-PKIData
+ 16513c id-cct-PKIResponse
+ 165150 ad_timestamping
+ 165160 AD Time Stamping
+ 165174 AD_DVCS
+ 16517c ad dvcs
+ 165184 basicOCSPResponse
+ 165198 Basic OCSP Response
+ 1651ac Nonce
+ 1651b4 OCSP Nonce
+ 1651c0 CrlID
+ 1651c8 OCSP CRL ID
+ 1651d4 acceptableResponses
+ 1651e8 Acceptable OCSP Responses
+ 165204 noCheck
+ 16520c OCSP No Check
+ 16521c archiveCutoff
+ 16522c OCSP Archive Cutoff
+ 165240 serviceLocator
+ 165250 OCSP Service Locator
+ 165268 extendedStatus
+ 165278 Extended OCSP Status
+ 165290 valid
+ 165298 path
+ 1652a0 trustRoot
+ 1652ac Trust Root
+ 1652b8 algorithm
+ 1652c4 rsaSignature
+ 1652d4 X500algorithms
+ 1652e4 directory services - algorithms
+ 165314 IANA
+ 16531c iana
+ 165324 directory
+ 165330 Directory
+ 16533c mgmt
+ 165344 Management
+ 165350 experimental
+ 165360 Experimental
+ 165370 private
+ 165378 Private
+ 165380 security
+ 16538c Security
+ 165398 snmpv2
+ 1653a0 SNMPv2
+ 1653a8 Mail
+ 1653b0 enterprises
+ 1653bc Enterprises
+ 1653c8 dcobject
+ 1653d4 dcObject
+ 1653e4 domainComponent
+ 1653f4 domain
+ 1653fc Domain
+ 165404 NULL
+ 16540c selected-attribute-types
+ 165428 Selected Attribute Types
+ 165444 clearance
+ 165450 RSA-MD4
+ 165458 md4WithRSAEncryption
+ 165470 ac-proxying
+ 16547c subjectInfoAccess
+ 165490 Subject Information Access
+ 1654ac id-aca-encAttrs
+ 1654bc role
+ 1654c4 policyConstraints
+ 1654d8 X509v3 Policy Constraints
+ 1654f4 targetInformation
+ 165508 X509v3 AC Targeting
+ 16551c noRevAvail
+ 165528 X509v3 No Revocation Available
+ 165548 ansi-X9-62
+ 165554 ANSI X9.62
+ 165560 prime-field
+ 16556c characteristic-two-field
+ 165588 id-ecPublicKey
+ 165598 prime192v1
+ 1655a4 prime192v2
+ 1655b0 prime192v3
+ 1655bc prime239v1
+ 1655c8 prime239v2
+ 1655d4 prime239v3
+ 1655e0 prime256v1
+ 1655ec ecdsa-with-SHA1
+ 1655fc CSPName
+ 165604 Microsoft CSP Name
+ 165618 AES-128-ECB
+ 165624 aes-128-ecb
+ 165630 AES-128-CBC
+ 16563c aes-128-cbc
+ 165648 AES-128-OFB
+ 165654 aes-128-ofb
+ 165660 AES-128-CFB
+ 16566c aes-128-cfb
+ 165678 AES-192-ECB
+ 165684 aes-192-ecb
+ 165690 AES-192-CBC
+ 16569c aes-192-cbc
+ 1656a8 AES-192-OFB
+ 1656b4 aes-192-ofb
+ 1656c0 AES-192-CFB
+ 1656cc aes-192-cfb
+ 1656d8 AES-256-ECB
+ 1656e4 aes-256-ecb
+ 1656f0 AES-256-CBC
+ 1656fc aes-256-cbc
+ 165708 AES-256-OFB
+ 165714 aes-256-ofb
+ 165720 AES-256-CFB
+ 16572c aes-256-cfb
+ 165738 holdInstructionCode
+ 16574c Hold Instruction Code
+ 165764 holdInstructionNone
+ 165778 Hold Instruction None
+ 165790 holdInstructionCallIssuer
+ 1657ac Hold Instruction Call Issuer
+ 1657cc holdInstructionReject
+ 1657e4 Hold Instruction Reject
+ 1657fc data
+ 16580c pilot
+ 165814 pilotAttributeType
+ 165828 pilotAttributeSyntax
+ 165840 pilotObjectClass
+ 165854 pilotGroups
+ 165860 iA5StringSyntax
+ 165870 caseIgnoreIA5StringSyntax
+ 16588c pilotObject
+ 165898 pilotPerson
+ 1658a4 account
+ 1658ac document
+ 1658b8 room
+ 1658c0 documentSeries
+ 1658d0 rFC822localPart
+ 1658e0 dNSDomain
+ 1658ec domainRelatedObject
+ 165900 friendlyCountry
+ 165910 simpleSecurityObject
+ 165928 pilotOrganization
+ 16593c pilotDSA
+ 165948 qualityLabelledData
+ 165960 userId
+ 165968 textEncodedORAddress
+ 165980 mail
+ 165988 rfc822Mailbox
+ 165998 info
+ 1659a0 favouriteDrink
+ 1659b0 roomNumber
+ 1659bc photo
+ 1659c4 userClass
+ 1659d0 host
+ 1659d8 manager
+ 1659e0 documentIdentifier
+ 1659f4 documentTitle
+ 165a04 documentVersion
+ 165a14 documentAuthor
+ 165a24 documentLocation
+ 165a38 homeTelephoneNumber
+ 165a4c secretary
+ 165a58 otherMailbox
+ 165a68 lastModifiedTime
+ 165a7c lastModifiedBy
+ 165a8c aRecord
+ 165a94 pilotAttributeType27
+ 165aac mXRecord
+ 165ab8 nSRecord
+ 165ac4 sOARecord
+ 165ad0 cNAMERecord
+ 165adc associatedDomain
+ 165af0 associatedName
+ 165b00 homePostalAddress
+ 165b14 personalTitle
+ 165b24 mobileTelephoneNumber
+ 165b3c pagerTelephoneNumber
+ 165b54 friendlyCountryName
+ 165b68 organizationalStatus
+ 165b80 janetMailbox
+ 165b90 mailPreferenceOption
+ 165ba8 buildingName
+ 165bb8 dSAQuality
+ 165bc4 singleLevelQuality
+ 165bd8 subtreeMinimumQuality
+ 165bf0 subtreeMaximumQuality
+ 165c08 personalSignature
+ 165c1c dITRedirect
+ 165c28 audio
+ 165c30 documentPublisher
+ 165c44 x500UniqueIdentifier
+ 165c5c mime-mhs
+ 165c68 MIME MHS
+ 165c74 mime-mhs-headings
+ 165c88 mime-mhs-bodies
+ 165c98 id-hex-partial-message
+ 165cb0 id-hex-multipart-message
+ 165ccc generationQualifier
+ 165ce0 pseudonym
+ 165cec id-set
+ 165cf4 Secure Electronic Transactions
+ 165d14 set-ctype
+ 165d20 content types
+ 165d30 set-msgExt
+ 165d3c message extensions
+ 165d50 set-attr
+ 165d5c set-policy
+ 165d68 set-certExt
+ 165d74 certificate extensions
+ 165d8c set-brand
+ 165d98 setct-PANData
+ 165da8 setct-PANToken
+ 165db8 setct-PANOnly
+ 165dc8 setct-OIData
+ 165dd8 setct-PI
+ 165de4 setct-PIData
+ 165df4 setct-PIDataUnsigned
+ 165e0c setct-HODInput
+ 165e1c setct-AuthResBaggage
+ 165e34 setct-AuthRevReqBaggage
+ 165e4c setct-AuthRevResBaggage
+ 165e64 setct-CapTokenSeq
+ 165e78 setct-PInitResData
+ 165e8c setct-PI-TBS
+ 165e9c setct-PResData
+ 165eac setct-AuthReqTBS
+ 165ec0 setct-AuthResTBS
+ 165ed4 setct-AuthResTBSX
+ 165ee8 setct-AuthTokenTBS
+ 165efc setct-CapTokenData
+ 165f10 setct-CapTokenTBS
+ 165f24 setct-AcqCardCodeMsg
+ 165f3c setct-AuthRevReqTBS
+ 165f50 setct-AuthRevResData
+ 165f68 setct-AuthRevResTBS
+ 165f7c setct-CapReqTBS
+ 165f8c setct-CapReqTBSX
+ 165fa0 setct-CapResData
+ 165fb4 setct-CapRevReqTBS
+ 165fc8 setct-CapRevReqTBSX
+ 165fdc setct-CapRevResData
+ 165ff0 setct-CredReqTBS
+ 166004 setct-CredReqTBSX
+ 166018 setct-CredResData
+ 16602c setct-CredRevReqTBS
+ 166040 setct-CredRevReqTBSX
+ 166058 setct-CredRevResData
+ 166070 setct-PCertReqData
+ 166084 setct-PCertResTBS
+ 166098 setct-BatchAdminReqData
+ 1660b0 setct-BatchAdminResData
+ 1660c8 setct-CardCInitResTBS
+ 1660e0 setct-MeAqCInitResTBS
+ 1660f8 setct-RegFormResTBS
+ 16610c setct-CertReqData
+ 166120 setct-CertReqTBS
+ 166134 setct-CertResData
+ 166148 setct-CertInqReqTBS
+ 16615c setct-ErrorTBS
+ 16616c setct-PIDualSignedTBE
+ 166184 setct-PIUnsignedTBE
+ 166198 setct-AuthReqTBE
+ 1661ac setct-AuthResTBE
+ 1661c0 setct-AuthResTBEX
+ 1661d4 setct-AuthTokenTBE
+ 1661e8 setct-CapTokenTBE
+ 1661fc setct-CapTokenTBEX
+ 166210 setct-AcqCardCodeMsgTBE
+ 166228 setct-AuthRevReqTBE
+ 16623c setct-AuthRevResTBE
+ 166250 setct-AuthRevResTBEB
+ 166268 setct-CapReqTBE
+ 166278 setct-CapReqTBEX
+ 16628c setct-CapResTBE
+ 16629c setct-CapRevReqTBE
+ 1662b0 setct-CapRevReqTBEX
+ 1662c4 setct-CapRevResTBE
+ 1662d8 setct-CredReqTBE
+ 1662ec setct-CredReqTBEX
+ 166300 setct-CredResTBE
+ 166314 setct-CredRevReqTBE
+ 166328 setct-CredRevReqTBEX
+ 166340 setct-CredRevResTBE
+ 166354 setct-BatchAdminReqTBE
+ 16636c setct-BatchAdminResTBE
+ 166384 setct-RegFormReqTBE
+ 166398 setct-CertReqTBE
+ 1663ac setct-CertReqTBEX
+ 1663c0 setct-CertResTBE
+ 1663d4 setct-CRLNotificationTBS
+ 1663f0 setct-CRLNotificationResTBS
+ 16640c setct-BCIDistributionTBS
+ 166428 setext-genCrypt
+ 166438 generic cryptogram
+ 16644c setext-miAuth
+ 16645c merchant initiated auth
+ 166474 setext-pinSecure
+ 166488 setext-pinAny
+ 166498 setext-track2
+ 1664a8 setext-cv
+ 1664b4 additional verification
+ 1664cc set-policy-root
+ 1664dc setCext-hashedRoot
+ 1664f0 setCext-certType
+ 166504 setCext-merchData
+ 166518 setCext-cCertRequired
+ 166530 setCext-tunneling
+ 166544 setCext-setExt
+ 166554 setCext-setQualf
+ 166568 setCext-PGWYcapabilities
+ 166584 setCext-TokenIdentifier
+ 16659c setCext-Track2Data
+ 1665b0 setCext-TokenType
+ 1665c4 setCext-IssuerCapabilities
+ 1665e0 setAttr-Cert
+ 1665f0 setAttr-PGWYcap
+ 166600 payment gateway capabilities
+ 166620 setAttr-TokenType
+ 166634 setAttr-IssCap
+ 166644 issuer capabilities
+ 166658 set-rootKeyThumb
+ 16666c set-addPolicy
+ 16667c setAttr-Token-EMV
+ 166690 setAttr-Token-B0Prime
+ 1666a8 setAttr-IssCap-CVM
+ 1666bc setAttr-IssCap-T2
+ 1666d0 setAttr-IssCap-Sig
+ 1666e4 setAttr-GenCryptgrm
+ 1666f8 generate cryptogram
+ 16670c setAttr-T2Enc
+ 16671c encrypted track 2
+ 166730 setAttr-T2cleartxt
+ 166744 cleartext track 2
+ 166758 setAttr-TokICCsig
+ 16676c ICC or token signature
+ 166784 setAttr-SecDevSig
+ 166798 secure device signature
+ 1667b0 set-brand-IATA-ATA
+ 1667c4 set-brand-Diners
+ 1667d8 set-brand-AmericanExpress
+ 1667f4 set-brand-JCB
+ 166804 set-brand-Visa
+ 166814 set-brand-MasterCard
+ 16682c set-brand-Novus
+ 16683c DES-CDMF
+ 166848 des-cdmf
+ 166854 rsaOAEPEncryptionSET
+ 16686c ITU-T
+ 166874 itu-t
+ 16687c JOINT-ISO-ITU-T
+ 16688c joint-iso-itu-t
+ 16689c international-organizations
+ 1668b8 International Organizations
+ 1668d4 msSmartcardLogin
+ 1668e8 Microsoft Smartcardlogin
+ 166904 msUPN
+ 16690c Microsoft Universal Principal Name
+ 166930 AES-128-CFB1
+ 166940 aes-128-cfb1
+ 166950 AES-192-CFB1
+ 166960 aes-192-cfb1
+ 166970 AES-256-CFB1
+ 166980 aes-256-cfb1
+ 166990 AES-128-CFB8
+ 1669a0 aes-128-cfb8
+ 1669b0 AES-192-CFB8
+ 1669c0 aes-192-cfb8
+ 1669d0 AES-256-CFB8
+ 1669e0 aes-256-cfb8
+ 1669f0 DES-CFB1
+ 1669fc des-cfb1
+ 166a08 DES-CFB8
+ 166a14 des-cfb8
+ 166a20 DES-EDE3-CFB1
+ 166a30 des-ede3-cfb1
+ 166a40 DES-EDE3-CFB8
+ 166a50 des-ede3-cfb8
+ 166a60 streetAddress
+ 166a70 postalCode
+ 166a7c id-ppl
+ 166a84 proxyCertInfo
+ 166a94 Proxy Certificate Information
+ 166ab4 id-ppl-anyLanguage
+ 166ac8 Any language
+ 166ad8 id-ppl-inheritAll
+ 166aec Inherit all
+ 166af8 nameConstraints
+ 166b08 X509v3 Name Constraints
+ 166b20 id-ppl-independent
+ 166b34 Independent
+ 166b40 RSA-SHA256
+ 166b4c sha256WithRSAEncryption
+ 166b64 RSA-SHA384
+ 166b70 sha384WithRSAEncryption
+ 166b88 RSA-SHA512
+ 166b94 sha512WithRSAEncryption
+ 166bac RSA-SHA224
+ 166bb8 sha224WithRSAEncryption
+ 166bd0 SHA256
+ 166bd8 sha256
+ 166be0 SHA384
+ 166be8 sha384
+ 166bf0 SHA512
+ 166bf8 sha512
+ 166c00 SHA224
+ 166c08 sha224
+ 166c10 identified-organization
+ 166c28 certicom-arc
+ 166c3c wap-wsg
+ 166c44 id-characteristic-two-basis
+ 166c60 onBasis
+ 166c68 tpBasis
+ 166c70 ppBasis
+ 166c78 c2pnb163v1
+ 166c84 c2pnb163v2
+ 166c90 c2pnb163v3
+ 166c9c c2pnb176v1
+ 166ca8 c2tnb191v1
+ 166cb4 c2tnb191v2
+ 166cc0 c2tnb191v3
+ 166ccc c2onb191v4
+ 166cd8 c2onb191v5
+ 166ce4 c2pnb208w1
+ 166cf0 c2tnb239v1
+ 166cfc c2tnb239v2
+ 166d08 c2tnb239v3
+ 166d14 c2onb239v4
+ 166d20 c2onb239v5
+ 166d2c c2pnb272w1
+ 166d38 c2pnb304w1
+ 166d44 c2tnb359v1
+ 166d50 c2pnb368w1
+ 166d5c c2tnb431r1
+ 166d68 secp112r1
+ 166d74 secp112r2
+ 166d80 secp128r1
+ 166d8c secp128r2
+ 166d98 secp160k1
+ 166da4 secp160r1
+ 166db0 secp160r2
+ 166dbc secp192k1
+ 166dc8 secp224k1
+ 166dd4 secp224r1
+ 166de0 secp256k1
+ 166dec secp384r1
+ 166df8 secp521r1
+ 166e04 sect113r1
+ 166e10 sect113r2
+ 166e1c sect131r1
+ 166e28 sect131r2
+ 166e34 sect163k1
+ 166e40 sect163r1
+ 166e4c sect163r2
+ 166e58 sect193r1
+ 166e64 sect193r2
+ 166e70 sect233k1
+ 166e7c sect233r1
+ 166e88 sect239k1
+ 166e94 sect283k1
+ 166ea0 sect283r1
+ 166eac sect409k1
+ 166eb8 sect409r1
+ 166ec4 sect571k1
+ 166ed0 sect571r1
+ 166edc wap-wsg-idm-ecid-wtls1
+ 166ef4 wap-wsg-idm-ecid-wtls3
+ 166f0c wap-wsg-idm-ecid-wtls4
+ 166f24 wap-wsg-idm-ecid-wtls5
+ 166f3c wap-wsg-idm-ecid-wtls6
+ 166f54 wap-wsg-idm-ecid-wtls7
+ 166f6c wap-wsg-idm-ecid-wtls8
+ 166f84 wap-wsg-idm-ecid-wtls9
+ 166f9c wap-wsg-idm-ecid-wtls10
+ 166fb4 wap-wsg-idm-ecid-wtls11
+ 166fcc wap-wsg-idm-ecid-wtls12
+ 166fe4 anyPolicy
+ 166ff0 X509v3 Any Policy
+ 167004 policyMappings
+ 167014 X509v3 Policy Mappings
+ 16702c inhibitAnyPolicy
+ 167040 X509v3 Inhibit Any Policy
+ 16705c Oakley-EC2N-3
+ 16706c ipsec3
+ 167074 Oakley-EC2N-4
+ 167084 ipsec4
+ 16708c CAMELLIA-128-CBC
+ 1670a0 camellia-128-cbc
+ 1670b4 CAMELLIA-192-CBC
+ 1670c8 camellia-192-cbc
+ 1670dc CAMELLIA-256-CBC
+ 1670f0 camellia-256-cbc
+ 167104 CAMELLIA-128-ECB
+ 167118 camellia-128-ecb
+ 16712c CAMELLIA-192-ECB
+ 167140 camellia-192-ecb
+ 167154 CAMELLIA-256-ECB
+ 167168 camellia-256-ecb
+ 16717c CAMELLIA-128-CFB
+ 167190 camellia-128-cfb
+ 1671a4 CAMELLIA-192-CFB
+ 1671b8 camellia-192-cfb
+ 1671cc CAMELLIA-256-CFB
+ 1671e0 camellia-256-cfb
+ 1671f4 CAMELLIA-128-CFB1
+ 167208 camellia-128-cfb1
+ 16721c CAMELLIA-192-CFB1
+ 167230 camellia-192-cfb1
+ 167244 CAMELLIA-256-CFB1
+ 167258 camellia-256-cfb1
+ 16726c CAMELLIA-128-CFB8
+ 167280 camellia-128-cfb8
+ 167294 CAMELLIA-192-CFB8
+ 1672a8 camellia-192-cfb8
+ 1672bc CAMELLIA-256-CFB8
+ 1672d0 camellia-256-cfb8
+ 1672e4 CAMELLIA-128-OFB
+ 1672f8 camellia-128-ofb
+ 16730c CAMELLIA-192-OFB
+ 167320 camellia-192-ofb
+ 167334 CAMELLIA-256-OFB
+ 167348 camellia-256-ofb
+ 16735c subjectDirectoryAttributes
+ 167378 X509v3 Subject Directory Attributes
+ 16739c issuingDistributionPoint
+ 1673b8 X509v3 Issuing Distrubution Point
+ 1673dc certificateIssuer
+ 1673f0 X509v3 Certificate Issuer
+ 16740c KISA
+ 167414 kisa
+ 16741c SEED-ECB
+ 167428 seed-ecb
+ 167434 SEED-CBC
+ 167440 seed-cbc
+ 16744c SEED-OFB
+ 167458 seed-ofb
+ 167464 SEED-CFB
+ 167470 seed-cfb
+ 16747c HMAC-MD5
+ 167488 hmac-md5
+ 167494 HMAC-SHA1
+ 1674a0 hmac-sha1
+ 1674ac id-PasswordBasedMAC
+ 1674c0 password based MAC
+ 1674d4 id-DHBasedMac
+ 1674e4 Diffie-Hellman based MAC
+ 167500 id-it-suppLangTags
+ 167514 caRepository
+ 167524 CA Repository
+ 167534 id-smime-ct-compressedData
+ 167550 id-ct-asciiTextWithCRLF
+ 167568 id-aes128-wrap
+ 167578 id-aes192-wrap
+ 167588 id-aes256-wrap
+ 167598 ecdsa-with-Recommended
+ 1675b0 ecdsa-with-Specified
+ 1675c8 ecdsa-with-SHA224
+ 1675dc ecdsa-with-SHA256
+ 1675f0 ecdsa-with-SHA384
+ 167604 ecdsa-with-SHA512
+ 167618 hmacWithMD5
+ 167624 hmacWithSHA224
+ 167634 hmacWithSHA256
+ 167644 hmacWithSHA384
+ 167654 hmacWithSHA512
+ 167664 dsa_with_SHA224
+ 167674 dsa_with_SHA256
+ 167684 whirlpool
+ 167690 cryptopro
+ 16769c cryptocom
+ 1676a8 id-GostR3411-94-with-GostR3410-2001
+ 1676cc GOST R 34.11-94 with GOST R 34.10-2001
+ 1676f4 id-GostR3411-94-with-GostR3410-94
+ 167718 GOST R 34.11-94 with GOST R 34.10-94
+ 167740 md_gost94
+ 16774c GOST R 34.11-94
+ 16775c id-HMACGostR3411-94
+ 167770 HMAC GOST 34.11-94
+ 167784 gost2001
+ 167790 GOST R 34.10-2001
+ 1677a4 gost94
+ 1677ac GOST R 34.10-94
+ 1677bc gost89
+ 1677c4 GOST 28147-89
+ 1677d4 gost89-cnt
+ 1677e0 gost-mac
+ 1677ec GOST 28147-89 MAC
+ 167800 prf-gostr3411-94
+ 167814 GOST R 34.11-94 PRF
+ 167828 id-GostR3410-2001DH
+ 16783c GOST R 34.10-2001 DH
+ 167854 id-GostR3410-94DH
+ 167868 GOST R 34.10-94 DH
+ 16787c id-Gost28147-89-CryptoPro-KeyMeshing
+ 1678a4 id-Gost28147-89-None-KeyMeshing
+ 1678c4 id-GostR3411-94-TestParamSet
+ 1678e4 id-GostR3411-94-CryptoProParamSet
+ 167908 id-Gost28147-89-TestParamSet
+ 167928 id-Gost28147-89-CryptoPro-A-ParamSet
+ 167950 id-Gost28147-89-CryptoPro-B-ParamSet
+ 167978 id-Gost28147-89-CryptoPro-C-ParamSet
+ 1679a0 id-Gost28147-89-CryptoPro-D-ParamSet
+ 1679c8 id-Gost28147-89-CryptoPro-Oscar-1-1-ParamSet
+ 1679f8 id-Gost28147-89-CryptoPro-Oscar-1-0-ParamSet
+ 167a28 id-Gost28147-89-CryptoPro-RIC-1-ParamSet
+ 167a54 id-GostR3410-94-TestParamSet
+ 167a74 id-GostR3410-94-CryptoPro-A-ParamSet
+ 167a9c id-GostR3410-94-CryptoPro-B-ParamSet
+ 167ac4 id-GostR3410-94-CryptoPro-C-ParamSet
+ 167aec id-GostR3410-94-CryptoPro-D-ParamSet
+ 167b14 id-GostR3410-94-CryptoPro-XchA-ParamSet
+ 167b3c id-GostR3410-94-CryptoPro-XchB-ParamSet
+ 167b64 id-GostR3410-94-CryptoPro-XchC-ParamSet
+ 167b8c id-GostR3410-2001-TestParamSet
+ 167bac id-GostR3410-2001-CryptoPro-A-ParamSet
+ 167bd4 id-GostR3410-2001-CryptoPro-B-ParamSet
+ 167bfc id-GostR3410-2001-CryptoPro-C-ParamSet
+ 167c24 id-GostR3410-2001-CryptoPro-XchA-ParamSet
+ 167c50 id-GostR3410-2001-CryptoPro-XchB-ParamSet
+ 167c7c id-GostR3410-94-a
+ 167c90 id-GostR3410-94-aBis
+ 167ca8 id-GostR3410-94-b
+ 167cbc id-GostR3410-94-bBis
+ 167cd4 id-Gost28147-89-cc
+ 167ce8 GOST 28147-89 Cryptocom ParamSet
+ 167d0c gost94cc
+ 167d18 GOST 34.10-94 Cryptocom
+ 167d30 gost2001cc
+ 167d3c GOST 34.10-2001 Cryptocom
+ 167d58 id-GostR3411-94-with-GostR3410-94-cc
+ 167d80 GOST R 34.11-94 with GOST R 34.10-94 Cryptocom
+ 167db0 id-GostR3411-94-with-GostR3410-2001-cc
+ 167dd8 GOST R 34.11-94 with GOST R 34.10-2001 Cryptocom
+ 167e0c id-GostR3410-2001-ParamSet-cc
+ 167e2c GOST R 3410-2001 Parameter Set Cryptocom
+ 167e58 HMAC
+ 167e60 hmac
+ 167e68 LocalKeySet
+ 167e74 Microsoft Local Key set
+ 167e8c freshestCRL
+ 167e98 X509v3 Freshest CRL
+ 167eac id-on-permanentIdentifier
+ 167ec8 Permanent Identifier
+ 167ee0 obj_dat.c
+ 167eec .%lu
+ 167ef4 obj_lib.c
+ 167f20 P00`
+ 167f2c }++V
+ 167f8b =j&&LZ66lA??~
+ 167fa0 \44h
+ 167fb8 S11b?
+ 167fc8 e##F^
+ 167ff4 i''N
+ 168008 t,,X.
+ 168024 M;;va
+ 16802f }{))R>
+ 168038 q//^
+ 168050 `  @
+ 16806b gK99r
+ 168098 U33f
+ 1680b4 D<<x
+ 1680d7 !H88p
+ 1680ec c!!B0
+ 16812c G==z
+ 168150 f""D~**T
+ 168184 V22dN::t
+ 168198 l$$H
+ 1681c8 Y77n
+ 168208 o%%Jr..\$
+ 168244 B>>|
+ 168264 _55j
+ 1682b8 x((Pz
+ 1682e7 )w--Z
+ 16831f T00`P
+ 16832c ++V}
+ 16838c &&Lj66lZ??~A
+ 16839f O44h\
+ 1683b7 s11bS
+ 1683c7 R##Fe
+ 1683f3 &''Ni
+ 168408 ,,Xt
+ 168412 6-nn
+ 168424 ;;vM
+ 168430 ))R{
+ 168437 >//^q
+ 16844f ,  @`
+ 16846c 99rKJJ
+ 168498 33fU
+ 1684b4 <<xD
+ 1684d8 88pH
+ 1684eb u!!Bc
+ 16852c ==zGdd
+ 16853a 2+ss
+ 168550 ""Df**T~
+ 168583 ;22dV::tN
+ 168598 $$Hl\\
+ 1685c7 C77nYmm
+ 168608 %%Jo..\r
+ 16862e >!KK
+ 168644 >>|B
+ 168664 55j_WW
+ 16868e "3ii
+ 1686b8 ((Px
+ 1686e8 --Zw
+ 168720 0`P0
+ 16872b g+V}+
+ 16878c &Lj&6lZ6?~A?
+ 1687a0 4h\4
+ 1687b8 1bS1
+ 1687c8 #Fe#
+ 1687f4 'Ni'
+ 168808 ,Xt,
+ 168823 R;vM;
+ 168830 )R{)
+ 168838 /^q/
+ 168850  @` 
+ 16886c 9rK9J
+ 168897 M3fU3
+ 1688b3 P<xD<
+ 1688d8 8pH8
+ 1688ec !Bc!
+ 16892b ~=zG=d
+ 168950 "Df"*T~*
+ 168984 2dV2:tN:
+ 168998 $Hl$\
+ 1689c8 7nY7m
+ 168a07 x%Jo%.\r.
+ 168a43 p>|B>
+ 168a63 a5j_5W
+ 168ab7 U(Px(
+ 168ae8 -Zw-
+ 168b20 `P00
+ 168b2a ggV}++
+ 168b8c Lj&&lZ66~A??
+ 168ba0 h\44Q
+ 168bb8 bS11*?
+ 168bc8 Fe##
+ 168bf4 Ni''
+ 168c08 Xt,,4.
+ 168c22 RRvM;;
+ 168c30 R{))
+ 168c38 ^q//
+ 168c50 @`  
+ 168c6c rK99
+ 168c96 MMfU33
+ 168cb2 PPxD<<%
+ 168cd8 pH88
+ 168cec Bc!! 0
+ 168d1a DD.9
+ 168d2a ~~zG==
+ 168d36 ]]2+
+ 168d50 Df""T~**;
+ 168d84 dV22tN::
+ 168d98 Hl$$
+ 168dc8 nY77
+ 168e06 xxJo%%\r..8$
+ 168e2a tt>!
+ 168e42 pp|B>>q
+ 168e62 aaj_55
+ 168eb6 UUPx((
+ 168ee8 Zw--
+ 168f03 QSeA~
+ 168f75 !tX)i
+ 168fc0 XhHp
+ 16909c NrZl
+ 1690ab ='9-6d
+ 1690bc :.6$
+ 1690d7 aiKwZ
+ 169119 ;fD4~
+ 16911f [v)C
+ 169136 cB@"
+ 1691aa _jbF~T
+ 169213 11#?*0
+ 1692c8 ,4$8_@
+ 1692d9 I<(A
+ 1692f8 t\lHBW
+ 169302 QPeA~S
+ 169321 0 Umv
+ 169373 -!tX
+ 1693ad SbEwd
+ 1693c0 hHpX
+ 1693dd Uf*(
+ 169495 +2Hp
+ 16949c rZlN
+ 1694ac 9-6'
+ 1694b5 \h!T[
+ 1694bc .6$:g
+ 1694d8 KwZi
+ 16951e [4)C
+ 1695ac F~Tb
+ 169614 #?*1
+ 1696b6 _[o=
+ 1696c7 >4$8,@
+ 1696f7 p\lHtW
+ 169704 A~Se
+ 1697aa `3SbE
+ 1697bf +HpXhE
+ 16989b pZlNr
+ 1698ac -6'9
+ 1698bb T6$:.
+ 1698d7  wZiK
+ 1698e7 *"<C
+ 16991d [4~C
+ 1699ac ~TbF
+ 1699e2 	xYn
+ 169a14 ?*1#
+ 169a1f fNt7
+ 169ac8 $8,4
+ 169af8 lHt\
+ 169afe BWQP
+ 169b04 ~SeA
+ 169b76 !tI)i
+ 169b89 k>X'
+ 169ba9 `3QbE
+ 169bc0 pXhH
+ 169c6a C@gw
+ 169c9c lNrZ
+ 169cac 6'9-
+ 169cba T[$:.6
+ 169cd8 ZiKw
+ 169d1a ;f[4~
+ 169dab _TbF~
+ 169de1 	x&n
+ 169e14 *1#?
+ 169ec7 h8,4$
+ 169ef7 2Ht\l
+ 169f50 lpHP
+ 16a027 6bn_ctx.c
+ 16a034 0123456789ABCDEF
+ 16a048 bn_print.c
+ 16a058 %09lu
+ 16a068 bn_blind.c
+ 16a074 Eric Young's PKCS#1 RSA
+ 16a08c rsa_eay.c
+ 16a098 rsa_oaep.c
+ 16a0a4 buffer.c
+ 16a0b0 buf_str.c
+ 16a0bc bio_lib.c
+ 16a0cc FILE pointer
+ 16a0dc fopen('
+ 16a100 <NULL>
+ 16a114 0123456789ABCDEF
+ 16a128 0123456789abcdef
+ 16a13c b_print.c
+ 16a148 doapr()
+ 16a150 RAND part of OpenSSL 0.9.8l 5 Nov 2009
+ 16a178 md_rand.c
+ 16a184 md_c[1] == md_count[1]
+ 16a19c ....................
+ 16a1b4 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
+ 16a200 ssleay_rand_add
+ 16a230 /dev/urandom
+ 16a240 /dev/random
+ 16a24c /dev/srandom
+ 16a25c /var/run/egd-pool
+ 16a270 /dev/egd-pool
+ 16a280 /etc/egd-pool
+ 16a290 /etc/entropy
+ 16a2a0 digest.c
+ 16a2ac ctx->digest->md_size <= EVP_MAX_MD_SIZE
+ 16a2d4 a_object.c
+ 16a2e0 NULL
+ 16a2e8 <INVALID>
+ 16a2f4 a_bitstr.c
+ 16a300 a_int.c
+ 16a308 algorithm
+ 16a314 parameter
+ 16a320 X509_ALGOR
+ 16a32c algorithms
+ 16a338 X509_ALGORS
+ 16a344 SHA1 part of OpenSSL 0.9.8l 5 Nov 2009
+ 16a36c SHA-256 part of OpenSSL 0.9.8l 5 Nov 2009
+ 16a3f7 vRQ>
+ 16a426 8STs
+ 16a460 LwH'
+ 16a498 bn_exp.c
+ 16a4a4 bn_rand.c
+ 16a4b0 bn_recp.c
+ 16a4bc bn_mont.c
+ 16a4c8 a_dup.c
+ 16a4d0 xml=http://www.w3.org/XML/1998/namespace
+ 16a4fc unboundprefix
+ 16a50c lib/xmlparse.c
+ 16a51c status != NULL
+ 16a52c expat_2.0.1
+ 16a53c CDATA
+ 16a548 IDREF
+ 16a550 IDREFS
+ 16a558 ENTITY
+ 16a560 ENTITIES
+ 16a56c NMTOKEN
+ 16a574 NMTOKENS
+ 16a584 NOTATION(
+ 16a598 http://www.w3.org/XML/1998/namespace
+ 16a5c4 http://www.w3.org/2000/xmlns/
+ 16a5e4 sizeof(XML_Char)
+ 16a5f8 sizeof(XML_LChar)
+ 16a60c XML_DTD
+ 16a614 XML_CONTEXT_BYTES
+ 16a628 XML_NS
+ 16a630 out of memory
+ 16a640 syntax error
+ 16a650 no element found
+ 16a664 not well-formed (invalid token)
+ 16a684 unclosed token
+ 16a694 partial character
+ 16a6a8 mismatched tag
+ 16a6b8 duplicate attribute
+ 16a6cc junk after document element
+ 16a6e8 illegal parameter entity reference
+ 16a70c undefined entity
+ 16a720 recursive entity reference
+ 16a73c asynchronous entity
+ 16a750 reference to invalid character number
+ 16a778 reference to binary entity
+ 16a794 reference to external entity in attribute
+ 16a7c0 XML or text declaration not at start of entity
+ 16a7f0 unknown encoding
+ 16a804 encoding specified in XML declaration is incorrect
+ 16a838 unclosed CDATA section
+ 16a850 error in processing external entity reference
+ 16a880 document is not standalone
+ 16a89c unexpected parser state - please send a bug report
+ 16a8d0 entity declared in parameter entity
+ 16a8f4 requested feature requires XML_DTD support in Expat
+ 16a928 cannot change setting once parsing has begun
+ 16a958 unbound prefix
+ 16a968 must not undeclare prefix
+ 16a984 incomplete markup in parameter entity
+ 16a9ac XML declaration not well-formed
+ 16a9cc text declaration not well-formed
+ 16a9f0 illegal character(s) in public id
+ 16aa14 parser suspended
+ 16aa28 parser not suspended
+ 16aa40 parsing aborted
+ 16aa50 parsing finished
+ 16aa64 cannot suspend in external parameter entity
+ 16aa90 reserved prefix (xml) must not be undeclared or bound to another namespace name
+ 16aae0 reserved prefix (xmlns) must not be declared or undeclared
+ 16ab1c prefix must not be bound to one of the reserved namespace names
+ 16ab5c XML_GetParsingStatus
+ 16b17e  !"#$%
+ 16b274 version
+ 16b27c encoding
+ 16b288 standalone
+ 16b29c ISO-8859-1
+ 16b2a8 US-ASCII
+ 16b2b4 UTF-8
+ 16b2bc UTF-16
+ 16b2c4 UTF-16BE
+ 16b2d0 UTF-16LE
+ 16b2dc CDATA[
+ 16b2e4 CDATA[
+ 16b2ec CDATA[
+ 16b2f8 ATTLIST
+ 16b300 CDATA
+ 16b308 DOCTYPE
+ 16b310 ELEMENT
+ 16b318 EMPTY
+ 16b320 ENTITIES
+ 16b32c ENTITY
+ 16b334 FIXED
+ 16b340 IDREF
+ 16b348 IDREFS
+ 16b350 IGNORE
+ 16b358 IMPLIED
+ 16b360 INCLUDE
+ 16b368 NDATA
+ 16b370 NMTOKEN
+ 16b378 NMTOKENS
+ 16b384 NOTATION
+ 16b390 PCDATA
+ 16b398 PUBLIC
+ 16b3a0 REQUIRED
+ 16b3ac SYSTEM
+ 16b548 0123456789abcdefghijklmnopqrstuvwxyz
+ 16b570 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ 16b598 (nil)
+ 16b5a0 (nil)
+ 16b6c8 AHST
+ 16b6e0 IDLW
+ 16b704 MEWT
+ 16b710 MEST
+ 16b71c CEST
+ 16b728 MESZ
+ 16b758 WAST
+ 16b764 WADT
+ 16b788 EAST
+ 16b794 EADT
+ 16b7b8 NZST
+ 16b7c4 NZDT
+ 16b7d0 IDLE
+ 16b7dc ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ 16b820 0123456789abcdef
+ 16b8a9 DgQ 
+ 16b8d2 )p8~Ir
+ 16b8da 9t2E
+ 16b8fd L<~cG
+ 16b999 ay~g
+ 16ba41 ?W#=
+ 16ba9e tPFbXR
+ 16bb09 jdv\3.w
+ 16bb37 |qM0}V
+ 16bc47 	Fmr
+ 16bcc0 .n6 
+ 16bce6 o(#Nb)
+ 16bced QV*4
+ 16bd0a %1a/#2
+ 16bd15 + 4Z
+ 16bd26 !8I.#9<
+ 16bd35 %)<)]+=
+ 16bd5a 6EeK5F
+ 16bdfa Rh5&
+ 16be05 @^jl
+ 16be12 Ol&m
+ 16be1d D&n@8
+ 16be25 .Qo.'
+ 16be2b oO!pp
+ 16be53 tr,Xu
+ 16be5b u330v
+ 16be97 zkU'{
+ 16bebf }nuF}
+ 16c1e1 l6"*
+ 16c21e %)H,
+ 16c247 -o?r.
+ 16c261 #e1k
+ 16c2cf >Z-p?
+ 16c30a uFbK
+ 16c329 giJ!
+ 16c33f L_*VM
+ 16c349 [MN#v
+ 16c351 :COl
+ 16c38b UQhFV/
+ 16c3aa iYwa
+ 16c3b9 [)[0
+ 16c3c3 \8gs\
+ 16c3d3 ]x|#^
+ 16c3e7 _n82`
+ 16c40f cK~ dZ
+ 16c429 k\f0V
+ 16c43e %hVd
+ 16c487 nUILn
+ 16c4b3 qKcaq
+ 16c4d1 z(sv
+ 16c52f xjp1xaX^x 
+ 16c5d1 ZQ}"
+ 16c5da {}c5
+ 16c601 54~CID~g
+ 16c9ea Q	0Ur	
+ 16cc02 n!:*
+ 16cc1f #X::#mKt#
+ 16cc36 ]$ic
+ 16cc9e t*+1
+ 16ccae j+, 
+ 16ccbd pa,)_
+ 16cced {M/bE
+ 16cd9d 8E:*
+ 16cdab ;\AG;
+ 16ce8d  NIf/
+ 16cecb Lz-7MG"uM
+ 16cee1 )lNf
+ 16cf12 IQZ~
+ 16cf21 T:RaivR,d
+ 16cf45 UST}x
+ 16cf53 U,6?U
+ 16cf8a 1XT"jX
+ 16cfcf [A]!\
+ 16cff7 ^C.>^Qus^-
+ 16d033 abZMa
+ 16d072 8d8Rid
+ 16d086 )eCVYej
+ 16d0a2 sfD,
+ 16d0c7 h4i<h
+ 16d10f kuuEk
+ 16d116 nk@)
+ 16d193 pT=;p
+ 16d1b5 uPq#Erq
+ 16d233 uhb.u
+ 16d239 JJuK
+ 16d25a #v!R=v
+ 16d27b vM9	w5
+ 16d282 !wTp:w
+ 16d2b5 .SxEwix
+ 16d2db yIy*y
+ 16d312 )zP]<z
+ 16d399 BK|x
+ 16d39e X|-0f|bss|C
+ 16d3f2 V}Hxa}T
+ 16d44a '~t 0~
+ 16d451 D8~<N@~
+ 16d459 =H~P
+ 16d462 W~8q_~
+ 16d46a f~yin~
+ 16dc16 '	zR8	3
+ 16dc21 cY	C
+ 16e02e | >*
+ 16e04e _!WW|!
+ 16e0d3 %^B:%
+ 16e0dd Tu%H
+ 16e0f5 3'&@
+ 16e137 (>J$(
+ 16e13d vB(-
+ 16e17a 	*#u(*
+ 16e186 e*9;
+ 16e19f +3]<+
+ 16e1a5  [+9
+ 16e1e6 J-1-i-2K
+ 16e229 ,]/o
+ 16e243 0oC90H
+ 16e28e r2TC
+ 16e2a3 3s513
+ 16e2c6 04w	P4
+ 16e365 I39]
+ 16e386 5:HWU:W
+ 16e3a6 7;AcW;l
+ 16e3c5 H9<b
+ 16e3ee |=iU
+ 16e44a a@2+
+ 16e505 :EFO
+ 16e52a cGDC
+ 16e542 !Hq|AH
+ 16e56a ]I"m}I
+ 16e585 G:Jp
+ 16e646 	P(z(P
+ 16e671 %XQQbvQ
+ 16e68d K+RN\IR
+ 16e6cb SiC	T
+ 16e6d6 DT,!bTy
+ 16e6fa MU*=kU
+ 16e745 uvW<>
+ 16e782 "Y"@?Y
+ 16e7cd 57[:
+ 16e7f2 /\jlJ\
+ 16e842 K^!'f^
+ 16e86d zn_]
+ 16e889 =%`[1?`
+ 16e8e1 "WbT7pb
+ 16e903 c3e7c
+ 16e935 5]d"lud
+ 16e9bd v|g,6
+ 16e9db hb51h-
+ 16e9e9 Ath8
+ 16ea3a (jTL>j
+ 16eaa1 vEl`
+ 16eada [m'$om
+ 16eb16 {nM^
+ 16eb72  p/b2pz
+ 16eb7e Up!Xgp~
+ 16ebee 1rb\Ar
+ 16ec2d E0s-
+ 16ec3a ^sr8ns
+ 16ec6e #tBt2t&:AtM
+ 16ec7e ^tlEmth
+ 16ecb3 u@a'u
+ 16ecb9 `5uwTCu
+ 16ecc1 <QuQ
+ 16ed52 (w>S4w
+ 16eda5 l x1
+ 16ee03 yJK%y
+ 16ee6d .%z9|.zw
+ 16ee85 h\z;yezm
+ 16ef06 k{azs{
+ 16ef0d L{{4
+ 16ef5a 	|{7
+ 16ef6d O,|l?3|
+ 16ef85 kU|$'\|
+ 16ef9a v|@O}|#
+ 16f007 }|4"}
+ 16f01d 5>}H
+ 16f025 1I}5
+ 16f031 rY}{
+ 16f036 ^}*!d}/mi}
+ 16f046 s}~#y}
+ 16f04d Q~}#w
+ 16f0ed =6~kI:~EN>~
+ 16f0f9 LB~TDF~
+ 16f101 5J~Z N~
+ 16f119 Ua~$
+ 16f126 l~nAp~
+ 16f135 0{~'
+ 17007a +	744	
+ 170081 q<	w
+ 170099 *n	s
+ 1700a2 ~	%6
+ 17088b  ZS! 
+ 170891 d/ .x= 
+ 1708da .!]=<!sxJ!
+ 1708ed 5u!8y
+ 170932 h"?$w"}
+ 170965 {$#[
+ 17096d zA#,
+ 1709b1 #9$"
+ 1709b6 G$>jV$1
+ 1709fd eP%t*_%
+ 170a45 B[&P&j&
+ 170a81 I;'TFJ'
+ 170a89 DY'uDh'
+ 170ad1 6h(0Sw( q
+ 170b06 -)JO<)
+ 170b1a y)9V
+ 170b4d a?*,
+ 170b59 Dm*t
+ 170b87 +8N%+4
+ 170b92 D+4oS+6
+ 170b9d 6r+8
+ 170bcd P+,5
+ 170be2 x,x#
+ 170c12 2-ZNB-
+ 170c1a Q-nfa-@
+ 170c61 nj.7
+ 170c8f /9F&/u
+ 170c9d TU/p
+ 170ca6 t/Hk
+ 170cd5 c10H#A0
+ 170ce2 `0sgp0
+ 170d21 ;]10
+ 170d8d q	3	Y
+ 170ee6 j8O(z8
+ 170f1d qK9 
+ 170f96 /;u0?;JRO;@t_;V
+ 170fd2 !<-71<kZA<
+ 17100f =aK#=
+ 171015 n3=z
+ 171026 s=\ 
+ 1710a2 h?@=x?
+ 1710c9 R	@Ip
+ 17110f A*@+A
+ 1711de ^D> nDS!~D
+ 171255 B=F)1MF
+ 1712dd :YH?
+ 171319 =FIG
+ 171326 uIcN
+ 171365 AqJ_
+ 1713da 6L{`FL9
+ 171417 Mzm/M*
+ 171429 dmMy
+ 17146e sNlA
+ 1714b2 xOW"
+ 1714e2 0P/U?P
+ 171529 tAQ{
+ 1715b9 B^Sb*mSC
+ 171681  ?VZ
+ 1716d2 `W?BoW
+ 17170a )X\&8X
+ 171711 pFX\
+ 17171a bXODqX
+ 171759 RFYuvTY
+ 17182d 6(\`
+ 171836 C\LBQ\^
+ 17187d W8]<
+ 17188d Un]x
+ 1718ce D^_-R^#
+ 1718de z^ f
+ 17190f _	*&_SU3_/~@_
+ 171926 g_F	u_
+ 1719ae  a<k-a23:a
+ 1719ff bh%+b!
+ 171a06 7bDLDb
+ 171a11 h]b 
+ 171ab2 KdN&WdADcd
+ 171b05 {GejcSemH_e
+ 171b11 *ke=
+ 171b65 ?bf;
+ 171b6e yf3(
+ 171bad :2gX
+ 171bc1 _kg(
+ 171bfa 	hh'
+ 171bff hTb hh
+ 171c11 1MhM^Xh)
+ 171cbe #j@H.j]
+ 171ccd INjB
+ 171cd6 cjQ1nj
+ 171d29 C@k2
+ 171d35 a_k=
+ 171d3e tkAe~k
+ 171d82 "lA/,l
+ 171d89 M6l\i@l
+ 171df1 X9mw'Cm
+ 171e71 fmnR
+ 171f49 $Zpk
+ 171f56 tpvI}p(
+ 171fae 2qn;;qL
+ 171fb6 Cq-8Lq
+ 172029 $5rYJ=r
+ 1720a2 $sF`,su*4s
+ 1720b2 Cs;wKs
+ 1720c5 ^jsS
+ 1720ce ysvm
+ 172127 t"X't
+ 172155 7xtR
+ 1721da bu2wiu
+ 1721e5 ?wuq
+ 172255 |3vx
+ 17226e Zvg,av
+ 172279  nvu
+ 17227e tvu	{v
+ 1722ee $w_"+w
+ 1722f5 C1w#b7w
+ 172397 x@D#x
+ 1723a5 D4x%
+ 1723ae ?xF+ExD
+ 1723ca fxM=lxW
+ 1723d5 NwxQ
+ 1723da |xCU
+ 17245e -yZ92y
+ 17247e VyG+[y
+ 17248d Zjyveoy~mty
+ 17253e >zaECz
+ 172552 Uz:"ZzM
+ 17256a pzK?uzo
+ 172575 5~zH
+ 172611 H%{Ua){aw-{
+ 172661 ou{.Yy{"@}{
+ 17273a ;|&N?|%
+ 17274e L|LYP|e
+ 172765 .a|[
+ 17276e g|j-k|7~n|
+ 172862 #}^t&}%G)}
+ 172879 ~4}kG7}_
+ 17288a ?}yWB}
+ 17289a J}KHM}
+ 1728b2 Z}\w]}
+ 1728ca j}/am}x
+ 1728d6 r}T<u}
+ 1728e1 oz}f
+ 172a1a /~j&1~
+ 172a25 :5~wA7~.G9~?K;~
+ 172a35 M=~uN?~
+ 172a45 FE~@AG~
+ 172a51 0K~D&M~	
+ 172a76 \~W~^~
+ 172a7d c`~vGb~
+ 172a85 )d~?
+ 172aa1 ,q~r
+ 172ab1 yx~bIz~?
+ 1739ef US]CQ
+ 173a02 ^(BM
+ 173a11 kZ;&
+ 173feb &+>6)\
+ 174006 !<+c	@
+ 174016 YM3g`R
+ 17401f W:Yn]
+ 17402f pv}0x
+ 17473c xn8	|
+ 1748db ~S-]
+ 1748f2 w~X/
+ 174941 "&~E
+ 1749f0 MeX}
+ 1749f9 ,N}(qQ
+ 174a2b }0Mx
+ 174a73 |Mw1
+ 174aa8 P=Z|
+ 174ab1 IN|Fk
+ 174ac1 )6|{
+ 174b1b {e*1!
+ 174b3a w{O0
+ 174b3f !'bj{
+ 174b76 E#,=
+ 174ba3 zXwg$
+ 174bca }z_#X%
+ 174bf1 $3zl?H&o%$zp3x&x
+ 174c57 (Tujy
+ 174c62 ZyKq
+ 174c6f )ac:y
+ 174c79 7*yF9t)
+ 174c8a 	yXI
+ 174cdf +;cQxoN
+ 174ce7 +)3@x
+ 174d41 \~wb
+ 174d67 .-_#w
+ 174dad Rp01
+ 174e37 3ll-u
+ 174e5e h4:f
+ 174e8a _t]?{5?
+ 174eb3 s;._6
+ 174edb s{KB7I"usF
+ 174ee6 o7&f_s
+ 174ef2 Is0*
+ 174efa 3sAc
+ 174f36 29g<
+ 174f65 -@:I9
+ 174f9e x;tkXq)
+ 174fbb qBa*<
+ 174ff1 xkp,
+ 174ff6 `=qgSp
+ 17501b oi#<>
+ 175056 n?,S-o
+ 175091 Q}nX
+ 17509f @fnJn
+ 1750a5 X!AJ
+ 1750ae LA0G
+ 1750d5 D$BT<
+ 1750db mEHOB
+ 17513a Yl~PPD]
+ 175146 zD`)$l
+ 175151 <	l@
+ 17517f EkSfk
+ 17518a JkkR
+ 175192 /k}d!F
+ 17519d kKFll
+ 1751a3 j(huFd
+ 175206 iHl$
+ 175217 HB$Sib
+ 17522e 8I=*
+ 175236 aI)a
+ 17529b g@ouK
+ 1752b2 )g-	
+ 1752e1 euf4
+ 1752ed *	M"
+ 1752f2 9fKI1M
+ 17532e HN_	Ee
+ 175339 C&e)B
+ 175369 Yldir
+ 17536f O"'Md
+ 175396 IPmB
+ 1753b1 fQcm
+ 1753fe BR~U
+ 175471 TG`s
+ 1754ea P^P7
+ 17550e BWO`
+ 175527 W7R>]mi
+ 175585 ddYT
+ 1758bb ~)x}
+ 17591a S~6~
+ 175953 ~;Z,
+ 175983 }"$U
+ 1759f0 tz]}
+ 1759f8 PKS}#
+ 175a02 I})	j
+ 175aa9 /`|,4o
+ 175ac0 `8<|
+ 175b2e y!6{
+ 175b37 !EL~{
+ 175b42 q{2k
+ 175b4e ;"6MV{
+ 175b55 Il"%
+ 175b6a -{Ho
+ 175ba3 z\^O$%
+ 175bea IzWF
+ 175bf2 :z3C0&Z
+ 175bfa +z,:`&
+ 175c4e >( ?
+ 175c6a Ry@A
+ 175c71 rBym
+ 175c79 P2y@q\)K
+ 175cab x@gy*
+ 175cda kxsq
+ 175cf6 #,IH&x
+ 175d49 XuwZ|(.
+ 175d55 ZW.x
+ 175d5a Qwg2
+ 175d7b w.HA/
+ 175dbf 0@u^v"
+ 175dc7 0#KKv
+ 175dd2 8vveA11
+ 175dde o1c_
+ 175dfe (24&
+ 175e03 u?:W2{j
+ 175e8d hd5F$Ut
+ 175e99 #@tn
+ 175eb5 lH6nn
+ 175ee6 X7qFjswD
+ 175f3b rCzI9
+ 175f52 Ir*,
+ 175f57 9Q23rV
+ 175ff6 I=Ur_p
+ 175ffe v=9XGp
+ 17602e }>zP
+ 17604d &-?@
+ 176085 :^@=O
+ 1760e6 dBe3om
+ 176102  mPZ
+ 176139 0gl!
+ 176141 mLl9
+ 17616d {9EI}
+ 17618a XkVE
+ 17619a !kxi6F
+ 1761a3 kNk`F
+ 176205 +UHLZ
+ 176217 Hejaieb
+ 176227 H~9(i{
+ 17623b hscvI
+ 176257 I$"{h?
+ 176272 #h0p
+ 1762aa UgXI
+ 1762d3 f-b|L$
+ 1762ef Lg"Hfz;
+ 1762fa )f"TEM
+ 17632e 4NmfTe
+ 17633a 5e`j
+ 176365 OJO?
+ 176393 c)56P;
+ 1763c2 !c{] Qq
+ 1763fd R/Rrz!b
+ 1764ae rUeHM_ _
+ 17650b ].W0W
+ 176516 UWN<
+ 176553 \biyXT
+ 176561 M]\[
+ 176569 z:\R%
+ 17657d ^.Yq
+ 17658d _vY9
+ 176597 YmYh[t*
+ 1765b3 Z{r)Z})
+ 1765c6 pZ^=
+ 1785cc 1.0.8
+ 17879c 33\o
+ 178c1b %=+41
+ 178db9 aymOv
+ 17917b G&MtR
+ 179187 fmkKp
+ 1791f3 jl{!
+ 179247 BASEcHsK
+ 1793a1 KoW}e
+ 1793d6 5'54h:
+ 1793ed ,f5MF9UgaIp
+ 179417 ??Ju[
+ 17941d dZo8
+ 17943f CqNtX
+ 179481 cDn{
+ 1794a3 DzNGXcgyoN
+ 1794e5 ]0o{
+ 1794f7 Pdi}r
+ 17950b WId{q
+ 179518 }3K<=G
+ 17957d ?nG[P>\
+ 17958f )|1s8
+ 1795a9 MHW&bcs
+ 1795b7 (C1m8
+ 17960b ?pLTT
+ 179633 MBU!^
+ 17964b Xjclr
+ 17966a j+|1
+ 179683 CmNQW-j/t
+ 1796a4 K -.3;xA
+ 1796af []e{ry
+ 1796c1 W}` i
+ 1796ce @ )%
+ 1796e3 0 7/@tHRV
+ 1796f6 g$6+%3
+ 17970a X";(e11L
+ 179725 =kHMh
+ 179739 PDWfe
+ 179751 aPkU
+ 17975f 48<hM``
+ 179770 {!6:YJ
+ 179779 e8p%
+ 1797af F7Q*[
+ 1797d9 M@WQf
+ 17980e !.16
+ 17982d g.o{
+ 179849 +f:'C
+ 17984f K/UI_:ihr
+ 179867 T-dsmg
+ 179879 @kRy`
+ 179882 "&<+
+ 179d15 @mCRF
+ 179d3f v2ym{
+ 179e50 ."[D
+ 179e89 Bzcu
+ 179e9f B#Sycvss
+ 17a123 6k@kI
+ 17a143 6e?"GHNRVY^
+ 17a17e c$g.
+ 17a191 nnvb
+ 17a19c ^$F+w3
+ 17a1e5 >EHfOTX
+ 17a229 IFR![
+ 17a22f bIj_q
+ 17a247 D?MQV
+ 17a281 &&-o;
+ 17a287 DCL\U\]ze
+ 17a2a3 2k;/E
+ 17a2bf (k-g5
+ 17a2e3 35;eA
+ 17a31e /"L-
+ 17a32d ^&gDo
+ 17a36d Z]bEm8ww
+ 17a37f !?'23
+ 17a387 E	ONW;_
+ 17a39c k$8,
+ 17a3cd YHb9l
+ 17a3dc f 9*
+ 17a3ed aOh0p
+ 17a3ff %}*w4
+ 17a425 >-GwO
+ 17a431 m#t%
+ 17a441 ,	8M?
+ 17a44b T[]He
+ 17a46b RV\!e
+ 17a471 n[v`
+ 17a4a3 1B<XA
+ 17a4a9 I5OvYaf'p
+ 17a4c9 NSU1\dd
+ 17a4d1 nvwC
+ 17a4e7 HkQ<Z
+ 17a505 9U@aG
+ 17a53e a&(+!4Z9|?
+ 17a549 GsSn],f
+ 17a56b V<^Af
+ 17a585 ;WDxN
+ 17a58b U3\8c
+ 17a5a5 9-FHP
+ 17a5dd !F&x/
+ 17a5e9 KDR>_
+ 17a5fe .#P(
+ 17a61e o)g.
+ 17a625 =pC=N
+ 17a62d `EgTn
+ 17a64f h~pbw
+ 17a66d _jgqnyu
+ 17a67f )v.[5
+ 17a6af hrp#x
+ 17a6c7 FiRCY
+ 17a6d1 n;t 
+ 17a6e7 =DL~S
+ 17a6fd &$-62
+ 17a705 ?$EaORVx\
+ 17a731 p&x\
+ 17a73f 'X.o5
+ 17a749 KtS*]
+ 17a75c D!;'..
+ 17a769 L SoZU`
+ 17a783 4}<YB
+ 17a789 JkPQ_,jvq
+ 17a7cf a]lkv
+ 17a7fe 5 c&
+ 17a823 4|:*F
+ 17a82d aIjIq
+ 17a83f &C-A3Y;
+ 17a865 5eCnK
+ 17a885 ;tFeL
+ 17a88b Q6X,a
+ 17a8a1 -Z4v@PF
+ 17a8bf !1({. 6
+ 17a8ef c$l<r-
+ 17a911 k.u?
+ 17a91d  f'9-
+ 17a923 4<@_HUP?YRaDhWp
+ 17a941 /g6c<
+ 17a9a7 FvL:R
+ 17a9bc ,"?(
+ 17a9c7 D1MAU
+ 17a9fe K v+}:
+ 17aa05 BwG4P
+ 17aa3f (p/)5
+ 17aa7f &b-h4
+ 17aa89 JQQ@X
+ 17aa8f `=pjy
+ 17aaab XH` h
+ 17aae3 :qCaMYU
+ 17aaf1 q?w0
+ 17aafc x%/+
+ 17ab21 0W6z=
+ 17ab69 NqTK[
+ 17abe3 7.?]D
+ 17ac0f gwo=w
+ 17ac21 2_8w?
+ 17ac83 3-<(C
+ 17aca5 =aDmJ
+ 17acab PWXR`kkqu
+ 17ace5 CIJgP
+ 17acf1 rUxJ
+ 17acfd (w-(4
+ 17ad11 o0vF
+ 17ad21 -}3K>
+ 17ad31 m`v%
+ 17ad3d %r-?7
+ 17ad6d b+i(p
+ 17ad87 PEW?]
+ 17ad91 p8w{
+ 17adaf dbo%wd	f
+ 17adcd ^XgJo
+ 17ade1 7$=5C
+ 17ae07 HsP;Va\Bb"i
+ 17ae23 .*<\I
+ 17ae2d ^peIk0r
+ 17ae49 H~N(U.[pbIrv
+ 17ae5e N#_4o9
+ 17ae69 MaU(a[i
+ 17ae71 q2wI
+ 17ae85 @AE\S
+ 17ae9a ;"E(
+ 17aebc _)S3
+ 17aee3 :LBjI
+ 17aef1 pgw[
+ 17aefc $%{*
+ 17af1d  _&c,
+ 17af41 1[:`@eG9P V
+ 17af4d ]me6n
+ 17af87 AFH|N
+ 17afad T-ZA`^q
+ 17b061 +57R?
+ 17b069 NhU ]
+ 17b08d a^h+q
+ 17b0a3 ;;AwI*Q
+ 17b0ab X3`~g
+ 17b0c7 G5QaW
+ 17bbd7 BB^Eq
+ 17bc51 M5my
+ 17bd53 ZgggrL
+ 17bd69 e%qy
+ 17bd8f _\kku
+ 17bdb5 O}[tf?r;
+ 17bdd8 ).H;
+ 17bdf5 kTu|	
+ 17be1d o`v0	[
+ 17be45 iOsF
+ 17be57 e[pww
+ 17be60  %!.
+ 17be7b J+TO]
+ 17be8d E@RU\
+ 17be9e |'b/n<
+ 17beb9 Qo\+e.q
+ 17bf1f M|^Bq-
+ 17bf28 T38E`NtR
+ 17bf41 DqG\H
+ 17bf57 AbE3[
+ 17bf78 2$F2sI
+ 17bf7f L*NBQJ]zr
+ 17bf91 =MZs\
+ 17bfab ephwj
+ 17bfb4 1&`2
+ 17bfbf r3|K}8
+ 17c3a6 @V;x
+ 17c3bb T~uW
+ 17c511 2+:%B
+ 17c52c ^ ;'4/
+ 17c54f #>+	3?<~E
+ 17c58f (B1f9
+ 17c595 AWI?Q
+ 17c5ac 1'i.=6
+ 17c5b3 =WExL
+ 17c5dd Y5`Vh8m
+ 17c5f3 6b>;E
+ 17c5fd [=dRm
+ 17c617 GzOKV
+ 17c623 vi	D
+ 17c62f 2 8%=
+ 17c63f f|n"v2	~
+ 17c64b #L-n6e>
+ 17c659 U|[Zb8izp?w+
+ 17c66f $[+)3
+ 17c699 QOXT`,h
+ 17c6bf f.n}uq	
+ 17c6db `{f)l
+ 17c72d  	'r-
+ 17c735 :oA H
+ 17c73d U2]pfrr
+ 17c74c /&{/I9
+ 17c755 FNM5T?Y
+ 17c761 k'pd
+ 17c781 t>zt
+ 17c791 3u8T>
+ 17c79d VL]udKl]
+ 17c7b5 1j=:J
+ 17c7c1 m}v<
+ 17c7df bzl v
+ 17c7f7 N*WVe
+ 17c80c 9'9-
+ 17c81b _|b]d
+ 17c837 ErQeYe`YgKo
+ 17c84d +#1T3B7
+ 17c85b Ya`2j
+ 17c871 1!:EA
+ 17c879 N[Vu^VfMn
+ 17c893 EoG)I9JwR7`
+ 17c8b7 HkPMX
+ 17c8c1 qxx0
+ 17c8ec c&u.
+ 17c8f1 7v= DOL
+ 17d40f ,n2+8!>ADyJ
+ 17d423 h.nesSx
+ 17d4f7 d=u+
+ 17d540 )"P%
+ 17d555 G3LcP
+ 17d6ff ^5bqe
+ 17d709 nmq(t
+ 17d8dc . [!
+ 17d8e5 $/&l'
+ 17d8ed )1+w,
+ 17d901 6)8|9
+ 17d907 :&<~=
+ 17dbc3 ^Xm\
+ 17dc8b %nm5
+ 17dcb7 0tef
+ 17dd64 (:d_!
+ 17df49 19O`z
+ 17e26a e%LI
+ 17e292 #3P[
+ 17ed76  ?PY
+ 17ed7c 6cJ?XY
+ 17eda6 *?xY
+ 17edae Q?XY
+ 17edde t?XY
+ 17f23a pBff&?
+ 18247d  !"#
+ 1825ed  !"#
+ 18275d  !"#
+ 1828cd  !"#
+ 182a3d  !"#
+ 182bad  !"#
+ 182d1d  !"#
+ 182e8d  !"#
+ 182ffd  !"#
+ 18316d  !"#
+ 1832dd  !"#
+ 18344d  !"#
+ 1835bd  !"#
+ 18372d  !"#
+ 183970 .gif
+ 18397c .jpg
+ 183988 .jpeg
+ 183994 .txt
+ 1839a0 .html
+ 1839ac .xml
+ 185571 	(**
+ 186063 Ag*g*
+ 18631e g+g+
+ 18e1cd GCC: (GNU) 4.6 20120106 (prerelease)
+ 18e1f3 GCC: (GNU) 4.4.3
+ 18e205 GCC: (GNU) 4.4.3
+ 18e217 GCC: (GNU) 4.4.3
+ 18e229 GCC: (GNU) 4.4.3
+ 18e23b GCC: (GNU) 4.4.3
+ 18e24d GCC: (GNU) 4.4.3
+ 18e25f GCC: (GNU) 4.4.3
+ 18e271 GCC: (GNU) 4.4.3
+ 18e283 GCC: (GNU) 4.4.3
+ 18e295 GCC: (GNU) 4.4.3
+ 18e2a7 GCC: (GNU) 4.4.3
+ 18e2b9 GCC: (GNU) 4.4.3
+ 18e2cb GCC: (GNU) 4.4.3
+ 18e2dd GCC: (GNU) 4.4.3
+ 18e2ef GCC: (GNU) 4.4.3
+ 18e301 GCC: (GNU) 4.4.3
+ 18e313 GCC: (GNU) 4.4.3
+ 18e325 GCC: (GNU) 4.4.3
+ 18e337 GCC: (GNU) 4.4.3
+ 18e349 GCC: (GNU) 4.4.3
+ 18e35b GCC: (GNU) 4.4.3
+ 18e36d GCC: (GNU) 4.4.3
+ 18e37f GCC: (GNU) 4.4.3
+ 18e391 GCC: (GNU) 4.4.3
+ 18e3a3 GCC: (GNU) 4.4.3
+ 18e3b5 GCC: (GNU) 4.4.3
+ 18e3c7 GCC: (GNU) 4.4.3
+ 18e3d9 GCC: (GNU) 4.4.3
+ 18e3eb GCC: (GNU) 4.4.3
+ 18e3fd GCC: (GNU) 4.4.3
+ 18e40f GCC: (GNU) 4.4.3
+ 18e421 GCC: (GNU) 4.4.3
+ 18e433 GCC: (GNU) 4.4.3
+ 18e445 GCC: (GNU) 4.4.3
+ 18e457 GCC: (GNU) 4.4.3
+ 18e469 GCC: (GNU) 4.4.3
+ 18e47b GCC: (GNU) 4.4.3
+ 18e48d GCC: (GNU) 4.4.3
+ 18e49f GCC: (GNU) 4.4.3
+ 18e4b1 GCC: (GNU) 4.4.3
+ 18e4c3 GCC: (GNU) 4.4.3
+ 18e4d5 GCC: (GNU) 4.4.3
+ 18e4e7 GCC: (GNU) 4.4.3
+ 18e4f9 GCC: (GNU) 4.4.3
+ 18e50b GCC: (GNU) 4.4.3
+ 18e51d GCC: (GNU) 4.4.3
+ 18e52f GCC: (GNU) 4.4.3
+ 18e541 GCC: (GNU) 4.4.3
+ 18e553 GCC: (GNU) 4.4.3
+ 18e565 GCC: (GNU) 4.4.3
+ 18e577 GCC: (GNU) 4.4.3
+ 18e589 GCC: (GNU) 4.4.3
+ 18e59b GCC: (GNU) 4.4.3
+ 18e5ad GCC: (GNU) 4.4.3
+ 18e5bf GCC: (GNU) 4.4.3
+ 18e5d1 GCC: (GNU) 4.4.3
+ 18e5e3 GCC: (GNU) 4.4.3
+ 18e5f5 GCC: (GNU) 4.4.3
+ 18e607 GCC: (GNU) 4.4.3
+ 18e619 GCC: (GNU) 4.4.3
+ 18e62b GCC: (GNU) 4.4.3
+ 18e63d GCC: (GNU) 4.4.3
+ 18e64f GCC: (GNU) 4.4.3
+ 18e661 GCC: (GNU) 4.4.3
+ 18e673 GCC: (GNU) 4.4.3
+ 18e685 GCC: (GNU) 4.4.3
+ 18e697 GCC: (GNU) 4.4.3
+ 18e6a9 GCC: (GNU) 4.4.3
+ 18e6bb GCC: (GNU) 4.4.3
+ 18e6cd GCC: (GNU) 4.4.3
+ 18e6df GCC: (GNU) 4.4.3
+ 18e6f1 GCC: (GNU) 4.4.3
+ 18e703 GCC: (GNU) 4.4.3
+ 18e715 GCC: (GNU) 4.4.3
+ 18e727 GCC: (GNU) 4.4.3
+ 18e739 GCC: (GNU) 4.4.3
+ 18e74b GCC: (GNU) 4.4.3
+ 18e75d GCC: (GNU) 4.4.3
+ 18e76f GCC: (GNU) 4.4.3
+ 18e781 GCC: (GNU) 4.4.3
+ 18e793 GCC: (GNU) 4.4.3
+ 18e7a5 GCC: (GNU) 4.4.3
+ 18e7b7 GCC: (GNU) 4.4.3
+ 18e7c9 GCC: (GNU) 4.4.3
+ 18e7db GCC: (GNU) 4.4.3
+ 18e7ed GCC: (GNU) 4.4.3
+ 18e7ff GCC: (GNU) 4.4.3
+ 18e811 GCC: (GNU) 4.4.3
+ 18e823 GCC: (GNU) 4.4.3
+ 18e835 GCC: (GNU) 4.4.3
+ 18e847 GCC: (GNU) 4.4.3
+ 18e859 GCC: (GNU) 4.4.3
+ 18e86b GCC: (GNU) 4.4.3
+ 18e87d GCC: (GNU) 4.4.3
+ 18e88f GCC: (GNU) 4.4.3
+ 18e8a1 GCC: (GNU) 4.4.3
+ 18e8b3 GCC: (GNU) 4.4.3
+ 18e8c5 GCC: (GNU) 4.4.3
+ 18e8d7 GCC: (GNU) 4.4.3
+ 18e8e9 GCC: (GNU) 4.4.3
+ 18e8fb GCC: (GNU) 4.4.3
+ 18e90d GCC: (GNU) 4.4.3
+ 18e91f GCC: (GNU) 4.4.3
+ 18e931 GCC: (GNU) 4.4.3
+ 18e943 GCC: (GNU) 4.4.3
+ 18e955 GCC: (GNU) 4.4.3
+ 18e967 GCC: (GNU) 4.4.3
+ 18e979 GCC: (GNU) 4.4.3
+ 18e98b GCC: (GNU) 4.4.3
+ 18e99d GCC: (GNU) 4.4.3
+ 18e9af GCC: (GNU) 4.4.3
+ 18e9c1 GCC: (GNU) 4.4.3
+ 18e9d3 GCC: (GNU) 4.4.3
+ 18e9e5 GCC: (GNU) 4.4.3
+ 18e9f7 GCC: (GNU) 4.4.3
+ 18ea09 GCC: (GNU) 4.4.3
+ 18ea1b GCC: (GNU) 4.4.3
+ 18ea2d GCC: (GNU) 4.4.3
+ 18ea3f GCC: (GNU) 4.4.3
+ 18ea51 GCC: (GNU) 4.4.3
+ 18ea63 GCC: (GNU) 4.4.3
+ 18ea75 GCC: (GNU) 4.4.3
+ 18ea87 GCC: (GNU) 4.4.3
+ 18ea99 GCC: (GNU) 4.4.3
+ 18eaab GCC: (GNU) 4.4.3
+ 18eabd GCC: (GNU) 4.4.3
+ 18eacf GCC: (GNU) 4.4.3
+ 18eae1 GCC: (GNU) 4.4.3
+ 18eaf3 GCC: (GNU) 4.4.3
+ 18eb05 GCC: (GNU) 4.4.3
+ 18eb17 GCC: (GNU) 4.4.3
+ 18eb29 GCC: (GNU) 4.4.3
+ 18eb3b GCC: (GNU) 4.4.3
+ 18eb4d GCC: (GNU) 4.4.3
+ 18eb5f GCC: (GNU) 4.4.3
+ 18eb71 GCC: (GNU) 4.4.3
+ 18eb83 GCC: (GNU) 4.4.3
+ 18eb95 GCC: (GNU) 4.4.3
+ 18eba7 GCC: (GNU) 4.4.3
+ 18ebb9 GCC: (GNU) 4.4.3
+ 18ebcb GCC: (GNU) 4.4.3
+ 18ebdd GCC: (GNU) 4.4.3
+ 18ebef GCC: (GNU) 4.4.3
+ 18ec01 GCC: (GNU) 4.4.3
+ 18ec13 GCC: (GNU) 4.4.3
+ 18ec25 GCC: (GNU) 4.4.3
+ 18ec37 GCC: (GNU) 4.4.3
+ 18ec49 GCC: (GNU) 4.4.3
+ 18ec5b GCC: (GNU) 4.4.3
+ 18ec6d GCC: (GNU) 4.4.3
+ 18ec7f GCC: (GNU) 4.4.3
+ 18ec91 GCC: (GNU) 4.4.3
+ 18eca3 GCC: (GNU) 4.4.3
+ 18ecb5 GCC: (GNU) 4.4.3
+ 18ecc7 GCC: (GNU) 4.4.3
+ 18ecd9 GCC: (GNU) 4.4.3
+ 18eceb GCC: (GNU) 4.4.3
+ 18ecfd GCC: (GNU) 4.4.3
+ 18ed0f GCC: (GNU) 4.4.3
+ 18ed21 GCC: (GNU) 4.4.3
+ 18ed33 GCC: (GNU) 4.4.3
+ 18ed45 GCC: (GNU) 4.4.3
+ 18ed57 GCC: (GNU) 4.4.3
+ 18ed69 GCC: (GNU) 4.4.3
+ 18ed7b GCC: (GNU) 4.4.3
+ 18ed8d GCC: (GNU) 4.4.3
+ 18ed9f GCC: (GNU) 4.4.3
+ 18edb1 GCC: (GNU) 4.4.3
+ 18edc3 GCC: (GNU) 4.4.3
+ 18edd5 GCC: (GNU) 4.4.3
+ 18ede7 GCC: (GNU) 4.4.3
+ 18edf9 GCC: (GNU) 4.4.3
+ 18ee0b GCC: (GNU) 4.4.3
+ 18ee1d GCC: (GNU) 4.4.3
+ 18ee2f GCC: (GNU) 4.4.3
+ 18ee41 GCC: (GNU) 4.4.3
+ 18ee53 GCC: (GNU) 4.4.3
+ 18ee65 GCC: (GNU) 4.4.3
+ 18ee77 GCC: (GNU) 4.4.3
+ 18ee89 GCC: (GNU) 4.4.3
+ 18ee9b GCC: (GNU) 4.4.3
+ 18eead GCC: (GNU) 4.4.3
+ 18eebf GCC: (GNU) 4.4.3
+ 18eed1 GCC: (GNU) 4.4.3
+ 18eee3 GCC: (GNU) 4.4.3
+ 18eef5 GCC: (GNU) 4.4.3
+ 18ef07 GCC: (GNU) 4.4.3
+ 18ef19 GCC: (GNU) 4.4.3
+ 18ef2b GCC: (GNU) 4.4.3
+ 18ef3d GCC: (GNU) 4.4.3
+ 18ef4f GCC: (GNU) 4.4.3
+ 18ef61 GCC: (GNU) 4.4.3
+ 18ef73 GCC: (GNU) 4.4.3
+ 18ef85 GCC: (GNU) 4.4.3
+ 18ef97 GCC: (GNU) 4.4.3
+ 18efa9 GCC: (GNU) 4.4.3
+ 18efbb GCC: (GNU) 4.4.3
+ 18efcd GCC: (GNU) 4.4.3
+ 18efdf GCC: (GNU) 4.4.3
+ 18eff1 GCC: (GNU) 4.4.3
+ 18f003 GCC: (GNU) 4.4.3
+ 18f015 GCC: (GNU) 4.4.3
+ 18f027 GCC: (GNU) 4.4.3
+ 18f039 GCC: (GNU) 4.4.3
+ 18f04b GCC: (GNU) 4.4.3
+ 18f05d GCC: (GNU) 4.4.3
+ 18f06f GCC: (GNU) 4.4.3
+ 18f081 GCC: (GNU) 4.4.3
+ 18f093 GCC: (GNU) 4.4.3
+ 18f0a5 GCC: (GNU) 4.4.3
+ 18f0b7 GCC: (GNU) 4.4.3
+ 18f0c9 GCC: (GNU) 4.4.3
+ 18f0db GCC: (GNU) 4.4.3
+ 18f0ed GCC: (GNU) 4.4.3
+ 18f0ff GCC: (GNU) 4.4.3
+ 18f111 GCC: (GNU) 4.4.3
+ 18f123 GCC: (GNU) 4.4.3
+ 18f135 GCC: (GNU) 4.4.3
+ 18f147 GCC: (GNU) 4.4.3
+ 18f159 GCC: (GNU) 4.4.3
+ 18f16b GCC: (GNU) 4.4.3
+ 18f17d GCC: (GNU) 4.4.3
+ 18f18f GCC: (GNU) 4.4.3
+ 18f1a1 GCC: (GNU) 4.4.3
+ 18f1b3 GCC: (GNU) 4.4.3
+ 18f1c5 GCC: (GNU) 4.4.3
+ 18f1d7 GCC: (GNU) 4.4.3
+ 18f1e9 GCC: (GNU) 4.4.3
+ 18f1fb GCC: (GNU) 4.4.3
+ 18f20d GCC: (GNU) 4.4.3
+ 18f21f GCC: (GNU) 4.4.3
+ 18f231 GCC: (GNU) 4.4.3
+ 18f243 GCC: (GNU) 4.4.3
+ 18f255 GCC: (GNU) 4.4.3
+ 18f267 GCC: (GNU) 4.4.3
+ 18f279 GCC: (GNU) 4.4.3
+ 18f28b GCC: (GNU) 4.4.3
+ 18f29d GCC: (GNU) 4.4.3
+ 18f2af GCC: (GNU) 4.4.3
+ 18f2c1 GCC: (GNU) 4.4.3
+ 18f2d3 GCC: (GNU) 4.4.3
+ 18f2e5 GCC: (GNU) 4.4.3
+ 18f2f7 GCC: (GNU) 4.4.3
+ 18f309 GCC: (GNU) 4.4.3
+ 18f31b GCC: (GNU) 4.4.3
+ 18f32d GCC: (GNU) 4.4.3
+ 18f33f GCC: (GNU) 4.4.3
+ 18f351 GCC: (GNU) 4.4.3
+ 18f363 GCC: (GNU) 4.4.3
+ 18f375 GCC: (GNU) 4.4.3
+ 18f387 GCC: (GNU) 4.4.3
+ 18f399 GCC: (GNU) 4.4.3
+ 18f3ab GCC: (GNU) 4.4.3
+ 18f3bd GCC: (GNU) 4.4.3
+ 18f3cf GCC: (GNU) 4.4.3
+ 18f3e1 GCC: (GNU) 4.4.3
+ 18f3f3 GCC: (GNU) 4.4.3
+ 18f405 GCC: (GNU) 4.4.3
+ 18f417 GCC: (GNU) 4.4.3
+ 18f429 GCC: (GNU) 4.4.3
+ 18f43b GCC: (GNU) 4.4.3
+ 18f44d GCC: (GNU) 4.4.3
+ 18f45f GCC: (GNU) 4.4.3
+ 18f471 GCC: (GNU) 4.4.3
+ 18f483 GCC: (GNU) 4.4.3
+ 18f495 GCC: (GNU) 4.4.3
+ 18f4a7 GCC: (GNU) 4.4.3
+ 18f4b9 GCC: (GNU) 4.4.3
+ 18f4cb GCC: (GNU) 4.4.3
+ 18f4dd GCC: (GNU) 4.4.3
+ 18f4ef GCC: (GNU) 4.4.3
+ 18f501 GCC: (GNU) 4.4.3
+ 18f513 GCC: (GNU) 4.4.3
+ 18f525 GCC: (GNU) 4.4.3
+ 18f537 GCC: (GNU) 4.4.3
+ 18f549 GCC: (GNU) 4.4.3
+ 18f55b GCC: (GNU) 4.4.3
+ 18f56d GCC: (GNU) 4.4.3
+ 18f57f GCC: (GNU) 4.4.3
+ 18f591 GCC: (GNU) 4.4.3
+ 18f5a3 GCC: (GNU) 4.4.3
+ 18f5b5 GCC: (GNU) 4.4.3
+ 18f5c7 GCC: (GNU) 4.4.3
+ 18f5d9 GCC: (GNU) 4.4.3
+ 18f5eb GCC: (GNU) 4.4.3
+ 18f5fd GCC: (GNU) 4.4.3
+ 18f60f GCC: (GNU) 4.4.3
+ 18f621 GCC: (GNU) 4.4.3
+ 18f633 GCC: (GNU) 4.4.3
+ 18f645 GCC: (GNU) 4.4.3
+ 18f657 GCC: (GNU) 4.4.3
+ 18f669 GCC: (GNU) 4.4.3
+ 18f67b GCC: (GNU) 4.4.3
+ 18f68d GCC: (GNU) 4.4.3
+ 18f69f GCC: (GNU) 4.4.3
+ 18f6b1 GCC: (GNU) 4.4.3
+ 18f6c3 GCC: (GNU) 4.4.3
+ 18f6d5 GCC: (GNU) 4.4.3
+ 18f6e7 GCC: (GNU) 4.4.3
+ 18f6f9 GCC: (GNU) 4.4.3
+ 18f70b GCC: (GNU) 4.4.3
+ 18f71d GCC: (GNU) 4.4.3
+ 18f72f GCC: (GNU) 4.4.3
+ 18f741 GCC: (GNU) 4.4.3
+ 18f753 GCC: (GNU) 4.4.3
+ 18f765 GCC: (GNU) 4.4.3
+ 18f777 GCC: (GNU) 4.4.3
+ 18f789 GCC: (GNU) 4.4.3
+ 18f79b GCC: (GNU) 4.4.3
+ 18f7bc gold 1.10
+ 18f7cd aeabi
+ 18f7f4 .shstrtab
+ 18f7fe .dynsym
+ 18f806 .dynstr
+ 18f80e .hash
+ 18f814 .rel.dyn
+ 18f81d .rel.plt
+ 18f826 .text
+ 18f82c .ARM.extab
+ 18f837 .ARM.exidx
+ 18f842 .rodata
+ 18f84a .data.rel.ro.local
+ 18f85d .fini_array
+ 18f869 .data.rel.ro
+ 18f876 .init_array
+ 18f882 .dynamic
+ 18f88b .got
+ 18f890 .data
+ 18f896 .bss
+ 18f89b .comment
+ 18f8a4 .note.gnu.gold-version
+ 18f8bb .ARM.attributes

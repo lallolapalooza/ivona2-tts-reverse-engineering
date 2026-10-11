@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.ivona.ttsuser"
+    android:versionCode="422"
+    android:versionName="1.6.23.422"
+    package="com.ivona.tts.voicebeta.eng.usa.kendra">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-sdk android:minSdkVersion="4"/>
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:name="com.ivona.tts.voicebeta.eng.usa.kendra.VoiceApp">
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name="com.ivona.tts.voicebeta.eng.usa.kendra.IvonaVoice"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:label="@string/app_name"
+            android:name="CheckVoiceInstalled">
+            <intent-filter>
+                <action android:name="com.ivona.tts.CHECK_VOICE_INSTALLED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".DownloadVoiceFilesService"/>
+        <receiver android:name="com.ivona.tts.voicelib.ActivityReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ivona.tts.voicelib.ActivityReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ivona.tts.voicebeta.eng.usa.kendra.UpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.ivona.tts.voicelib.VoiceDownloaderService"/>
+    </application>
+</manifest>
